@@ -1,0 +1,62 @@
+############### STARTING THE TEST CASE  SmokeSetUp ###############
+############### TEST CASE  SmokeSetUp is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_NewDataFileCreation ###############
+############### STARTING THE TEST CASE  Test01_NewDataFileCreation ###############
+############### TEST CASE  Test01_NewDataFileCreation is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_NewDataFileCreation ###############
+############### TEST CASE  Test01_NewDataFileCreation is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_NewDataFileCreation ###############
+############### STARTING THE TEST CASE  Test01_NewDataFileCreation ###############
+############### STARTING THE TEST CASE  Test01_NewDataFileCreation ###############
+############### TEST CASE  Test01_NewDataFileCreation is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_NewDataFileCreation ###############
+############### TEST CASE  Test01_NewDataFileCreation is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_VerifyStartUpUIPreferencesForNewUser ###############
+############### TEST CASE  Test02_VerifyStartUpUIPreferencesForNewUser is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test03_QuickenFileAttributes ###############
+############### TEST CASE  Test03_QuickenFileAttributes is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_AddCheckingAccount ###############
+############### TEST CASE  Test04_AddCheckingAccount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test05_CreateBill ###############
+############### TEST CASE  Test05_CreateBill is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test06_TrackSpendingGoal ###############
+############### STARTING THE TEST CASE  Test05_CreateBill ###############
+############### TEST CASE  Test05_CreateBill is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test06_TrackSpendingGoal ###############
+############### TEST CASE  Test06_TrackSpendingGoal is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test07_AddOtherCheckingAccount ###############
+############### TEST CASE  Test07_AddOtherCheckingAccount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test08_OpenFirstCheckingRegister ###############
+############### TEST CASE  Test08_OpenFirstCheckingRegister is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test09_AddPaymentCheckingTransaction ###############
+############### TEST CASE  Test09_AddPaymentCheckingTransaction is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test10_OpenSecondCheckingRegister ###############
+############### TEST CASE  Test10_OpenSecondCheckingRegister is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test11_AddDepositCheckingTransaction ###############
+############### TEST CASE  Test11_AddDepositCheckingTransaction is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test12_AddBrokerageAccount ###############
+############### TEST CASE  Test12_AddBrokerageAccount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test13_VerifyDownloadTransactionTab ###############
+############### TEST CASE  Test13_VerifyDownloadTransactionTab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test14_InvestmentBuyTransaction ###############
+############### TEST CASE  Test14_InvestmentBuyTransaction is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test15_InvestmentSellTransaction ###############

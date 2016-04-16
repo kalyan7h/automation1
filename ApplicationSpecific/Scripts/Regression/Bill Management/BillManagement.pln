@@ -1,0 +1,296 @@
+﻿[ ] 
+[ ] 
+[ ] // *********************************************************
+[+] // FILE NAME:	<BillManagement.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Bill Management test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	BillManagement.t
+	[ ] //
+	[ ] // DEVELOPED BY:Dean Paes
+	[ ] //
+	[ ] // Developed on: 		24th May 2013
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 Dean Paes Created
+[ ] // *********************************************************
+[ ] 
+[ ] Script: BillManagement.t
+[ ] 
+[ ] 
+[+]  Verify the Functionality of  Bills tab by opening Bills page when no accounts are added and no bills are set.
+	[ ] testcase:Test01A_No_Bills_Added_In_Data_File
+[ ] 
+[ ] 
+[+] Verify the Functionality of  Bills tab by opening Bills page when accounts are added but no bills are set.
+	[ ] testcase:Test01B_No_Bills_Added_In_Data_File
+[ ] 
+[ ] 
+[+] Verify if Upcoming tab is set as Default by changing preferences
+	[ ] testcase:Test03_Default_Preferences_Upcoming_Tab
+[ ] 
+[ ] 
+[+] Verify if Bills tab is set as Default by changing preferences
+	[ ] testcase:Test04_Default_Preferences_Bills_Tab
+[ ] 
+[ ] 
+[+] Verify the Functionality of  Bills tab by opening Bills page when a bill reminder is set.
+	[ ] testcase:Test02_Bills_Added_In_Data_File
+[ ] 
+[ ] 
+[ ] 
+[+]  Verify the UI Controls present on Upcoming Tab under Bills
+	[ ] testcase:Test05_Upcoming_Tab_UI
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills for Bill Reminder
+	[ ] testcase:Test06_Stack_View_Upcoming_Tab_UI
+[ ] 
+[ ] 
+[+] Verify List view  on Upcoming Tab under Bills 
+	[ ] testcase:Test07_List_View_Upcoming_Tab_UI
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Monthly List view  on Upcoming Tab under Bills
+	[ ] testcase:Test09_Monthly_List_Tab_UI
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 30 days for Bill Reminder 
+	[ ] testcase:Test10_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next for 30 days for Bill Reminder for future date
+	[ ] testcase:Test11_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder_Future_Date
+[ ] 
+[+]  Verify Stack view  on Upcoming Tab under Bills Due Within next 14 days for Bill Reminder
+	[ ] testcase:Test12_Stack_View_Bills_Due_Within_Next_14_Days_Bill_Reminder
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 7 days for Bill Reminde
+	[ ] testcase:Test13_Stack_View_Bills_Due_Within_Next_7_Days_Bill_Reminder
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 30 days for Bill Reminder 
+	[ ] testcase:Test14_List_View_Bills_Due_Within_Next_30_Days_Bill_Reminder
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 90 days for Bill Reminder
+	[ ] testcase:Test15_List_View_Bills_Due_Within_Next_90_Days_Bill_Reminder
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 12 months for Bill Reminder 
+	[ ] testcase:Test16_List_View_Bills_Due_Within_Next_12_Months_Bill_Reminder
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 14 days for Bill Reminder 
+	[ ] testcase:Test17_List_View_Bills_Due_Within_Next_14_Days_Bill_Reminder
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 7 days for Bill Reminder
+	[ ] testcase:Test18_List_View_Bills_Due_Within_Next_7_Days_Bill_Reminder
+[ ] 
+[ ] 
+[+] Verify Monthly List View on Upcoming Tab for Bill and Income Reminder
+	[ ] testcase:Test20_MonthlyList_View_Bill_Reminder
+[ ] 
+[ ] 
+[+] // Verify Calendar View on Upcoming Tab for Bill Reminders
+	[ ] // testcase:Test19_Calendar_View_Bill_Reminder
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills for Income Reminder 
+	[ ] testcase:Test21_Stack_View_Upcoming_Tab_UI_Income_Reminder
+[ ] 
+[+] Verify List view  on Upcoming Tab under Bills for Income Reminder
+	[ ] testcase:Test22_List_View_Upcoming_Tab_UI_Income_Reminder
+[ ] 
+[+] Verify Monthly List view  on Upcoming Tab under Bills for Income Reminder
+	[ ] testcase:Test24_Monthly_List_Tab_UI_Income_Reminder
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 30 days for Income Reminder
+	[ ] testcase:Test25_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next for 30 days for Income Reminder for future date 
+	[ ] testcase:Test26_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder_Future_Date
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 14 days for Income Reminder
+	[ ] testcase:Test27_Stack_View_Bills_Due_Within_Next_14_Days_Income_Reminder
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 7 days for Income Reminder
+	[ ] testcase:Test28_Stack_View_Bills_Due_Within_Next_7_Days_Income_Reminder
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 30 days for Income Reminder
+	[ ] testcase:Test29_List_View_Bills_Due_Within_Next_30_Days_Income_Reminder
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 90 days for Income Reminder
+	[ ] testcase:Test30_List_View_Bills_Due_Within_Next_90_Days_Income_Reminder
+[ ] 
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 12 months for Income Reminder
+	[ ] testcase:Test31_List_View_Bills_Due_Within_Next_12_Months_Income_Reminder
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 14 days for Income Reminder
+	[ ] testcase:Test32_List_View_Bills_Due_Within_Next_14_Days_Income_Reminder
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 7 days for Income Reminder
+	[ ] testcase:Test33_List_View_Bills_Due_Within_Next_7_Days_Income_Reminder
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 30 days for Transfer Reminder
+	[ ] testcase:Test38_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next for 30 days for Transfer Reminder for future date 
+	[ ] testcase:Test39_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder_Future_Date
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 14 days for Transfer Reminder 
+	[ ] testcase:Test40_Stack_View_Bills_Due_Within_Next_14_Days_Transfer_Reminder
+[ ] 
+[ ] 
+[+] Verify Stack view  on Upcoming Tab under Bills Due Within next 7 days for Transfer Reminder 
+	[ ] testcase:Test41_Stack_View_Bills_Due_Within_Next_7_Days_Bill_Reminder
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 30 days for Transfer Reminder 
+	[ ] testcase:Test42_List_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 90 days for Transfer Reminder
+	[ ] testcase:Test43_List_View_Bills_Due_Within_Next_90_Days_Transfer_Reminder
+[ ] 
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 12 months for Transfer Reminder
+	[ ] testcase:Test44_List_View_Bills_Due_Within_Next_12_Months_Transfer_Reminder
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 14 days for Transfer Reminder
+	[ ] testcase:Test45_List_View_Bills_Due_Within_Next_14_Days_Transfer_Reminder
+[ ] 
+[+] Verify List View on Upcoming Tab under Bills Due Within next 7 days for Transfer Reminder 
+	[ ] testcase:Test46_List_View_Bills_Due_Within_Next_7_Days_Transfer_Reminder
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Edit Transaction- Single Instance
+	[ ] testcase:Test47_Verify_Edit_Transaction_Single_Instance
+[ ] 
+[+] Verify Edit Transaction- Multiple Instance
+	[ ] testcase:Test48_Verify_Edit_Transaction_Multiple_Instance
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Add Reminder Dropdown
+	[ ] testcase:Test49_53_Verify_Add_Reminder_Drop_Down
+[ ] 
+[ ] 
+[+] Verify Enter Reminder Button from stack view
+	[ ] testcase:Test55_Verify_Enter_Reminder_Button_From_Stack_View
+[ ] 
+[ ] 
+[+]  Verify Skip Reminder Button from stack view
+	[ ] testcase:Test56_Verify_Skip_Reminder_Button_From_Stack_View
+[ ] 
+[ ] 
+[+] Verify Paid Income Reminder
+	[ ] testcase:Test57_Verify_Paid_Bill_Reminder
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Received Income Reminder 
+	[ ] testcase:Test58_Verify_Received_Income_Reminder
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[+] Verify Completed Transfer Reminder
+	[ ] testcase:Test59_Verify_Completed_Transfer_Reminder
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[+] Verify No Bills Due Within next 7 days for Bill Reminder on List View 
+	[ ] testcase:Test64_List_View_No_Bills_Due_Within_Next_7_Days_Bill_Reminder
+[ ] 
+[+] Verify No Bills Due Within next 14 days for Bill Reminder on List View
+	[ ] testcase:Test66_List_View_No_Bills_Due_Within_Next_14_Days_Bill_Reminder
+[ ] 
+[+] Verify No Bills Due Within next 30 days for Bill Reminder on List View
+	[ ] testcase:Test68_List_View_No_Bills_Due_Within_Next_30_Days_Bill_Reminder
+[ ] 
+[+] Verify No Bills Due Within next 90 days for Bill Reminder on List View 
+	[ ] testcase:Test69_List_View_No_Bills_Due_Within_Next_90_Days_Bill_Reminder
+[ ] 
+[+] Verify No Bills Due Within next 7 days for Bill Reminder on List View
+	[ ] testcase:Test70_List_View_No_Bills_Due_Within_Next_12_Months_Bill_Reminder
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[-] Verify Payee Website for Bill Reminder
+	[ ] testcase:Test71_Verify_Payee_Website
+[ ] 
+[-] Verify functionality of  Account Filters for reminders on List and Monthly list view
+	[ ] testcase: Test74_75_Verify_Account_Filters_For_Reminders_In_List_And_Monthly_View() appstate none
+[ ] 
+[+] Verify functionality for All and Monthly Bills & Deposits Tab on Manage Reminder Dialog 
+	[ ] testcase: Test77_78_Verify_Functionality_For_All_And_Monthly_Bills_And_Deposits_Tab_On_Manage_Reminder_Dialog
+[ ] 
+[+] Verify functionality for Show Graph and Show Calendar on Manage Reminder Dialog
+	[ ] testcase: Test79_80_Verify_Show_Graph_Show_Calendar_Manage_Reminder_Dialog
+[ ] 
+[ ] 
+[+] Verify functionality for Enter on Manage Reminder Dialog
+	[ ] testcase: Test82_Verify_Functionality_For_Enter_On_Manage_Reminder_Dialog
+[ ] 
+[+] Verify functionality for Skip on Manage Reminder Dialog 
+	[ ] testcase: Test83_Verify_Functionality_For_Skip_On_Manage_Reminder_Dialog
+[ ] 
+[+] Verify functionality for Edit action on Manage Reminder Dialog
+	[ ] testcase: Test84_Verify_Functionality_For_Edit_On_Manage_Reminder_Dialog
+[ ] 
+[+]  Verify functionality for Delete on Manage Reminder Dialog
+	[ ] testcase: Test85_Verify_Functionality_For_Delete_On_Manage_Reminder_Dialog
+[ ] 
+[+] Verify functionality Include paid check box on Bills > Upcoming tab for List View 
+	[ ] testcase: Test88_Verify_Include_Paid_CheckBox_Reminders_In_List_View
+[ ] 
+[+] Verify functionality of  Double click launches enter transaction dialog on List View 
+	[ ] testcase: Test92_Verify_Double_Click_Functionality_For_Reminder_On_List_View
+[ ] 
+[ ] 
+[-] Test62_76_81_Verify_Manage_Reminder_Dialog
+	[ ] testcase: Test62_76_81_Verify_Manage_Reminder_Dialog
+[-] Test93_Verify_Add_Paycheck_Reminder
+	[ ] testcase: Test93_Verify_Add_Paycheck_Reminder
+[-] Test03_Default_Preferences_Upcoming_Tab
+	[ ] testcase: Test03_Default_Preferences_Upcoming_Tab
+[-] Test04_Default_Preferences_Bills_Tab
+	[ ] testcase: Test04_Default_Preferences_Bills_Tab
+[ ] 
+[ ] 
+[ ] 
+[ ] 

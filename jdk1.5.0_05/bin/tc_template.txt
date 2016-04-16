@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<!--
+***********************************************************************
+* Template file for use in GFTAF HTML Test Result Reports
+* Created by: Satyajit Thadeshwar
+***********************************************************************
+-->
+<head>
+	<title>Test Results</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body link="#000000" vlink="#000000" alink="#000000" class="bodyText">
+
+	<div align="center" class="title">{FrwkName} Test Execution Report</div>
+	<br/>
+	<hr class="hrmain"/>
+	<br/>
+	<div align="center" class="tab">
+		<table cellspacing="0" cellpadding="0" border="1" class="tableTestEnv">
+  			<tr>
+    			<td class="headercol" width="30%">&nbsp;Application Name</td>
+    			<td width="70%">&nbsp;{ApplicationName}</td>
+  			</tr>
+  			<tr>
+    			<td class="headercol" width="30%">&nbsp;Build</td>
+    			<td width="70%">&nbsp;{Build}</td>
+  			</tr>
+  			<tr>
+    			<td class="headercol">&nbsp;Client Environment</td>
+    			<td>&nbsp;{ClientEnvironment}</td>
+    		</tr>
+  			<tr>
+    			<td class="headercol">&nbsp;Browser</td>
+    			<td>&nbsp;{Browser}</td>
+    		</tr>
+  			<tr>
+  			  	<td class="headercol">&nbsp;Test Run ID</td>
+  		  		<td>&nbsp;{TestRunId}</td>
+  			</tr>    		
+  			<tr>
+  			  	<td class="headercol">&nbsp;Test Suite Name</td>
+  		  		<td>&nbsp;{TestSuiteName}</td>
+  			</tr>
+  			<tr>
+  			  	<td class="headercol">&nbsp;Test Case Name</td>
+  		  		<td>&nbsp;{TestCaseName}</td>
+  			</tr>
+		</table>
+	</div>
+	<br/><br/>
+	<div class="head">Test Case Details</div>
+	<hr class="hrsub"/>
+	<br/>
+	<div align="center">
+		<table cellspacing="0" cellpadding="0" border="1" class="tableSteps">
+			<tr class="tabhead">
+    			<td width="25%">&nbsp;TestCase Step</td>
+    			<td width="60%">&nbsp;Info</td>
+    			<td width="15%">&nbsp;Result</td>
+      		</tr>
+			{StepRows}
+		</table>
+	</div>
+	<br/><br/>
+	<hr class="hrmain"/>	
+</body>
+</html>

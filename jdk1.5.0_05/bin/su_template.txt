@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<!--
+***********************************************************************
+* Template file for use in GFTAF HTML Test Result Reports
+* Created by: Satyajit Thadeshwar
+***********************************************************************
+-->
+<head>
+	<title>Test Results</title>
+	<link rel="stylesheet" type="text/css" href="details/stylesheet.css">
+</head>
+<body link="#000000" vlink="#000000" alink="#000000" class="bodyText">
+
+	<div align="center" class="title">{FrwkName} Test Execution Report</div>
+		<br/>
+		<hr class="hrmain"/>
+		<br/>
+	<div align="center" class="tab">
+		<table cellspacing="0" cellpadding="0" border="1" class="tableEnv">
+  			<tr>
+    			<td class="headercol" width="30%">&nbsp;Application Name</td>
+    			<td width="70%">&nbsp;{ApplicationName}</td>
+  			</tr>
+  			<tr>
+    			<td class="headercol" width="30%">&nbsp;Build</td>
+    			<td width="70%">&nbsp;{Build}</td>
+  			</tr>
+  			<tr>
+    			<td class="headercol">&nbsp;Client Environment</td>
+    			<td>&nbsp;{ClientEnvironment}</td>
+    		</tr>
+  			<tr>
+    			<td class="headercol">&nbsp;Browser</td>
+    			<td>&nbsp;{Browser}</td>
+    		</tr>
+  			<tr>
+  			  	<td class="headercol">&nbsp;Test Run ID</td>
+  		  		<td>&nbsp;{TestRunId}</td>
+  			</tr>
+  			<tr>
+  			  	<td class="headercol">&nbsp;Test Suite Name</td>
+  		  		<td>&nbsp;{TestSuiteName}</td>
+  			</tr>
+  			<tr>
+    			<td class="headercol">&nbsp;Start Time</td>
+    			<td>&nbsp;{StartTime}</td>
+  			</tr>
+  			<tr>
+    			<td class="headercol">&nbsp;End Time</td>
+    			<td>&nbsp;{EndTime}</td>
+    		</tr>
+		</table>
+	</div>
+	<br/><br/>
+	<div class="head">Test Result Summary</div>
+	<hr class="hrsub"/>
+	<br/>
+	<div align="center">
+		<table cellspacing="0" cellpadding="0" border="1" class="tableCount">
+	  		<tr>
+    			<td class="tabhead" width="56%"> Total Test Cases</td>
+    			<td class="tabhead" width="22%"> {TotalTestCases}</td>
+    			<td class="tabhead" width="22%"> 100 %</td>
+      		</tr>
+	  		<tr>
+    			<td>&nbsp;Test Cases Passed</td>
+    			<td class="passedno">&nbsp;{TestCasesPassed}</td>
+    			<td class="passedno">&nbsp;{PercentagePassed} %</td>
+      		</tr>
+	  		<tr>
+    			<td>&nbsp;Test Cases Failed</td>
+    			<td class="failedno">&nbsp;{TestCasesFailed}</td>
+    			<td class="failedno">&nbsp;{PercentageFailed} %</td>
+      		</tr>
+	  		<tr>
+    			<td>&nbsp;Test Cases Skipped</td>
+    			<td class="skippedno">&nbsp;{TestCasesSkipped}</td>
+    			<td class="skippedno">&nbsp;{PercentageSkipped} %</td>
+      		</tr>			
+	  		<tr>
+    			<td>&nbsp;Test Cases with Warnings</td>
+    			<td class="warningno">&nbsp;{TestCasesWarnings}</td>
+    			<td class="warningno">&nbsp;{PercentageWarnings} %</td>
+      		</tr>      		
+		</table>
+	</div>
+	<br/><br/>
+	<div class="head">Test Cases</div>
+	<hr class="hrsub"/>
+	<br/>
+	<div align="center">
+		<table cellspacing="0" cellpadding="0" border="1" class="tableTestCases">
+	  		<tr>
+    			<td width="85%" class="tabhead">&nbsp;Test Case</td>
+    			<td width="15%" class="tabhead">&nbsp;Result</td>
+    		</tr>
+    		{TestCaseTable}
+  		</table>
+  	</div>
+	<br/><br/>
+	
+	<br/><br/><br/><br/>
+	<hr class="hrmain"/>
+
+</body>
+</html>
+

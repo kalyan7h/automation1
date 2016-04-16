@@ -1,0 +1,64 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<FileOperations_TestPlan.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all File Operations test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	FileOperations.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		07/16/2014
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 July 16, 2014	Udita Dube  Created
+[ ] // *********************************************************
+[ ] 
+[ ] 
+[ ] 
+[ ] Script: FileOperations.t
+[ ] 
+[ ] 
+[+] Verify the short cuts
+	[ ] testcase: Test01_VerifyFileShortCuts
+[+] Verify Help on Copy File window 
+	[ ] testcase: Test02_VerifyHelpFromCopyFileWindow
+[+] Verify Cancel and Alt f4 for Copy File window
+	[ ] testcase: Test03_VerifyCancelAndAltF4ForCopyFileWindow
+[+] Verify copy functionality by Creating a copy of file Locally
+	[ ] testcase: Test04_VerifyCopyDataFileWithDefaultSettings
+[+] Verify Cancel and Alt f4 for "Validate and Repair your Quicken file" window 
+	[ ] testcase: Test05_VerifyCancelAndAltF4ForValidateAndRepairWindow
+[+]  Verify Help for "Validate and Repair your Quicken file" window
+	[ ] testcase: Test06_VerifyHelpFromValidateAndRepairWindow
+[+] Verify the functionality of file Validation
+	[ ] testcase: Test07_ValidateAndRepairDataFile
+[+] Verify Help for "Create a Year End Copy" window
+	[ ] testcase: Test08_VerifyHelpFromCreateAYearEndCopyWindow
+[+] Verify Cancel and Alt f4 for "Create a Year End Copy" window
+	[ ] testcase: Test09_VerifyCancelAndAltF4ForCreateAYearEndCopyWindow
+[+] Verify the functionality of "Year End Copy" first/default option. 
+	[ ] testcase: Test10_VerifyYearEndCopyOfDataFileWithDefaultSettings
+[+] Validate Import AddessBook 
+	[ ] testcase: Test11_ValidateImportAddessBook
+[+] Select a file on local drive from the recently opened file list in "File" menu
+	[ ] testcase: Test12_SelectRecentlyOpenedFile
+[+] Verify error message when data file open from recent files which is located at local drive and deleted
+	[ ] testcase: Test13_VerifyMessageIfRecentlyOpenedFileIsDeleted
+[+] Verify Help for "Find Quicken Data Files" window 
+	[ ] testcase: Test14_VerifyHelpFromFindQuickenDataFilesWindow
+[+] Verify Cancel and Alt f4 for "Find Quicken Data Files" window
+	[ ] testcase: Test15_VerifyCancelAndAltF4ForFindQuickenDataFilesWindow
+[+] Find Quicken Files
+	[ ] testcase: Test16_FindQuickenFiles
+[+] Verify File menu option after silent launch of Quicken. 
+	[ ] testcase: Test17_VerifyFileMenuOptionsWithSilentQuickenLaunch
+[+] Copy File: Verify Fields validation for Copy Data File Dialog 
+	[ ] testcase: Test18_FieldsValidationForCopyDataFile
+[+] Year End Copy: Verify Fields validation for Copy Data File Dialog  
+	[ ] testcase: Test19_FieldsValidationForYearEndDataFile
+[+] Copy File:Deselecting checkboxes for specified date
+	[ ] testcase: Test20_VerifyCopyForSpecifiedDate
+[+] Year End Copy File: Year End Copy for specified date 
+	[ ] testcase: Test21_VerifyYearEndCopyForSpecifiedDate
+[ ] 

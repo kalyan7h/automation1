@@ -1,0 +1,12 @@
+﻿[ ]  
+[ ] Script: ..\Generic\CustomerCentralResponseComparision.t
+[ ] 
+[+] Add EWC Wells Fargo Account
+	[ ] testcase: Test01_AddAccountOnlineResponseComparision
+[ ] 
+[+] One Step Update For Wells Fargo
+	[ ] testcase: Test02_OSUOnlineResponseComparision
+[ ] 
+[+] Update Now for Wells Fargo
+	[ ] testcase:Test03_UpdateNowResponseCamparision
+[ ] 

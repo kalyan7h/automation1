@@ -1,0 +1,222 @@
+﻿[ ] //#######################################################
+[ ] //########  This Plan contains test cases for Smoke Test ###########
+[ ] //#######################################################
+[ ] 
+[ ]  Script: ..\Global\SmokeQuicken.t
+[ ] 
+[+] Smoke Set Up
+	[ ] testcase: SmokeSetUp
+	[ ] 
+[+] Create new Data file 
+	[ ] testcase: Test01_NewDataFileCreation
+	[ ] 
+[+] Verify Start Up Preferences-UI for New User
+	[ ] testcase: Test02_VerifyStartUpUIPreferencesForNewUser
+	[ ] 
+[+] Verify Quicken File Attributes
+	[ ] testcase: Test03_QuickenFileAttributes
+	[ ] 
+[+]  Verify Quicken File Attributes 
+	[ ] testcase: Test04_AddCheckingAccount
+	[ ] 
+[+] Stay on Top of Bill
+	[ ] testcase: Test05_CreateBill
+	[ ] 
+[+] Create Automatic Budget 
+	[ ] testcase: Test06_TrackSpendingGoal
+	[ ] 
+[+]  Create Other Checking Account 
+	[ ] testcase: Test07_AddOtherCheckingAccount
+	[ ] 
+[+] Open first checking register
+	[ ] testcase: Test08_OpenFirstCheckingRegister
+	[ ] 
+[+]  Add Payment Checking Transaction using Popup Register ON
+	[ ] testcase: Test09_AddPaymentCheckingTransaction
+	[ ] 
+[+] Open second checking register
+	[ ] testcase: Test10_OpenSecondCheckingRegister
+	[ ] 
+[+] Add Deposit Checking Transaction using Popup Register ON
+	[ ] testcase: Test11_AddDepositCheckingTransaction
+	[ ] 
+[+] Create Investment Account
+	[ ] testcase: Test12_AddBrokerageAccount
+	[ ] 
+[+] Verify Download Transaction Tab for Brokerage Account
+	[ ] testcase: Test13_VerifyDownloadTransactionTab
+	[ ] 
+[+]  Buy Transaction in Brokerage Account 
+	[ ] testcase: Test14_InvestmentBuyTransaction
+	[ ] 
+[+] Sell Transaction in Brokerage Account 
+	[ ] testcase: Test15_InvestmentSellTransaction
+	[ ] 
+[+] Verify Quicken File Attributes
+	[ ] testcase: Test16_VerifyQuickenFileAttributes
+	[ ] 
+[+] Turn OFF UI Navigation elements 
+	[ ] testcase: Test17_UINavigationOff
+	[ ] 
+[+] Turn ON UI Navigation elements
+	[ ] testcase: Test18_UINavigationOn
+	[ ] 
+[+] Manage Bill and Income reminders
+	[ ] testcase: Test19_ShortcutKeyBillandIncomeReminder
+	[ ] 
+[+] Open Account List from Tools Menu
+	[ ] testcase: Test20_OpenAccountList
+	[ ] 
+[+] Open Category List from Tools Menu
+	[ ] testcase: Test21_OpenCategoryList
+	[ ] 
+[+] Open Memorized Payee List from Tools Menu
+	[ ] testcase: Test22_OpenMemorizedPayeeList
+	[ ] 
+[+] Run Net worth report
+	[ ] testcase: Test23_RunNetWorthReport
+	[ ] 
+[+] Run Spending by Category report 
+	[ ] testcase: Test24_RunSpendingByCategoryReport
+	[ ] 
+[+] Open Spending Tab
+	[ ] testcase: Test25_OpenSpendingTab
+	[ ] 
+[+] Add Edit and Delete Saving Goal 
+	[ ] testcase: Test26_AddEditDeleteSavingGoal
+	[ ] 
+[+] Open Investing Center 
+	[ ] testcase: Test27_OpenInvestingCenter
+	[ ] 
+[+] Invoke Lifetime Planner 
+	[ ] testcase: Test28_InvokeLifetimePlanner
+	[ ] 
+[+] Invoke Tax Center
+	[ ] testcase: Test29_InvokeTaxCenter
+	[ ] 
+[+] Open Tax Planner
+	[ ] testcase: Test30_OpenTaxPlanner
+	[ ] 
+[+] Open Business Center
+	[ ] testcase: Test31_OpenBusinessCenter
+	[ ] 
+[+] Add, Edit And Delete Category 
+	[ ] testcase: Test32_AddEditDeleteCategory
+	[ ] 
+[+] Impact of modifying transactions on report
+	[ ] testcase: Test33_ModifyTransaction
+	[ ] 
+[+]  Create New Saving Account
+	[ ] testcase: Test34_AddSavingAccount
+	[ ] 
+[+] Create New Asset Account #
+	[ ] testcase: Test35_AddAssetAccount
+	[ ] 
+[+] Create New Other Liability Account
+	[ ] testcase: Test36_AddOtherLiabilityAccount
+	[ ] 
+[+] Create New Business Account
+	[ ] testcase: Test37_AddBusinessAccount
+	[ ] 
+[+] Verify adding Customer Invoice using account actions
+	[ ] testcase: Test38_VerifyAddCustomerInvoiceUsingAccountActions
+	[ ] 
+[+] Verify user is able to add a business
+	[ ] testcase: Test39_VerifyUserIsAbleToAddABusiness
+	[ ] 
+[+] Create Reminder
+	[ ] testcase: Test40_CreateReminder
+	[ ] 
+[+] Create Income and Transfer Reminder
+	[ ] testcase: Test41_CreatePayCheckReminder
+	[ ] 
+[+] C2R Functionality (Banking)
+	[ ] testcase: Test42_C2RFunctionalityBanking
+	[ ] 
+[+] Verify auto categorization functionality
+	[ ] testcase: Test43_VerifyAutoCategorizationFunctionality
+	[ ] 
+[+] C2R Functionality (Investing)
+	[ ] testcase: Test44_C2RFunctionalityInvesting
+	[ ] 
+[+] Automatically adding Download transactions
+	[ ] testcase: Test45_AutomaticAddDownloadTransaction
+	[ ] 
+[+] File Backup
+	[ ] testcase: Test46_FileBackup
+	[ ] 
+[+] File Restore
+	[ ] testcase: Test47_FileRestore
+	[ ] 
+[+] One Step Update 
+	[ ] testcase: Test48_OneStepUpdate
+	[ ] 
+[+] Verify data conversion
+	[ ] testcase: Test49_VerifyDataConversion
+	[ ] 
+[+]  Create Online Account
+	[ ] testcase: Test50_CreateOnlineAccount
+	[ ] 
+[+] Open Security List from using shortcut
+	[ ] testcase: Test51_OpenSecurityList
+	[ ] 
+[+]  Open Quicken Help using shortcut 
+	[ ] testcase: Test52_OpenQuickenHelp
+	[ ] 
+[+] Open Calendar using shortcut 
+	[ ] testcase: Test53_OpenCalendar
+	[ ] 
+[+] Create 529 Plan Investment Account
+	[ ] testcase: Test54_529PlanBrokerageAccount
+	[ ] 
+[+] Create IRA or Keogh Plan Investment Account 
+	[ ] testcase: Test55_IRAOrKeoghPlanBrokerageAccount
+	[ ] 
+[+] Verify adding rental property and tenant 
+	[ ] testcase: Test56_VerifyRentalPropertyAndTenantt
+	[ ] 
+[+] Verify Split Transaction
+	[ ] testcase: Test57_VerifySplitTransaction
+	[ ] 
+[+] Verify US$ is the default home currency
+	[ ] testcase: Test58_VerifyDefaultHomeCurrency
+	[ ] 
+[+] Verify that user is able to add more views on Home page
+	[ ] testcase: Test59_VerifyThatUserIsAbleToAddMoreViewsOnHomePage
+	[ ] 
+[+] Verify that user is able to Opt out for the datafile password
+	[ ] testcase: Test60_VerifyThatUserIsAbleToOptOutForTheDatafilePasword
+	[ ] 
+[+] Verify that user is able to Opt in Intuit Password as datafile password
+	[ ] testcase: Test61_VerifyThatUserIsAbleToOptInIntuitPasswordAsTheDatafilePasword
+	[ ] 
+[+] Verify that user is able to setup Custom password for password vault with Custom datafile password
+	[ ] testcase: Test62_VerifyThatUserIsAbleToSetupCustomPasswordVaultWithCustomDatafilePasword
+	[ ] 
+[+] Verify that user is able to setup password vault using intuit password with Custom datafile password
+	[ ] testcase: Test63_VerifyThatUserIsAbleToUseIntuitPasswordAsPasswordForPasswordVaultWithCustomDatafilePasword
+	[ ] 
+[+] Verify Start Up >Downlaod Transaction when QN start preference option
+	[ ] testcase: Test64_VerifyStartupDownloadTransactionWhenQNStartPreference
+	[ ] 
+[+] Verify Find & Replace feature
+	[ ] testcase: Test65_VerifyFindAndReplace
+	[ ] 
+[+] Verify that user is able to add manual loan account
+	[ ] testcase: Test66_VerifyThatUserIsAbleToAddManualLoanAccount
+	[ ] 
+[+]  Verify Data File
+	[ ] testcase: Test67_VerifyDataFile
+	[ ] 
+[+] Confirm account changes on Account List
+	[ ] testcase: Test68_VerifyAccountChanges
+	[ ] 
+[+] Check shutdown
+	[ ] testcase: Test69_VerifyQuickenShutdown
+	[ ] 
+[+] Re-launch Quicken and Verify File Attributes
+	[ ] testcase: Test70_ReLaunchQuicken
+	[ ] 
+[+] Smoke Clean Up
+	[ ] testcase: SmokeClean
+	[ ] 

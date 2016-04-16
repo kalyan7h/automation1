@@ -1,0 +1,9 @@
+2007/06/20 ding: Updated based on build 17.0.2.6
+
+2007/05/04 ding: Updated based on build 17.0.1.92
+
+
+Maintenance Notes:
+
+* List viewer changes may require autoapi.dll to be rebuilt and checked in. Build the release version in the current QW solution and check in here. We had an issue, for example, when the list viewer cell size was increased.  DaveL, 6/21/06.
+

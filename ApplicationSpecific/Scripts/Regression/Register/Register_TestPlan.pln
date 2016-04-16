@@ -1,0 +1,381 @@
+﻿[ ] // Script: ..\..\ApplicationSpecific\Scripts\Register.t
+[ ]  Script: ..\Register\Register.t
+[ ]  //Script: ..\..\ApplicationSpecific\Scripts\Regression\Register\Register_Dean.t
+[ ] //Script: ..\..\ApplicationSpecific\Scripts\Regression\Register\Register.t
+[ ] 
+[-] Test1_RegisterSetUp
+	[ ] testcase: Test1_RegisterSetUp
+[ ] 
+[+] Test2_VerifyRegisterAccountActions
+	[ ] testcase: Test2_VerifyRegisterAccountActions
+[ ] 
+[+] Test3_VerifyAvailabilityofSavingGoalsOnAccountActions
+	[ ] testcase: Test3_VerifyAvailabilityofSavingGoalsOnAccountActions
+[ ] 
+[+] Test4_VerifyTransferSetup
+	[ ] testcase: Test4_VerifyTransferSetup
+[ ] 
+[+] Test5_VerifyMoreReportsonAccountActions
+	[ ] testcase: Test5_VerifyMoreReportsonAccountActions
+[ ] 
+[+] Test6_VerifySplitTransaction
+	[ ] testcase:Test6_VerifySplitTransaction
+[ ] 
+[+] Test7_VerifyModifySplitTransaction
+	[ ] testcase:Test7_VerifyModifySplitTransaction
+[ ] 
+[+] Test8_VerifyClearSplitTransaction
+	[ ] testcase:Test8_VerifyClearSplitTransaction
+[ ] 
+[+] Test9_VerifyIncomeCategorySplitTransaction
+	[ ] testcase:Test9_VerifyIncomeCategorySplitTransaction
+[ ] 
+[+] Test10_VerifyIncomeExpenseCategorySplitTransaction
+	[ ] testcase:Test10_VerifyIncomeExpenseCategorySplitTransaction
+[ ] 
+[+] Test11_VerifyUnknownTypePaymentSplitTransaction
+	[ ] testcase:Test11_VerifyUnknownTypePaymentSplitTransaction
+[ ] 
+[+] Test12_VerifyUnknownTypeIncomeSplitTransaction
+	[ ] testcase:Test12_VerifyUnknownTypeIncomeSplitTransaction
+[ ] 
+[ ] 
+[ ] 
+[+] TC13_RegisterSearchFeatureExistsForBusinessAccounts
+	[ ] testcase:TC13_RegisterSearchFeatureExistsForBusinessAccounts
+[ ] // 
+[+] // TC14_VerifyAttachmentoptionsInBankingRegister
+	[ ] // testcase:TC14_VerifyAttachmentoptionsInBankingRegister
+[ ] // 
+[+] // TC15_VerifyAttachmentFeatureInBankingRegister
+	[ ] // testcase:TC15_VerifyAttachmentFeatureInBankingRegister
+[ ] 
+[+] TC16_VerifyFindFeatureForBankingRegister
+	[ ] testcase:TC16_VerifyFindFeatureForBankingRegister
+[ ] 
+[+] TC17_VerifyCheckNumOptionsforCheckingAccount
+	[ ] testcase:TC17_VerifyCheckNumOptionsforCheckingAccount
+[ ] 
+[+] TC18_VerifyTransferFromCheckingToSavingsDocumentWindowMode
+	[ ] testcase:TC18_VerifyTransferFromCheckingToSavingsDocumentWindowMode
+[ ] 
+[+] TC19_VerifyTransferFromSavingsToCheckingDocumentWindowMode
+	[ ] testcase:TC19_VerifyTransferFromSavingsToCheckingDocumentWindowMode
+[ ] 
+[+] TC20_VerifyTransferFromCheckingToSavingsPopUpWindowMode
+	[ ] testcase:TC20_VerifyTransferFromCheckingToSavingsPopUpWindowMode
+[ ] 
+[+] TC21_VerifyTransferFromSavingsToCheckingPopUpWindowMode
+	[ ] testcase:TC21_VerifyTransferFromSavingsToCheckingPopUpWindowMode
+[ ] 
+[+] TC22_VerifyEditDeleteTransferFromCheckingToSavingsPopUpWindowMode
+	[ ] testcase:TC22_VerifyEditDeleteTransferFromCheckingToSavingsPopUpWindowMode
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[+] Test23_VerifyRegisterAccountActionsForCustomerInvoiceAccount
+	[ ] testcase:Test23_VerifyRegisterAccountActionsForCustomerInvoiceAccount
+[ ] 
+[+] Test24_VerifyRegisterAccountActionsForVendorInvoiceAccount
+	[ ] testcase:Test24_VerifyRegisterAccountActionsForVendorInvoiceAccount
+[ ] 
+[+] Test25_VerifyMoreReportsonCustomerInvoiceAccountActions
+	[ ] testcase:Test25_VerifyMoreReportsonCustomerInvoiceAccountActions
+[ ] 
+[+] Test26_VerifyMoreReportsonVendorInvoiceAccountActions
+	[ ] testcase:Test26_VerifyMoreReportsonVendorInvoiceAccountActions
+[ ] 
+[+] Test27_VerifyAddCustomerInvoiceUsingAccountActions
+	[ ] testcase:Test27_VerifyAddCustomerInvoiceUsingAccountActions
+[ ] 
+[+] Test28_VerifyAddCustomerPaymentUsingAccountActions
+	[ ] testcase:Test28_VerifyAddCustomerPaymentUsingAccountActions
+[ ] 
+[+] Test29_VerifyAddCustomerCreditUsingAccountActions
+	[ ] testcase:Test29_VerifyAddCustomerCreditUsingAccountActions
+[ ] 
+[+] Test30_VerifyAddCustomerRefundUsingAccountActions
+	[ ] testcase:Test30_VerifyAddCustomerRefundUsingAccountActions
+[ ] 
+[+] Test31_VerifyAddCustomerFinanceChargeUsingAccountActions
+	[ ] testcase:Test31_VerifyAddCustomerFinanceChargeUsingAccountActions
+[ ] 
+[+] Test32_VerifyInvoiceDefaultsFeatureUsingAccountActions
+	[ ] testcase:Test32_VerifyInvoiceDefaultsFeatureUsingAccountActions
+[ ] 
+[+] Test33_VerifyAddVendorPaymentUsingAccountActions
+	[ ] testcase:Test33_VerifyAddVendorPaymentUsingAccountActions
+[ ] 
+[+] Test34_VerifyAddVendorCreditUsingAccountActions
+	[ ] testcase:Test34_VerifyAddVendorCreditUsingAccountActions
+[ ] 
+[+] Test35_VerifyAddVendorRefundUsingAccountActions
+	[ ] testcase:Test35_VerifyAddVendorRefundUsingAccountActions
+[ ] 
+[+] Test36_VerifyCustomerVendorAccountsDeletion
+	[ ] testcase:Test36_VerifyCustomerVendorAccountsDeletion
+[ ] 
+[ ] 
+[ ] 
+[+] TC10_DownloadedTransactionsPreferences_NewFile
+	[ ] 
+	[ ] testcase: TC10_DownloadedTransactionsPreferences_NewFile
+[ ] 
+[+] DataConversionRegisterSetup2012_2013
+	[ ] testcase:DataConversionRegisterSetup2012_2013
+[ ] 
+[+] TC11_DownloadedTransactionsPreferences_Migration
+	[ ] testcase:TC11_DownloadedTransactionsPreferences_Migration
+[ ] 
+[+] TC12_VerifyCheckingAccountRegister 
+	[ ] testcase: TC12_VerifyCheckingAccountRegister
+[ ] 
+[+] TC13_VerifySavingsAccountRegister
+	[ ] testcase: TC13_VerifySavingsAccountRegister
+[ ] 
+[+] TC14_VerifyCreditCardAccountRegister
+	[ ] testcase: TC14_VerifyCreditCardAccountRegister
+[ ] 
+[+] TC15_VerifyCashAccountRegister
+	[ ] testcase: TC15_VerifyCashAccountRegister
+[ ] 
+[+] TC34_FilterForAllDatesTransactionType
+	[ ] testcase: TC34_FilterForAllDatesTransactionType
+[ ] 
+[+] TC35_FilterForAllTransactionType
+	[ ] testcase: TC35_FilterForAllTransactionType
+[ ] 
+[+] TC36_FilterForAllDates
+	[ ] testcase: TC36_FilterForAllDates
+[ ] 
+[+] TC37_RegisterAllTransactionsFilter
+	[ ] testcase: TC37_RegisterAllTransactionsFilter
+[ ] 
+[+] TC38_RegisterTransactions_UncategorizedFilter
+	[ ] testcase: TC38_RegisterTransactions_UncategorizedFilter
+[ ] 
+[+] TC_128RegisterTransactions_UnreconciledFilter
+	[ ] testcase: TC_128RegisterTransactions_UnreconciledFilter
+[ ] 
+[+] TC_129RegisterTransactions_ClearedFilter
+	[ ] testcase: TC_129RegisterTransactions_ClearedFilter
+[ ] 
+[+] TC39_RegisterAllTransactions_UnclearedFilter
+	[ ] testcase: TC39_RegisterAllTransactions_UnclearedFilter
+[ ] 
+[+] TC40_RegisterAllTransactions_FlaggedFilter
+	[ ] testcase: TC40_RegisterAllTransactions_FlaggedFilter
+[ ] 
+[+] TC41_RegisterAllType_PaymentsFilter
+	[ ] testcase: TC41_RegisterAllType_PaymentsFilter
+[ ] 
+[+] TC42_RegisterAllType_DepositsFilter
+	[ ] testcase: TC42_RegisterAllType_DepositsFilter
+[ ] 
+[+] TC43_54BankingRegisterDateFilter_AllDates
+	[ ] testcase: TC43_54BankingRegisterDateFilter_AllDates
+[ ] 
+[+] Test1_RegisterSetUp
+	[ ] testcase: Test1_RegisterSetUp
+[ ] 
+[+] TC55_RegisterSearchFeatureExists
+	[ ] testcase: TC55_RegisterSearchFeatureExists
+[ ] 
+[+] TC56_RegisterSearchFeatureFunctionality
+	[ ] testcase: TC56_RegisterSearchFeatureFunctionality
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[+] TC88_VerifyEnterTransactionsInRegister
+	[ ] testcase: TC88_VerifyEnterTransactionsInRegister
+[ ] 
+[+] TC89_VerifyEditButtonInRegister
+	[ ] testcase: TC89_VerifyEditButtonInRegister
+[+] TC91_VerifyNewTransactionsInRegisterActions
+	[ ] testcase: TC91_VerifyNewTransactionsInRegisterActions
+[+] TC92_VerifyDeleteTransactionsInRegister
+	[ ] 
+	[ ] testcase: TC92_VerifyDeleteTransactionsInRegister
+[+] TC94_VerifyMarkAsClearTransactionsInRegister
+	[ ] testcase: TC94_VerifyMarkAsClearTransactionsInRegister
+[+] TC95_VerifyGoToMatchingTransferInRegister
+	[ ] testcase: TC95_VerifyGoToMatchingTransferInRegister
+[+] TC96_VerifyMoveTransactionsInRegisterCancel
+	[ ] testcase: TC96_VerifyMoveTransactionsInRegisterCancel
+[+] TC97_VerifyMoveTransactionsInRegisterOK
+	[ ] testcase: TC97_VerifyMoveTransactionsInRegisterOK
+[+] TC101_VerifyCopyTransactionsInRegister
+	[ ] testcase: TC101_VerifyCopyTransactionsInRegister
+[+] TC102_VerifyCutTransactionsInRegister
+	[ ] testcase: TC102_VerifyCutTransactionsInRegister
+[+] TC103_VerifySaveTransactionsInRegister
+	[ ] testcase: TC103_VerifySaveTransactionsInRegister
+[+] TC110_VerifyMemorizedPayeeForTransaction_Cancel
+	[ ] testcase: TC110_VerifyMemorizedPayeeForTransaction_Cancel
+[+] TC111_VerifyMemorizedPayeeForTransaction_OK
+	[ ] testcase: TC111_VerifyMemorizedPayeeForTransaction_OK
+[+] TC112_VerifyMakeTheTransactionAScheduleBill_Cancel
+	[ ] testcase: TC112_VerifyMakeTheTransactionAScheduleBill_Cancel
+[+] TC113_VerifyMakeTheTransactionAScheduleBill_OK
+	[ ] testcase: TC113_VerifyMakeTheTransactionAScheduleBill_OK
+[+] TC114_VerifyMakeTheTransactionAScheduleDeposit_Cancel
+	[ ] testcase: TC114_VerifyMakeTheTransactionAScheduleDeposit_Cancel
+[+] TC115_VerifyMakeTheTransactionAScheduleDeposit_OK
+	[ ] testcase: TC115_VerifyMakeTheTransactionAScheduleDeposit_OK
+[+] TC116_VerifyVoidTransaction
+	[ ] testcase: TC116_VerifyVoidTransaction
+[+] DataConversionRegister2012_2013
+	[ ] testcase: DataConversionRegister2012_2013
+[+] TC11_DownloadedTransactionsPreferences_Migration
+	[ ] testcase: TC11_DownloadedTransactionsPreferences_Migration
+[+] Test02_EnableClassicMenuMode
+	[ ] testcase: Test02_EnableClassicMenuMode
+[+] Test06_RegisterPreferencesAfterMigration
+	[ ] testcase: Test06_RegisterPreferencesAfterMigration
+[+] Test08_VerifyQuickFillPreferencesMigration
+	[ ] testcase: Test08_VerifyQuickFillPreferencesMigration
+[+] Test01_VerifyDefaultMenuModeForNewUser
+	[ ] testcase: Test01_VerifyDefaultMenuModeForNewUser
+[+] Test04_VerifyRegisterDisplayinClassicMenuMode
+	[ ] testcase: Test04_VerifyRegisterDisplayinClassicMenuMode
+[+] Test05_VerifyPopupModeRegisternotavailableinStartup
+	[ ] testcase: Test05_VerifyPopupModeRegisternotavailableinStartup
+[+] Test07_RegisterPreferencesForNewFile
+	[ ] testcase: Test07_RegisterPreferencesForNewFile
+[+] Test09_VerifyQuickFillPreferencesNewFile
+	[ ] testcase: Test09_VerifyQuickFillPreferencesNewFile
+[+] Test17_AssetAccountRegister
+	[ ] testcase: Test17_AssetAccountRegister
+[+] Test18_VehicleAccountRegister
+	[ ] testcase: Test18_VehicleAccountRegister
+[+] Test19_OtherAssetAccountRegister
+	[ ] testcase: Test19_OtherAssetAccountRegister
+[+] Test20_AccReceivableAccountRegister
+	[ ] testcase: Test20_AccReceivableAccountRegister
+[+] Test21_AccPayableAccountRegister
+	[ ] testcase: Test21_AccPayableAccountRegister
+[+] Test22_OtherLiabilityAccountRegister
+	[ ] testcase: Test22_OtherLiabilityAccountRegister
+[+] Test35_CheckingAccountRgisterTitle
+	[ ] testcase: Test35_CheckingAccountRgisterTitle
+[+] TC93_UndoAcceptAll
+	[ ] testcase: TC93_UndoAcceptAll
+[+] TC98_VerifyTaxLineItemAssignmentInRegister_Cancel
+	[ ] testcase: TC98_VerifyTaxLineItemAssignmentInRegister_Cancel
+[+] TC99_VerifyTaxLineItemAssignmentInRegister_OK
+	[ ] testcase: TC99_VerifyTaxLineItemAssignmentInRegister_OK
+[+] TC100_VerifyTaxLineItemAssignmentInRegister_New
+	[ ] testcase: TC100_VerifyTaxLineItemAssignmentInRegister_New
+[+] TC83_OpenRegisterPreferencesFromAccountActions
+	[ ] testcase: TC83_OpenRegisterPreferencesFromAccountActions
+[+] TC87_ButtonsAvailableInRegister
+	[ ] testcase: TC87_ButtonsAvailableInRegister
+[+] TC104_AddAFlagToTransaction
+	[ ] testcase: TC104_AddAFlagToTransaction
+[+] TC105_AddANoteToTransaction
+	[ ] testcase: TC105_AddANoteToTransaction
+[+] TC107_EditPayeeReport
+	[ ] testcase: TC107_EditPayeeReport
+[+] TC139_CheckingAccountRegisterDocumentWindow
+	[ ] testcase: TC139_CheckingAccountRegisterDocumentWindow
+[+] TC140_SavingsAccountRegisterDocumentWindow
+	[ ] testcase: TC140_SavingsAccountRegisterDocumentWindow
+[+] TC141_CreditCardAccountRegisterDocumentWindow
+	[ ] testcase: TC141_CreditCardAccountRegisterDocumentWindow
+[+] TC142_CashAccountRegisterDocumentWindow
+	[ ] testcase: TC142_CashAccountRegisterDocumentWindow
+[+] TC143_MoneyMarketAccountRegisterDocumentWindow
+	[ ] testcase: TC143_MoneyMarketAccountRegisterDocumentWindow
+[+] TC144_LineOfCreditAccountRegisterDocumentWindow
+	[ ] testcase: TC144_LineOfCreditAccountRegisterDocumentWindow
+[+] Test25_SecurityBasedInvestingAccountRegister
+	[ ] testcase: Test25_SecurityBasedInvestingAccountRegister
+[+] Test26_401kAccountRegister
+	[ ] testcase: Test26_401kAccountRegister
+[+] TC16_VerifyMoneyMarketAccountRegister
+	[ ] testcase: TC16_VerifyMoneyMarketAccountRegister
+[+] TC17_VerifyLineOfCreditAccountRegister
+	[ ] testcase: TC17_VerifyLineOfCreditAccountRegister
+[+] Test_CategoriesSplitTransaction
+	[ ] testcase: Test_CategoriesSplitTransaction
+[+] TC_Setup_Webconnect_File
+	[ ] testcase: TC_Setup_Webconnect_File
+[+] TC165_Recategorize_Transaction_From_Transaction_Report_Cancel
+	[ ] testcase: TC165_Recategorize_Transaction_From_Transaction_Report_Cancel
+[+] TC166_Recategorize_Transaction_From_Transaction_Report_OK
+	[ ] testcase: TC166_Recategorize_Transaction_From_Transaction_Report_OK
+[+] TC167_Retag_Transaction_From_Transaction_Report_Cancel
+	[ ] testcase: TC167_Retag_Transaction_From_Transaction_Report_Cancel
+[+] TC168_Retag_Transaction_From_Transaction_Report_OK
+	[ ] testcase: TC168_Retag_Transaction_From_Transaction_Report_OK
+[+] TC169_Rename_Payee__From_Transaction_Report_Cancel
+	[ ] testcase: TC169_Rename_Payee__From_Transaction_Report_Cancel
+[+] TC170_Rename_Payee__From_Transaction_Report_OK
+	[ ] testcase: TC170_Rename_Payee__From_Transaction_Report_OK
+[+] TC171_Edit_Memo__From_Transaction_Report_Cancel
+	[ ] testcase: TC171_Edit_Memo__From_Transaction_Report_Cancel
+[+] TC172_Edit_Memo__From_Transaction_Report_OK
+	[ ] testcase: TC172_Edit_Memo__From_Transaction_Report_OK
+[+] TC173_Delete_Transaction__From_Transaction_Report_Cancel
+	[ ] testcase: TC173_Delete_Transaction__From_Transaction_Report_Cancel
+[+] TC174_Delete_Transaction__From_Transaction_Report_OK
+	[ ] testcase: TC174_Delete_Transaction__From_Transaction_Report_OK
+[+] TC11_Delete_Transfer__Transaction_From_Register
+	[ ] testcase: TC11_Delete_Transfer__Transaction_From_Register
+[+] TC179_VerifySplitTransactionBankingAccount
+	[ ] testcase: TC179_VerifySplitTransactionBankingAccount
+[+] TC183_CorrectWindowTitleBusinessAccount
+	[ ] testcase: TC183_CorrectWindowTitleBusinessAccount
+[+] TC184_185_FilterForAllTransactionTypeBusinessAccounts
+	[ ] testcase: TC184_185_FilterForAllTransactionTypeBusinessAccounts
+[+] TC186_FilterForAllDates
+	[ ] testcase: TC186_FilterForAllDates
+[+] TC187_VerifyAllTransactionsFilterInBusinessAccountRegister
+	[ ] testcase:TC187_VerifyAllTransactionsFilterInBusinessAccountRegister
+[+] TC188_VerifyUncategorizedFilterInBusinessAccountRegister
+	[ ] testcase:TC188_VerifyUncategorizedFilterInBusinessAccountRegister
+[+] TC189_VerifyUnreconciledFilterInBusinessAccountRegister
+	[ ] testcase:TC189_VerifyUnreconciledFilterInBusinessAccountRegister
+[+] TC191_VerifyUnclearedFilterInBusinessAccountRegister
+	[ ] testcase:TC191_VerifyUnclearedFilterInBusinessAccountRegister
+[+] TC192_VerifyClearedFilterInBusinessAccountRegister
+	[ ]  testcase:TC192_VerifyClearedFilterInBusinessAccountRegister
+[+] TC193_VerifyFlaggedFilterInBusinessAccountRegister
+	[ ] testcase:TC193_VerifyFlaggedFilterInBusinessAccountRegister
+[+] TC194_RegisterAllTypeFilter
+	[ ] testcase:TC194_RegisterAllTypeFilter
+[+] TC195_RegisterAllType_Paid_BilledFilter
+	[ ] testcase:TC195_RegisterAllType_Paid_BilledFilter
+[+] TC196_RegisterAllType_Charged_PaidFilter
+	[ ] testcase:TC196_RegisterAllType_Charged_PaidFilter
+[+] TC197_208_BusinessRegisterDateFilter_AllDates
+	[ ] testcase:TC197_208_BusinessRegisterDateFilter_AllDates
+[+] TC271_278_279_283__Verify_401K_Register_Account_Actions_Content
+	[ ] testcase:TC271_278_279_283__Verify_401K_Register_Account_Actions_Content
+[+] TC272_Verify_401K_Register_Enter_Transactions
+	[ ] testcase:TC272_Verify_401K_Register_Enter_Transactions
+[+] Test274_Enter_Transactions_401K_Register_
+	[ ] testcase:Test274_Enter_Transactions_401K_Register_
+[+] Test282_Buttons_Present_In_401K_Register_
+	[ ] testcase:Test282_Buttons_Present_In_401K_Register_
+[+] TC276_AccountActionsMenuUpdate401KHoldings
+	[ ] testcase:TC276_AccountActionsMenuUpdate401KHoldings
+[+] TC275_AccountActionsMenuSetupDownload
+	[ ] testcase:TC275_AccountActionsMenuSetupDownload
+[+] TC277_AccountActionsMenuAccountOverview
+	[ ] testcase:TC277_AccountActionsMenuAccountOverview
+[ ] 
+[ ] 
+[+] // TC285_AccountActionsMenuAccountAttachment
+	[ ] // testcase:TC285_AccountActionsMenuAccountAttachment
+[+] TC287_AccountActionsMenuUpdateCashBalance
+	[ ] testcase:TC287_AccountActionsMenuUpdateCashBalance
+[+] TC288_AccountActionsMenuUpdateShareBalance
+	[ ] testcase:TC288_AccountActionsMenuUpdateShareBalance
+[+] TC286_AccountActionsMenuReconcile
+	[ ] testcase:TC286_AccountActionsMenuReconcile
+[ ] 
+[ ] 
+[ ] 

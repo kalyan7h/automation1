@@ -1,0 +1,47 @@
+﻿[ ]  Script: ..\Budget\Budget.t
+[ ] 
+[+] Verify that by default hierarchy off is displayed after creating new budget
+	[ ] testcase: Test5_VerifyThatByDefaultHierarchyOffIsDisplayedAfterCreatingNewBudget
+[ ] 
+[+] Verify that If hierarchy display is on and any sub-categories are selected, then all ancestors should be displayed whether budgeted or not
+	[ ] testcase: Test6_VerifyThatIfHierarchyDisplayOnThenParentIsDisplayedWhetherBudgetedOrNot
+[+] Verify that if hierarchy is off and any sub-categories are selected, then the full path to the sub-category should also be displayed
+	[ ] testcase: Test7_VerifyThatIfHierarchyDisplayOffThenFullPathToTheSubcategoriesShouldBeDisplayed
+[+] Verify that if no sub-categories are budgeted, then parent should be editable and there should not be a row for Everything Else
+	[ ] testcase: Test8_VerifyThatIfHierarchyDisplayOnAndNoSubCatBudgetedThenEverythingElseRowIsNotPresent
+[+] Verify that if some sub-categories are budgeted then the parent is read-only, row for Everything Else is added and the Everything Else row is editable
+	[ ] testcase: Test9_VerifyThatIfHierarchyDisplayOnAndSomeSubCatBudgetedThenEverythingElseRowShouldBeEditable
+[+] Verify that If all sub-categories are budgeted then the parent is read-only and there should not be a row added for Everything Else
+	[ ] testcase: Test10_VerifyThatIfHierarchyDisplayOnAllSubCatBudgetedThenParentIsReadOnlyEverythingElseRowShouldNotBePresent
+[+] Verify that If only sub-category are selected, then parent is read-only and there should not be a row added for Everything Else
+	[ ] testcase: Test11_VerifyThatIfHierarchyDisplayOnAndOnlySubCatBudgetedThenParentIsReadOnlyEverythingElseRowShouldNotBePresent
+[+] Verify that User should be able to access the additional edit options via the existing "gear" menu
+	[ ] testcase: Test7_VerifyThatUserShouldBeAbleToAccessTheAdditionalEditOptionsViaTheExistingGearMenu
+[+] Verify that User should be able to access the additional edit options via right-click menu
+	[ ] testcase: Test8_VerifyThatUserShouldBeAbleToAccessTheAdditionalgearOptionsViaRightClickMenu
+[+] Verify that User should be able to edit all 12 months of the currently selected budget from a single dialog using gear menu from Graph View
+	[ ] testcase: Test9A_VerifyThatUserShouldBeAbleToAccessTheAdditionalEdit12MonthsOfTheCurrentlySelectedBudgetUsingGearMenuFromGraphView
+[+] Verify that User should be able to edit all 12 months of the currently selected budget from a single dialog using right click menu from Graph View
+	[ ] testcase: Test9B_VerifyThatUserShouldBeAbleToAccessTheAdditionalEdit12MonthsOfTheCurrentlySelectedBudgetUsingRightClickFromGraphView
+[+] Verify that User should be able to edit all 12 months of the currently selected budget from a single dialog using gear menu from Annual View
+	[ ] testcase: Test9C_VerifyThatUserShouldBeAbleToAccessTheAdditionalEdit12MonthsOfTheCurrentlySelectedBudgetUsingGearMenuFromAnnualView
+[+] Verify that User should be able to edit all 12 months of the currently selected budget from a single dialog using right click menu from Annual View
+	[ ] testcase: Test9D_VerifyThatUserShouldBeAbleToAccessTheAdditionalEdit12MonthsOfTheCurrentlySelectedBudgetUsingRightClickFromAnnualView
+[+]  Verify that User should be able to calculate an average monthly budget value using gear menu from Graph View
+	[ ] testcase: Test10A_VerifyThatUserShouldBeAbleToToCalculateAverageMonthlyBudgetUsingGearMenuFromGraphView
+[+] Verify that User should be able to calculate an average monthly budget value using right click from Graph View
+	[ ] testcase: Test10B_VerifyThatUserShouldBeAbleToToCalculateAverageMonthlyBudgetUsingRightClickFromGraphView
+[+] Verify that User should be able to calculate an average monthly budget value using gear menu from Annual View
+	[ ] testcase: Test10C_VerifyThatUserShouldBeAbleToToCalculateAverageMonthlyBudgetUsingGearMenuFromAnnualView
+[+] Verify that User should be able to calculate an average monthly budget value using right click from Annual View.
+	[ ] testcase: Test10D_VerifyThatUserShouldBeAbleToToCalculateAverageMonthlyBudgetUsingRightClickFromAnnualView
+[+] Verify that when  extending an existing budget for additional year, User would like the option to base the default budget values on the previous year's actual spending within a category
+	[ ] testcase: Test11_VerifyThatUserShouldBeAbleToBaseTheDefaultBudgetValuesOnPreviousYearsBudgetWhileExtendingToNextYear
+[+] Verify that Category Total left over values on Annual view should include rollover
+	[ ] testcase: Test12_13_VerifyThatThatCategoryTotalBalanceValuesOnAnnualViewShouldIncludeRollOver
+[+] Verify that Everything Else item should support rollover
+	[ ] testcase: Test6_VerifyThatThatEverytingElseItemShouldSupportRollOver
+[+] Verify that Group Balance values on Annual view should include rollover
+	[ ] testcase: Test14_16_VerifyThatThatCategoryGroupBalanceValuesOnAnnualViewShouldIncludeRollOver
+[ ] 
+[ ] 

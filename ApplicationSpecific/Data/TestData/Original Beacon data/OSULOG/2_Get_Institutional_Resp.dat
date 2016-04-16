@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><cc:CCWSResponse xmlns:cc="http://www.intuit.com/CustomerCentral"> 
+  <status> 
+    <code>ok</code> 
+    <string>call successful</string> 
+  </status> 
+  <body> 
+    <ccresp:CCGetInstitutionResponse xmlns:ccresp="http://www.intuit.com/CustomerCentral/Responses"> 
+      <tp_institution_id>31</tp_institution_id> 
+      <name>Wells Fargo</name> 
+      <status>A</status> 
+      <routing>S</routing> 
+      <address_line_1/> 
+      <address_line_2/> 
+      <city_name>San Francisco</city_name> 
+      <tp_state_code>CA</tp_state_code> 
+      <postal_no>94163</postal_no> 
+      <phone_no>1-800-956-4442</phone_no> 
+      <email_address>http://www.wellsfargo.com/per/per_ask_us.jhtml</email_address> 
+      <url_home_app>http://www.wellsfargo.com/</url_home_app> 
+      <url_logon_app>https://online.wellsfargo.com/cgi-bin/signon.cgi</url_logon_app> 
+      <special_text>Please enter your Username or Social Security Number and your Password required to login.</special_text> 
+      <discovery>Y</discovery> 
+      <tp_account_type_class_id>1</tp_account_type_class_id> 
+      <user1/> 
+      <user2/> 
+      <user3/> 
+      <user4/> 
+      <user5/> 
+      <created_by>DataMigrator</created_by> 
+      <created_date>2011-01-07T10:30:13</created_date> 
+      <created_process/> 
+      <modified_by>DataMigrator</modified_by> 
+      <modified_date>2011-05-25T10:45:01</modified_date> 
+      <modified_process/> 
+      <keys> 
+        <key> 
+          <tp_institution_key_id>31001</tp_institution_key_id> 
+          <status>A</status> 
+          <name>userid</name> 
+          <val/> 
+          <value_length_min/> 
+          <value_length_max>14</value_length_max> 
+          <display_flag>T</display_flag> 
+          <display_order>1</display_order> 
+          <display_type>TEXT</display_type> 
+          <mask>F</mask> 
+          <edit_mask/> 
+          <instructions>No Dashes</instructions> 
+          <description>Username or SSN</description> 
+          <user1/> 
+          <user2/> 
+          <user3/> 
+          <user4/> 
+          <user5/> 
+          <created_by>DataMigrator</created_by> 
+          <created_date>2011-01-07T11:31:40</created_date> 
+          <created_process/> 
+          <modified_by>DataMigrator</modified_by> 
+          <modified_date>2011-05-25T10:51:39</modified_date> 
+          <modified_process/> 
+        </key> 
+        <key> 
+          <tp_institution_key_id>31002</tp_institution_key_id> 
+          <status>A</status> 
+          <name>password</name> 
+          <val/> 
+          <value_length_min/> 
+          <value_length_max>14</value_length_max> 
+          <display_flag>T</display_flag> 
+          <display_order>2</display_order> 
+          <display_type>TEXT</display_type> 
+          <mask>T</mask> 
+          <edit_mask/> 
+          <instructions/> 
+          <description>Password</description> 
+          <user1/> 
+          <user2/> 
+          <user3/> 
+          <user4/> 
+          <user5/> 
+          <created_by>DataMigrator</created_by> 
+          <created_date>2011-01-07T11:31:40</created_date> 
+          <created_process/> 
+          <modified_by>DataMigrator</modified_by> 
+          <modified_date>2011-05-25T10:51:39</modified_date> 
+          <modified_process/> 
+        </key> 
+      </keys> 
+    </ccresp:CCGetInstitutionResponse> 
+  </body> 
+</cc:CCWSResponse> 

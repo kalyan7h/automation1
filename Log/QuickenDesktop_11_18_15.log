@@ -1,0 +1,462 @@
+############### STARTING THE TEST CASE  Test01_OpenAccountList ###############
+############### TEST CASE  Test01_OpenAccountList is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_OpenAccountList ###############
+############### STARTING THE TEST CASE  Test01_OpenAccountList ###############
+############### STARTING THE TEST CASE  Test01_OpenAccountList ###############
+############### STARTING THE TEST CASE  Test01_OpenAccountList ###############
+############### TEST CASE  Test01_OpenAccountList is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_AccountListUI ###############
+############### TEST CASE  Test02_AccountListUI is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test03_SinglePurposeAccountListUI ###############
+############### TEST CASE  Test03_SinglePurposeAccountListUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_AccountListTabName ###############
+############### STARTING THE TEST CASE  Test03_SinglePurposeAccountListUI ###############
+############### TEST CASE  Test03_SinglePurposeAccountListUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_AccountListTabName ###############
+############### TEST CASE  Test04_AccountListTabName is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_AccountListTabName ###############
+############### TEST CASE  Test04_AccountListTabName is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_AccountListTabName ###############
+############### TEST CASE  Test04_AccountListTabName is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_AccountListTabName ###############
+############### TEST CASE  Test04_AccountListTabName is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_AccountListTabName ###############
+############### STARTING THE TEST CASE  Test05_AccountList_Help ###############
+############### TEST CASE  Test05_AccountList_Help is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test06_SingleAccountTab ###############
+############### TEST CASE  Test06_SingleAccountTab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test07_MultipleAccountTypes ###############
+############### STARTING THE TEST CASE  Test07_MultipleAccountTypes ###############
+############### STARTING THE TEST CASE  Test08_DeleteAccountTab ###############
+############### TEST CASE  Test08_DeleteAccountTab is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test07_MultipleAccountTypes ###############
+############### TEST CASE  Test07_MultipleAccountTypes is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test07_MultipleAccountTypes ###############
+############### STARTING THE TEST CASE  Test08_DeleteAccountTab ###############
+############### STARTING THE TEST CASE  Test13_FINoConnection ###############
+############### STARTING THE TEST CASE  Test13_FINoConnection ###############
+############### TEST CASE  Test13_FINoConnection is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test13_FINoConnection ###############
+############### STARTING THE TEST CASE  Test13_FINoConnection ###############
+############### STARTING THE TEST CASE  Test14_FIWeb_DirectConnect ###############
+############### STARTING THE TEST CASE  Test14_FIWeb_DirectConnect ###############
+############### STARTING THE TEST CASE  Test01A_No_Bills_Added_In_Data_File ###############
+############### TEST CASE  Test01A_No_Bills_Added_In_Data_File is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01A_No_Bills_Added_In_Data_File ###############
+############### TEST CASE  Test01A_No_Bills_Added_In_Data_File is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01B_No_Bills_Added_In_Data_File ###############
+############### TEST CASE  Test01B_No_Bills_Added_In_Data_File is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test03_Default_Preferences_Upcoming_Tab ###############
+############### TEST CASE  Test03_Default_Preferences_Upcoming_Tab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_Default_Preferences_Bills_Tab ###############
+############### STARTING THE TEST CASE  Test02_Bills_Added_In_Data_File ###############
+############### TEST CASE  Test02_Bills_Added_In_Data_File is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test05_Upcoming_Tab_UI ###############
+############### TEST CASE  Test05_Upcoming_Tab_UI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test06_Stack_View_Upcoming_Tab_UI ###############
+############### TEST CASE  Test06_Stack_View_Upcoming_Tab_UI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test07_List_View_Upcoming_Tab_UI ###############
+############### TEST CASE  Test07_List_View_Upcoming_Tab_UI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test09_Monthly_List_Tab_UI ###############
+############### TEST CASE  Test09_Monthly_List_Tab_UI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test10_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder ###############
+############### STARTING THE TEST CASE  Test10_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder ###############
+############### TEST CASE  Test10_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test10_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder ###############
+############### STARTING THE TEST CASE  Test10_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder ###############
+############### TEST CASE  Test10_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test11_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder_Future_Date ###############
+############### TEST CASE  Test11_Stack_View_Bills_Due_Within_Next_30_Days_Bill_Reminder_Future_Date is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test12_Stack_View_Bills_Due_Within_Next_14_Days_Bill_Reminder ###############
+############### TEST CASE  Test12_Stack_View_Bills_Due_Within_Next_14_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test13_Stack_View_Bills_Due_Within_Next_7_Days_Bill_Reminder ###############
+############### TEST CASE  Test13_Stack_View_Bills_Due_Within_Next_7_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test14_List_View_Bills_Due_Within_Next_30_Days_Bill_Reminder ###############
+############### TEST CASE  Test14_List_View_Bills_Due_Within_Next_30_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test15_List_View_Bills_Due_Within_Next_90_Days_Bill_Reminder ###############
+############### TEST CASE  Test15_List_View_Bills_Due_Within_Next_90_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test16_List_View_Bills_Due_Within_Next_12_Months_Bill_Reminder ###############
+############### TEST CASE  Test16_List_View_Bills_Due_Within_Next_12_Months_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test17_List_View_Bills_Due_Within_Next_14_Days_Bill_Reminder ###############
+############### TEST CASE  Test17_List_View_Bills_Due_Within_Next_14_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test18_List_View_Bills_Due_Within_Next_7_Days_Bill_Reminder ###############
+############### TEST CASE  Test18_List_View_Bills_Due_Within_Next_7_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test20_MonthlyList_View_Bill_Reminder ###############
+############### TEST CASE  Test20_MonthlyList_View_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test21_Stack_View_Upcoming_Tab_UI_Income_Reminder ###############
+############### TEST CASE  Test21_Stack_View_Upcoming_Tab_UI_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test22_List_View_Upcoming_Tab_UI_Income_Reminder ###############
+############### TEST CASE  Test22_List_View_Upcoming_Tab_UI_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test24_Monthly_List_Tab_UI_Income_Reminder ###############
+############### TEST CASE  Test24_Monthly_List_Tab_UI_Income_Reminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test25_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder ###############
+############### STARTING THE TEST CASE  Test24_Monthly_List_Tab_UI_Income_Reminder ###############
+############### TEST CASE  Test24_Monthly_List_Tab_UI_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test22_List_View_Upcoming_Tab_UI_Income_Reminder ###############
+############### TEST CASE  Test22_List_View_Upcoming_Tab_UI_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test15_List_View_Bills_Due_Within_Next_90_Days_Bill_Reminder ###############
+############### TEST CASE  Test15_List_View_Bills_Due_Within_Next_90_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test16_List_View_Bills_Due_Within_Next_12_Months_Bill_Reminder ###############
+############### TEST CASE  Test16_List_View_Bills_Due_Within_Next_12_Months_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test17_List_View_Bills_Due_Within_Next_14_Days_Bill_Reminder ###############
+############### TEST CASE  Test17_List_View_Bills_Due_Within_Next_14_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test18_List_View_Bills_Due_Within_Next_7_Days_Bill_Reminder ###############
+############### TEST CASE  Test18_List_View_Bills_Due_Within_Next_7_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test20_MonthlyList_View_Bill_Reminder ###############
+############### TEST CASE  Test20_MonthlyList_View_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test21_Stack_View_Upcoming_Tab_UI_Income_Reminder ###############
+############### TEST CASE  Test21_Stack_View_Upcoming_Tab_UI_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test22_List_View_Upcoming_Tab_UI_Income_Reminder ###############
+############### TEST CASE  Test22_List_View_Upcoming_Tab_UI_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test24_Monthly_List_Tab_UI_Income_Reminder ###############
+############### STARTING THE TEST CASE  Test24_Monthly_List_Tab_UI_Income_Reminder ###############
+############### STARTING THE TEST CASE  Test25_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder ###############
+############### STARTING THE TEST CASE  Test25_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder ###############
+############### TEST CASE  Test25_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test26_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder_Future_Date ###############
+############### TEST CASE  Test26_Stack_View_Bills_Due_Within_Next_30_Days_Income_Reminder_Future_Date is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test27_Stack_View_Bills_Due_Within_Next_14_Days_Income_Reminder ###############
+############### TEST CASE  Test27_Stack_View_Bills_Due_Within_Next_14_Days_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test28_Stack_View_Bills_Due_Within_Next_7_Days_Income_Reminder ###############
+############### TEST CASE  Test28_Stack_View_Bills_Due_Within_Next_7_Days_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test29_List_View_Bills_Due_Within_Next_30_Days_Income_Reminder ###############
+############### TEST CASE  Test29_List_View_Bills_Due_Within_Next_30_Days_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test30_List_View_Bills_Due_Within_Next_90_Days_Income_Reminder ###############
+############### TEST CASE  Test30_List_View_Bills_Due_Within_Next_90_Days_Income_Reminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test31_List_View_Bills_Due_Within_Next_12_Months_Income_Reminder ###############
+############### STARTING THE TEST CASE  Test30_List_View_Bills_Due_Within_Next_90_Days_Income_Reminder ###############
+############### TEST CASE  Test30_List_View_Bills_Due_Within_Next_90_Days_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test31_List_View_Bills_Due_Within_Next_12_Months_Income_Reminder ###############
+############### TEST CASE  Test31_List_View_Bills_Due_Within_Next_12_Months_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test32_List_View_Bills_Due_Within_Next_14_Days_Income_Reminder ###############
+############### TEST CASE  Test32_List_View_Bills_Due_Within_Next_14_Days_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test33_List_View_Bills_Due_Within_Next_7_Days_Income_Reminder ###############
+############### TEST CASE  Test33_List_View_Bills_Due_Within_Next_7_Days_Income_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test34_Stack_View_Upcoming_Tab_UI_Transfer_Reminder ###############
+############### TEST CASE  Test34_Stack_View_Upcoming_Tab_UI_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test35_List_View_Upcoming_Tab_UI_Transfer_Reminder ###############
+############### TEST CASE  Test35_List_View_Upcoming_Tab_UI_Transfer_Reminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test37_Monthly_List_Tab_UI_Transfer_Reminder ###############
+############### TEST CASE  Test37_Monthly_List_Tab_UI_Transfer_Reminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test38_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder ###############
+############### STARTING THE TEST CASE  Test38_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder ###############
+############### TEST CASE  Test38_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test38_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder ###############
+############### TEST CASE  Test38_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test39_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder_Future_Date ###############
+############### TEST CASE  Test39_Stack_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder_Future_Date is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test40_Stack_View_Bills_Due_Within_Next_14_Days_Transfer_Reminder ###############
+############### TEST CASE  Test40_Stack_View_Bills_Due_Within_Next_14_Days_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test41_Stack_View_Bills_Due_Within_Next_7_Days_Bill_Reminder ###############
+############### TEST CASE  Test41_Stack_View_Bills_Due_Within_Next_7_Days_Bill_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test42_List_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder ###############
+############### TEST CASE  Test42_List_View_Bills_Due_Within_Next_30_Days_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test43_List_View_Bills_Due_Within_Next_90_Days_Transfer_Reminder ###############
+############### TEST CASE  Test43_List_View_Bills_Due_Within_Next_90_Days_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test44_List_View_Bills_Due_Within_Next_12_Months_Transfer_Reminder ###############
+############### TEST CASE  Test44_List_View_Bills_Due_Within_Next_12_Months_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test45_List_View_Bills_Due_Within_Next_14_Days_Transfer_Reminder ###############
+############### TEST CASE  Test45_List_View_Bills_Due_Within_Next_14_Days_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test46_List_View_Bills_Due_Within_Next_7_Days_Transfer_Reminder ###############
+############### TEST CASE  Test46_List_View_Bills_Due_Within_Next_7_Days_Transfer_Reminder is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test47_Verify_Edit_Transaction_Single_Instance ###############
+############### TEST CASE  Test47_Verify_Edit_Transaction_Single_Instance is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test48_Verify_Edit_Transaction_Multiple_Instance ###############
+############### TEST CASE  Test48_Verify_Edit_Transaction_Multiple_Instance is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test49_53_Verify_Add_Reminder_Drop_Down ###############
+############### TEST CASE  Test49_53_Verify_Add_Reminder_Drop_Down is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test55_Verify_Enter_Reminder_Button_From_Stack_View ###############
+############### STARTING THE TEST CASE  TC01_No_Active_Account ###############
+############### STARTING THE TEST CASE  TC01_No_Active_Account ###############
+############### TEST CASE  TC01_No_Active_Account is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC02_GetStarted_NO_Account ###############
+############### TEST CASE  TC02_GetStarted_NO_Account is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC03_ReminderLaunchingPoints ###############
+############### TEST CASE  TC03_ReminderLaunchingPoints is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC04_ManageReminderLaunchingpoints ###############
+############### TEST CASE  TC04_ManageReminderLaunchingpoints is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC05_BillReminderFirstScreen ###############
+############### TEST CASE  TC05_BillReminderFirstScreen is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC06_BillReminderSecondScreen ###############
+############### TEST CASE  TC06_BillReminderSecondScreen is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC07_BillNextButtonFirstScreen ###############
+############### TEST CASE  TC07_BillNextButtonFirstScreen is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC08_BillChangeLinkSecondScreen ###############
+############### TEST CASE  TC08_BillChangeLinkSecondScreen is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC09_BillUIAddCategoryTagMemoPanel ###############
+############### TEST CASE  TC09_BillUIAddCategoryTagMemoPanel is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC10_BillFunctionalityAddCategoryTagMemo ###############
+############### TEST CASE  TC10_BillFunctionalityAddCategoryTagMemo is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC11_BillInvokingPointforSplitDialog ###############
+############### TEST CASE  TC11_BillInvokingPointforSplitDialog is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC12_BillSplitCategoryFunctionality ###############
+############### TEST CASE  TC12_BillSplitCategoryFunctionality is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC13_OnlineBillPayUI ###############
+############### STARTING THE TEST CASE  TC03_ReminderLaunchingPoints ###############
+############### STARTING THE TEST CASE  TC03_ReminderLaunchingPoints ###############
+############### TEST CASE  TC03_ReminderLaunchingPoints is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC04_ManageReminderLaunchingpoints ###############
+############### TEST CASE  TC04_ManageReminderLaunchingpoints is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC07_BillNextButtonFirstScreen ###############
+############### TEST CASE  TC07_BillNextButtonFirstScreen is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC13_OnlineBillPayUI ###############
+############### STARTING THE TEST CASE  TC13_OnlineBillPayUI ###############
+############### STARTING THE TEST CASE  TC13_OnlineBillPayUI ###############
+############### TEST CASE  TC13_OnlineBillPayUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC13_OnlineBillPayUI ###############
+############### TEST CASE  TC13_OnlineBillPayUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC14_QuickenBillPayUI ###############
+############### TEST CASE  TC14_QuickenBillPayUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC15_OnlineBillPayFunctionality ###############
+############### TEST CASE  TC15_OnlineBillPayFunctionality is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC16_QuickenBillPayFunctionality ###############
+############### TEST CASE  TC16_QuickenBillPayFunctionality is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC18_MakeRepeatingOnlinePaymentUI ###############
+############### TEST CASE  TC18_MakeRepeatingOnlinePaymentUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC19_VerifyBillOptionalSettings ###############
+############### TEST CASE  TC19_VerifyBillOptionalSettings is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC20_VerifyBillOptionalSettingsReminderChangeLink ###############
+############### STARTING THE TEST CASE  TC19_VerifyBillOptionalSettings ###############
+############### STARTING THE TEST CASE  TC19_VerifyBillOptionalSettings ###############
+############### TEST CASE  TC19_VerifyBillOptionalSettings is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC20_VerifyBillOptionalSettingsReminderChangeLink ###############
+############### TEST CASE  TC20_VerifyBillOptionalSettingsReminderChangeLink is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC21_VerifyBillOptionalSettingsAutomaticEnterTxn ###############
+############### TEST CASE  TC21_VerifyBillOptionalSettingsAutomaticEnterTxn is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC22_VerifyBillOptionalSettingsRelatedWebsite ###############
+############### STARTING THE TEST CASE  TC22_VerifyBillOptionalSettingsRelatedWebsite ###############
+############### TEST CASE  TC22_VerifyBillOptionalSettingsRelatedWebsite is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC23_VerifyBillOptionalSettingsGoToWebsiteLink ###############
+############### TEST CASE  TC23_VerifyBillOptionalSettingsGoToWebsiteLink is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC24_VerifyBillOptionalSettingsSyncOutlook ###############
+############### TEST CASE  TC24_VerifyBillOptionalSettingsSyncOutlook is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC25_VerifyBillOptionalSettingsPrintCheck ###############
+############### TEST CASE  TC25_VerifyBillOptionalSettingsPrintCheck is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC26_BillUIEstimateAmount ###############
+############### TEST CASE  TC26_BillUIEstimateAmount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC27_BillFunctionalityPreviousPayments ###############
+############### TEST CASE  TC27_BillFunctionalityPreviousPayments is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC28_BillFunctionalityFixedAmount ###############
+############### TEST CASE  TC28_BillFunctionalityFixedAmount is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC29_BillFunctionalityTimeofYear ###############
+############### STARTING THE TEST CASE  TC27_BillFunctionalityPreviousPayments ###############
+############### STARTING THE TEST CASE  TC27_BillFunctionalityPreviousPayments ###############
+############### TEST CASE  TC27_BillFunctionalityPreviousPayments is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC28_BillFunctionalityFixedAmount ###############
+############### TEST CASE  TC28_BillFunctionalityFixedAmount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC29_BillFunctionalityTimeofYear ###############
+############### TEST CASE  TC29_BillFunctionalityTimeofYear is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC31_BillFunctionalityCancelButton ###############
+############### TEST CASE  TC31_BillFunctionalityCancelButton is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC32_BillFunctionalityHelpIcon ###############
+############### TEST CASE  TC32_BillFunctionalityHelpIcon is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC33_BillFunctionalityBackButton ###############
+############### TEST CASE  TC33_BillFunctionalityBackButton is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC35_AddIncomeReminderScreenOneUI ###############
+############### TEST CASE  TC35_AddIncomeReminderScreenOneUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC36_AddIncomeReminderScreenTwoUI ###############
+############### STARTING THE TEST CASE  TC31_BillFunctionalityCancelButton ###############
+############### STARTING THE TEST CASE  TC36_AddIncomeReminderScreenTwoUI ###############
+############### TEST CASE  TC36_AddIncomeReminderScreenTwoUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC37_NextButtonAddIncomeReminderFirstScreen ###############
+############### TEST CASE  TC37_NextButtonAddIncomeReminderFirstScreen is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC38_IncomeReminderFrequencyChangeLink ###############
+############### TEST CASE  TC38_IncomeReminderFrequencyChangeLink is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC39_UIAddCategoryTagMemoPanel ###############
+############### TEST CASE  TC39_UIAddCategoryTagMemoPanel is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC40_FunctionalityAddCategoryTagMemo ###############
+############### TEST CASE  TC40_FunctionalityAddCategoryTagMemo is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC41_IncomeInvokingPointforSplitDialog ###############
+############### STARTING THE TEST CASE  TC40_FunctionalityAddCategoryTagMemo ###############
+############### STARTING THE TEST CASE  TC41_IncomeInvokingPointforSplitDialog ###############
+############### TEST CASE  TC41_IncomeInvokingPointforSplitDialog is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC42_IncomeSplitCategoryFunctionality ###############
+############### TEST CASE  TC42_IncomeSplitCategoryFunctionality is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC43_IncomeMethodPopupListUI ###############
+############### TEST CASE  TC43_IncomeMethodPopupListUI is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC44_IncomeMethodPopupListItems ###############
+############### TEST CASE  TC44_IncomeMethodPopupListItems is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC45_ScheduleDividendReminder ###############
+############### TEST CASE  TC45_ScheduleDividendReminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  TC45_ScheduleDividendReminder ###############
+############### TEST CASE  TC45_ScheduleDividendReminder is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_VerifyFileShortCuts ###############
+############### TEST CASE  Test01_VerifyFileShortCuts is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test03_VerifyCancelAndAltF4ForCopyFileWindow ###############
+############### TEST CASE  Test03_VerifyCancelAndAltF4ForCopyFileWindow is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_VerifyCopyDataFileWithDefaultSettings ###############
+############### STARTING THE TEST CASE  Banking_SetUp ###############
+############### TEST CASE  Banking_SetUp is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_DisplayOptions ###############
+############### TEST CASE  Test01_DisplayOptions is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_SeparateAccountVerification ###############
+############### TEST CASE  Test02_SeparateAccountVerification is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test03_HideInTransactionEntryListVerification ###############
+############### TEST CASE  Test03_HideInTransactionEntryListVerification is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_HideAccountFromAccountBarVerification ###############
+############### TEST CASE  Test04_HideAccountFromAccountBarVerification is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test05_CloseAccountVerification ###############
+############### TEST CASE  Test05_CloseAccountVerification is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test07_MakeClosedAccountAsSeparate ###############
+############### TEST CASE  Test07_MakeClosedAccountAsSeparate is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test08_MakeHiddenAccountFromAccountBarAsSeparate ###############
+############### TEST CASE  Test08_MakeHiddenAccountFromAccountBarAsSeparate is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Investing_SetUp ###############
+############### STARTING THE TEST CASE  Investing_SetUp ###############
+############### STARTING THE TEST CASE  Test01_InvestingAsSeparateAccount ###############
+############### TEST CASE  Test01_InvestingAsSeparateAccount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_CloseInvestingAccWithSecurity ###############
+############### TEST CASE  Test02_CloseInvestingAccWithSecurity is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test03_CloseZeroBalanceInvestingAcc ###############
+############### TEST CASE  Test03_CloseZeroBalanceInvestingAcc is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test04_HideInvestingAccountFromAccountBar ###############
+############### TEST CASE  Test04_HideInvestingAccountFromAccountBar is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test05_InvestingHideInTransactionEntryList ###############
+############### TEST CASE  Test05_InvestingHideInTransactionEntryList is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test06_InvestingAccWithAllDisplayOption ###############
+############### TEST CASE  Test06_InvestingAccWithAllDisplayOption is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test07_CloseLinked529InvestingAcc ###############
+############### TEST CASE  Test07_CloseLinked529InvestingAcc is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test22_InvestingClosedAccountInTransaction ###############
+############### TEST CASE  Test22_InvestingClosedAccountInTransaction is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test23_InvestingSeparateAccountInTransaction ###############

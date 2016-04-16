@@ -1,0 +1,210 @@
+OFXHEADER:100 
+DATA:OFXSGML 
+VERSION:102 
+SECURITY:NONE 
+ENCODING:USASCII 
+CHARSET:1252 
+COMPRESSION:NONE 
+OLDFILEUID:19A02520-7A09-1000-9AE9-D10B0C130026 
+NEWFILEUID:19A15DA0-7A09-1000-9AE9-D10B0C130026 
+ 
+ 
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>Success
+            </STATUS>
+            <DTSERVER>20100307082531.000[0:GMT]
+            <LANGUAGE>ENG
+            <DTPROFUP>20030701070000.000[0:GMT]
+            <DTACCTUP>20100307082512.000[0:GMT]
+            <FI>
+                <ORG>MISSION
+                <FID>1001
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS> 
+            <TRNUID>19A15DA1-7A09-1000-9AE9-D10B0C130026 
+            <STATUS> 
+                <CODE>0 
+                <SEVERITY>INFO 
+                <MESSAGE>Success 
+            </STATUS> 
+            <STMTRS> 
+                <CURDEF>USD 
+                <BANKACCTFROM> 
+                    <BANKID>322281507 
+                    <ACCTID>91058196-09 
+                    <ACCTTYPE>CHECKING 
+                </BANKACCTFROM> 
+                <BANKTRANLIST> 
+                    <DTSTART>20101207080000.000[0:GMT] 
+                    <DTEND>20100306080000.000[0:GMT] 
+                    <STMTTRN> 
+                        <TRNTYPE>DEBIT 
+                        <DTPOSTED>20100228120000.000[0:GMT] 
+                        <TRNAMT>-6.00 
+                        <FITID>91058196-0920100228001271323  
+                        <NAME>Walmart 
+                    </STMTTRN> 
+                    <STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20100220120000.000[0:GMT] 
+                        <TRNAMT>1.00 
+                        <FITID>91058196-0920100220000293779  
+                        <NAME>Safeway 
+                        <MEMO>Discount Offer
+                    </STMTTRN> 
+                    <STMTTRN> 
+                        <TRNTYPE>DEBIT 
+                        <DTPOSTED>20100124120000.000[0:GMT] 
+                        <TRNAMT>-6.00 
+                        <FITID>91058196-0920100131001158768  
+                        <NAME>Spencers
+                    </STMTTRN> 
+                    <STMTTRN> 
+                        <TRNTYPE>DEBIT 
+                        <DTPOSTED>20101224120000.000[0:GMT] 
+                        <TRNAMT>-600.00 
+                        <FITID>91058196-0920101224001792071  
+                        <NAME>Esquare Vision 
+                        <MEMO>Office Party 
+                    </STMTTRN> 
+                </BANKTRANLIST> 
+                <LEDGERBAL> 
+                    <BALAMT>49.52 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </LEDGERBAL> 
+                <AVAILBAL> 
+                    <BALAMT>49.52 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </AVAILBAL> 
+            </STMTRS> 
+        </STMTTRNRS> 
+        <STMTTRNRS> 
+            <TRNUID>19A15DA2-7A09-1000-9AE9-D10B0C130026 
+            <STATUS> 
+                <CODE>0 
+                <SEVERITY>INFO 
+                <MESSAGE>Success 
+            </STATUS> 
+            <STMTRS> 
+                <CURDEF>USD 
+                <BANKACCTFROM> 
+                    <BANKID>322281507 
+                    <ACCTID>91058196-01 
+                    <ACCTTYPE>SAVINGS 
+                </BANKACCTFROM> 
+                <BANKTRANLIST> 
+                    <DTSTART>20101207080000.000[0:GMT] 
+                    <DTEND>20100306080000.000[0:GMT] 
+                    <STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20101224120000.000[0:GMT] 
+                        <TRNAMT>1.69 
+                        <FITID>91058196-0120101224001352963  
+                        <NAME>Mc Donalds 
+                        <MEMO>Festival Offer 
+                    </STMTTRN> 
+                </BANKTRANLIST> 
+                <LEDGERBAL> 
+                    <BALAMT>673.37 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </LEDGERBAL> 
+                <AVAILBAL> 
+                    <BALAMT>673.37 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </AVAILBAL> 
+            </STMTRS> 
+        </STMTTRNRS> 
+        <STMTTRNRS> 
+            <TRNUID>19A15DA4-7A09-1000-9AE9-D10B0C130026 
+            <STATUS> 
+                <CODE>0 
+                <SEVERITY>INFO 
+                <MESSAGE>Success 
+            </STATUS> 
+            <STMTRS> 
+                <CURDEF>USD 
+                <BANKACCTFROM> 
+                    <BANKID>322281507 
+                    <ACCTID>91058196-60 
+                    <ACCTTYPE>CREDITLINE 
+                </BANKACCTFROM> 
+                <BANKTRANLIST> 
+                    <DTSTART>20101209080000.000[0:GMT] 
+                    <DTEND>20100306080000.000[0:GMT] 
+               
+		<STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20101224120000.000[0:GMT] 
+                        <TRNAMT>2.00 
+                        <FITID>91058196-6020101224001352963  
+                        <NAME>Hello Mobile Services 
+                        <MEMO>Festival Offer 
+                    </STMTTRN> 
+
+		     </BANKTRANLIST> 
+                <LEDGERBAL> 
+                    <BALAMT>21.69 
+                    <DTASOF>20100307082533.000[0:GMT] 
+                </LEDGERBAL> 
+                <AVAILBAL> 
+                    <BALAMT>21.69
+                    <DTASOF>20100307082533.000[0:GMT] 
+                </AVAILBAL> 
+            </STMTRS> 
+        </STMTTRNRS> 
+	
+    </BANKMSGSRSV1>
+
+
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS> 
+            <TRNUID>19A15DA3-7A09-1000-9AE9-D10B0C130026 
+            <STATUS> 
+                <CODE>0 
+                <SEVERITY>INFO 
+                <MESSAGE>Success 
+            </STATUS> 
+            <CCSTMTRS> 
+                <CURDEF>USD 
+                <CCACCTFROM> 
+                    <ACCTID>91058196-70 
+                </CCACCTFROM> 
+                <BANKTRANLIST> 
+                    <DTSTART>20100206080000.000[0:GMT] 
+                    <DTEND>20100307082533.000[0:GMT] 
+               
+		<STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20101230120000.000[0:GMT] 
+                        <TRNAMT>210 
+                        <FITID>91058196-7020101230001352963  
+                        <NAME>Medical Stores 
+                        <MEMO>Eye Medicines 
+                    </STMTTRN> 
+
+		    <STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20101224120000.000[0:GMT] 
+                        <TRNAMT>20.50 
+                        <FITID>91058196-7020101224001352963  
+                        <NAME>Abhijeet Medical Stores 
+                        <MEMO>Strong Medicines 
+                    </STMTTRN> 
+
+		</BANKTRANLIST> 
+                <LEDGERBAL> 
+                    <BALAMT>210.00 
+                    <DTASOF>20100307082533.000[0:GMT] 
+                </LEDGERBAL> 
+            </CCSTMTRS> 
+        </CCSTMTTRNRS> 
+    </CREDITCARDMSGSRSV1>
+</OFX>

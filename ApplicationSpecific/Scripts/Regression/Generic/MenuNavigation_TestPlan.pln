@@ -1,0 +1,50 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<MenuNavigation.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Menu Navigation test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	MenuNavigation.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		23/2/2011
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 Feb 23, 2011	Udita Dube  Created
+	[ ] // *********************************************************
+[ ] // *********************************************************
+[ ] 
+[ ] 
+[ ]  Script: ..\Generic\MenuNavigation.t
+[ ] 
+[+] Verify Quicken File Menu Navigation
+	[ ] testcase: Test01_FileMenuNavigation
+[+] Verify Quicken Edit Menu Navigation
+	[ ] testcase: Test02_EditMenuNavigation
+[+] Verify Quicken Reports Menu Navigation
+	[ ] testcase: Test04_ReportsMenuNavigation
+[+] Verify Quicken Home Menu Navigation
+	[ ] testcase: Test05_HomeMenuNavigation
+[+] Verify Quicken Bills Menu  Navigation
+	[ ] testcase: Test06_BillMenuNavigation
+[+] Verify Quicken Spending Menu Navigation
+	[ ] testcase: Test07_SpendingMenuNavigation
+[+] Verify Quicken Propert & Debt Menu  Navigation
+	[ ] testcase: Test09_PropertyDebtMenuNavigation
+[+] Verify Quicken Tools Menu Navigation
+	[ ] testcase: Test03_ToolsMenuNavigation
+[+] Verify Quicken Investing Menu  Navigation 
+	[ ] testcase: Test08_InvestingMenuNavigation
+[+] Verify Quicken Planning Menu  Navigation
+	[ ] testcase: Test10_PlanningMenuNavigation
+[+] Verify Quicken Business Menu  Navigation
+	[ ] testcase: Test11_BusinessMenuNavigation
+[+] Verify Quicken Tips & Tutorials Menu  Navigation
+	[ ] testcase: Test12_TipsTutorialsMenuNavigation
+[+] Verify Quicken View Menu  Navigation
+	[ ] testcase: Test13_ViewMenuNavigation
+[+] Verify Quicken Rental Property Menu  Navigation
+	[ ] testcase: Test14_RentalPropertyMenuNavigation
+[+] Verify Quicken Help Menu Navigation
+	[ ] testcase: Test15_HelpMenuNavigation

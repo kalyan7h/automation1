@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<cc:CCWSResponse xmlns:cc="http://www.intuit.com/CustomerCentral"> 
+  <status> 
+    <code>ok</code> 
+    <string>ok</string> 
+  </status> 
+  <body> 
+    <ccresp:CCGetAccountTransactionsResponse xmlns:ccresp="http://www.intuit.com/CustomerCentral/Responses"> 
+      <transaction> 
+        <tp_account_txn_id>3224815935</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-03-11T12:00:00.0-05:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>FEE</transaction_type> 
+        <description>MONTHLY SERVICE FEE</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-10.00</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201103111</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo /> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815936</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-04-01T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>FEE</transaction_type> 
+        <description>BILL PAY SERVICE FEE ON 04-01</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-9.95</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201104011</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo /> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815937</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-04-07T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>DIRECTDEBIT</transaction_type> 
+        <description>INNOVATIVE MERCH</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-21.95</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201104071</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo>INNOVATIVE MERCH                  IMS 040611 426696100034569 QUICKENTEST2004A</memo> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815938</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-04-13T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>FEE</transaction_type> 
+        <description>MONTHLY SERVICE FEE</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-10.00</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201104131</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo /> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815939</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-04-26T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>DEP</transaction_type> 
+        <description>WT FED#04970 JPM</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>300.00</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201104261</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo>WT FED#04970 JPM                 ORGAN CHASE BAN /ORG=INTUIT INC SRF# 5293100116JO TRN#110426081500 RFB# CAP OF 11/04/26</memo> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815940</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-04-26T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>SRVCHG</transaction_type> 
+        <description>WIRE TRANS SVC CHARGE - SEQUENCE</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-10.00</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201104262</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo>WIRE TRANS SVC CHARGE - SEQUENCE: 110426081500 SRF# 5293100116JO TRN#110426081500 RFB# CAP OF 11/04/26</memo> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815941</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-05-02T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>FEE</transaction_type> 
+        <description>BILL PAY SERVICE FEE ON 05-01</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-9.95</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201105021</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo /> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815942</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-05-12T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>FEE</transaction_type> 
+        <description>MONTHLY SERVICE FEE</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-10.00</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201105121</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo /> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+      <transaction> 
+        <tp_account_txn_id>3224815944</tp_account_txn_id> 
+        <status>A</status> 
+        <posted_date>2011-06-01T12:00:00.0-04:00</posted_date> 
+        <transaction_date /> 
+        <tp_trn_account_id /> 
+        <transaction_type>FEE</transaction_type> 
+        <description>BILL PAY SERVICE FEE ON 06-01</description> 
+        <reference_no /> 
+        <value_type /> 
+        <value_amount>-9.95</value_amount> 
+        <interest_amount /> 
+        <principal_amount /> 
+        <fee_amount /> 
+        <escrow_amount /> 
+        <bonus_amount /> 
+        <symbol /> 
+        <cusip_no /> 
+        <unit_value /> 
+        <unit_quantity /> 
+        <unit_type /> 
+        <unit_action /> 
+        <institution_txn_id>201106011</institution_txn_id> 
+        <description1 /> 
+        <description2 /> 
+        <description3 /> 
+        <description4 /> 
+        <description5 /> 
+        <memo /> 
+        <user1 /> 
+        <user2 /> 
+        <user3 /> 
+        <user4 /> 
+        <user5 /> 
+        <created_by>CCCapture</created_by> 
+        <created_date>2011-06-07T06:51:10.0-04:00</created_date> 
+        <created_process>CCRefresh_Single_Account</created_process> 
+        <modified_by /> 
+        <modified_date /> 
+        <modified_process /> 
+        <currency_symbol>USD</currency_symbol> 
+        <commission_amount /> 
+        <confirmation_no /> 
+        <running_balance_amount /> 
+        <sic_code /> 
+        <ofx_category_name /> 
+      </transaction> 
+    </ccresp:CCGetAccountTransactionsResponse> 
+  </body> 
+</cc:CCWSResponse> 

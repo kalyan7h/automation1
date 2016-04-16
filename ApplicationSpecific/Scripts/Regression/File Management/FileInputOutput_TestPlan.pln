@@ -1,0 +1,63 @@
+﻿[ ] //#######################################################
+[ ] //########  This Plan contains test cases of File Input Output Suite  ###
+[ ] //#######################################################
+[ ] 
+[ ]  Script: ..\File Management\FileInputOutput.t
+[ ] 
+[ ] 
+[+] QDF File Backup
+	[ ] testcase: Test01_QDFFileBackup
+[ ] 
+[+] Over Write Backup File
+	[ ] testcase: Test02_OverWriteBackupFile
+[ ] 
+[+] Cancel Over Write Backup File,
+	[ ] testcase: Test03_CancelOverWriteBackupFile
+[ ] 
+[+] // Online File Backup
+	[ ] // testcase: Test04_OnlineBackup
+[ ] 
+[+] Restore From Backup Manually with Overwrite
+	[ ] testcase: Test05_RestoreFromBackupManuallywithOverwrite
+[ ] 
+[+] Restore From Backup Manually Create Copy
+	[ ] testcase: Test06_RestoreFromBackupManuallyCreateCopy
+[ ] 
+[+] Validate Copy QDF File Operation
+	[ ] testcase: Test07_ValidateCopyQDFFile
+[ ] 
+[+] // Restore Online Backup File
+	[ ] // testcase: Test08_RestoreOnlineBackupFile
+[ ] 
+[ ] 
+[+] Import File
+	[ ] testcase: Test10_ImportFile
+[ ] 
+[+] Validate Year End Copy
+	[ ] testcase: Test11_ValidateYearEndCopy
+[ ] 
+[+] Validate Find Quicken Files
+	[ ] testcase: Test12_FindQuickenFiles
+[ ] 
+[+] Validate Import Address Book
+	[ ] testcase: Test13_ValidateImportAddressBook
+[ ] 
+[+] Validate Backup and Restore Files
+	[ ] testcase: Test15_QDFFileBackupAndRestore
+[ ] 
+[+] Validate And Repair
+	[ ] testcase: Test14_ValidateAndRepair
+[ ] 
+[+] Validate And Repair C2R Functionality For Banking Account
+	[ ] testcase: Test16_ValidateAndRepairC2RFunctionalityBanking
+[ ] 
+[+] Validate And Repair C2R Functionality For Investing Account
+	[ ] testcase: Test17_ValidateAndRepairC2RFunctionalityInvesting
+[ ] 
+[+] Export QIF File
+	[ ] testcase: Test09_ExportQIFFile
+[ ] 
+[+] File Input Output CleanUp
+	[ ] testcase: FileInputOutputCleanUp
+[ ] 
+[ ] 

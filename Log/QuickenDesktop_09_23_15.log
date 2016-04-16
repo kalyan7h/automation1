@@ -1,0 +1,22 @@
+############### STARTING THE TEST CASE  Test01_VerifyRegistrationSuccessfullUI ###############
+############### TEST CASE  Test01_VerifyRegistrationSuccessfullUI is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  BatSetUp ###############
+############### TEST CASE  BatSetUp is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_UnInstall ###############
+############### TEST CASE  Test01_UnInstall is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_Install ###############
+############### STARTING THE TEST CASE  BatSetUp ###############
+############### TEST CASE  BatSetUp is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_UnInstall ###############
+############### TEST CASE  Test01_UnInstall is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_Install ###############
+############### STARTING THE TEST CASE  Test01_UnInstall ###############
+############### STARTING THE TEST CASE  Test01_UnInstall ###############
+############### TEST CASE  Test01_UnInstall is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_Install ###############

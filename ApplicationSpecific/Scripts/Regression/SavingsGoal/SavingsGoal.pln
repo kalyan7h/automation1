@@ -1,0 +1,83 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<SavingsGoal.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Savings Goals test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	SavingGoals.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Jayashree Nagaraja
+	[ ] //
+	[ ] // Developed on: 		05/26/2014
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 May 26, 2014	Jayashree Nagaraja  Created
+[ ] // *********************************************************
+[ ] 
+[ ] Script: ..\Savings Goal\SavingGoals.t
+[ ] 
+[-] SavingGoals SetUp
+	[ ] testcase: SetUp
+[ ] 
+[-] View Saving Goal Tab
+	[ ] testcase: Test1_ViewSavingGoalTab
+[ ] 
+[-] View Saving Goal Menu
+	[ ] testcase: Test2_ViewSavingGoalMenu
+[ ] 
+[-] Verify Zero Data State Saving Goal
+	[ ] testcase: Test3_VerifyZeroDataStateSavingGoal
+[ ] 
+[-] Add Saving Goal
+	[ ] testcase: Test4_AddSavingGoal
+[ ] 
+[-] Cancel Add Saving Goal
+	[ ] testcase: Test5_CancelAddSavingGoal
+[ ] 
+[-] Cancel Edit Saving Goal
+	[ ] testcase: Test6_CancelEditSavingGoal
+[ ] 
+[-] Edit Saving Goal
+	[ ] testcase: Test7_EditSavingGoal
+[ ] 
+[-] Delete Saving Goal
+	[ ] testcase: Test8_DeleteSavingGoal
+[ ] 
+[-] Add Saving Goal From Goal Action
+	[ ] testcase: Test9_AddSavingGoalFromGoalAction
+[ ] 
+[-] Verify Warning Msg On Add Saving Goal Screen
+	[ ] testcase: Test_10VerifyWarningMsgOnAddSavingsGoalScreen
+[ ] 
+[-] Verify Saving Goal Name Length
+	[ ] testcase: Test_11VerifySavingsGoalNameLength
+[ ] 
+[-] Verify Finish Date Accepts Only Future Date
+	[ ] testcase: Test_12VerifyFinishDateFieldAcceptsOnlyFutureDate
+[ ] 
+[-] Delete Saving Goal From Gear Icon
+	[ ] testcase: Test_13DeleteSavingGoalFromGearIcon
+[ ] 
+[-] Delete Saving Goal And Add As Asset Account
+	[ ] testcase: Test_14DeleteSavingGoalAndAddAsAssetAccount
+[ ] 
+[-] Cancel Delete Saving Goal
+	[ ] testcase: Test_15CancelDeleteSavingGoal
+[ ] 
+[-] Current And Ending Balance Menu Options Without Savings Goals
+	[ ] testcase: Test_16CurrentAndEndingBalanceMenuOptionWithoutSavingsGoals
+[ ] 
+[-] Current And Ending Balance Menu Options With Savings Goals
+	[ ] testcase: Test_17CurrentAndEndingBalanceMenuOptionWithSavingsGoals
+[ ] 
+[-] Verify Contribution To Savings Goals
+	[ ] testcase: Test_18VerifyContributionToSavingsGoals
+[ ] 
+[-] Verify Withdrawal From Savings Goals
+	[ ] testcase: Test_19VerifyWithdrawalFromSavingsGoals
+[ ] 
+[-] Verify Savings Goals Show Get Started Page
+	[ ] testcase: Test_20VerifySavingsGoalsShowsGetStartedPage
+[ ] 
+[-] Verify Savings Goals Transactions in Register And Reports
+	[ ] testcase: Test_21VerifySavingsGoalsTransactionsInRegisterAndReports

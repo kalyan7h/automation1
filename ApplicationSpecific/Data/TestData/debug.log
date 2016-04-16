@@ -1,0 +1,9 @@
+[0308/151712:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[0308/200235:INFO:(0)] WebCore is now online.
+[0308/200235:INFO:(0)] Running Awesomium 1.7.5.1
+[0309/094705:INFO:(0)] WebCore is now online.
+[0309/094705:INFO:(0)] Running Awesomium 1.7.5.1
+[0309/094716:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1201/095233:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[0309/101212:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[0309/120736:ERROR:ipc_channel_win.cc(261)] pipe error: 109

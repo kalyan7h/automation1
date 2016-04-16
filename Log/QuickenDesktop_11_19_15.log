@@ -1,0 +1,35 @@
+############### STARTING THE TEST CASE  Test07_CloseLinked529InvestingAcc ###############
+############### STARTING THE TEST CASE  Test22_InvestingClosedAccountInTransaction ###############
+############### TEST CASE  Test22_InvestingClosedAccountInTransaction is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test23_InvestingSeparateAccountInTransaction ###############
+############### TEST CASE  Test23_InvestingSeparateAccountInTransaction is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test20_CloseLinkedBrokerageInvestingAcc ###############
+############### TEST CASE  Test20_CloseLinkedBrokerageInvestingAcc is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test20_CloseLinkedBrokerageInvestingAcc ###############
+############### TEST CASE  Test20_CloseLinkedBrokerageInvestingAcc is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test28_CloseInvestingAccWithNegativeBalance ###############
+############### TEST CASE  Test28_CloseInvestingAccWithNegativeBalance is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test26_Close401kInvestingAcc ###############
+############### TEST CASE  Test26_Close401kInvestingAcc is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test19_CloseInvestingAccVerificationOSU ###############
+############### STARTING THE TEST CASE  Test01_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen ###############
+############### TEST CASE  Test01_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen ###############
+############### TEST CASE  Test01_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test01_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen ###############
+############### TEST CASE  Test01_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_Add_Manual_Loan_Account_With_Different_Payment_Schedules ###############
+############### TEST CASE  Test02_Add_Manual_Loan_Account_With_Different_Payment_Schedules is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test02_Add_Manual_Loan_Account_With_Different_Payment_Schedules ###############
+############### TEST CASE  Test02_Add_Manual_Loan_Account_With_Different_Payment_Schedules is FAILED ###############
+---------------------------------------------------------------------

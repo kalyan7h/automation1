@@ -1,0 +1,46 @@
+############### STARTING THE TEST CASE  Test46_49_Verify_Buy_Transaction_Entry_On_Enter_Transaction_Dialog ###############
+############### TEST CASE  Test46_49_Verify_Buy_Transaction_Entry_On_Enter_Transaction_Dialog is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test50_Verify_Buy_Transaction_Fractional_Shares ###############
+############### TEST CASE  Test50_Verify_Buy_Transaction_Fractional_Shares is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test51_Verify_Buy_Transaction_Fractional_Amount ###############
+############### STARTING THE TEST CASE  Test51_Verify_Buy_Transaction_Fractional_Amount ###############
+############### TEST CASE  Test51_Verify_Buy_Transaction_Fractional_Amount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test52_53_54_55_56_Verify_Edit_Buy_Transaction_Shares_Amount_Fields ###############
+############### STARTING THE TEST CASE  Test52_53_54_55_56_Verify_Edit_Buy_Transaction_Shares_Amount_Fields ###############
+############### TEST CASE  Test52_53_54_55_56_Verify_Edit_Buy_Transaction_Shares_Amount_Fields is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test58_Verify_Sell_Transaction_Operation_On_Enter_Transaction_Dialog ###############
+############### TEST CASE  Test58_Verify_Sell_Transaction_Operation_On_Enter_Transaction_Dialog is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test59_Verify_Sell_Transaction_Fractional_Shares ###############
+############### TEST CASE  Test59_Verify_Sell_Transaction_Fractional_Shares is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test58_Verify_Sell_Transaction_Operation_On_Enter_Transaction_Dialog ###############
+############### TEST CASE  Test58_Verify_Sell_Transaction_Operation_On_Enter_Transaction_Dialog is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test60_Verify_Sell_Transaction_Fractional_Amount ###############
+############### TEST CASE  Test60_Verify_Sell_Transaction_Fractional_Amount is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test92_Verify_Add_Stock_Split ###############
+############### TEST CASE  Test92_Verify_Add_Stock_Split is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test96_Verify_Enter_Stock_Dividend ###############
+############### STARTING THE TEST CASE  Test96_Verify_Enter_Stock_Dividend ###############
+############### STARTING THE TEST CASE  Test96_Verify_Enter_Stock_Dividend ###############
+############### TEST CASE  Test96_Verify_Enter_Stock_Dividend is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test106_Verify_Enter_Middle_Term_Gain_ReInvest ###############
+############### STARTING THE TEST CASE  Test106_Verify_Enter_Middle_Term_Gain_ReInvest ###############
+############### TEST CASE  Test106_Verify_Enter_Middle_Term_Gain_ReInvest is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test106_Verify_Enter_Middle_Term_Gain_ReInvest ###############
+############### STARTING THE TEST CASE  Test106_Verify_Enter_Middle_Term_Gain_ReInvest ###############
+############### TEST CASE  Test106_Verify_Enter_Middle_Term_Gain_ReInvest is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test112_113_Verify_All_Fields_ReInvest ###############
+############### STARTING THE TEST CASE  Test112_113_Verify_All_Fields_ReInvest ###############
+############### STARTING THE TEST CASE  Test112_113_Verify_All_Fields_ReInvest ###############
+############### STARTING THE TEST CASE  Test112_113_Verify_All_Fields_ReInvest ###############

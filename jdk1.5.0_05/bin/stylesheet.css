@@ -1,0 +1,241 @@
+	.title
+	{
+		font-family: Verdana;
+		font-size: 20px;
+	}
+	
+	.tableEnv
+	{
+		background-color: #DADADA;
+		width: 90%;
+		font-family: Verdana;
+		font-size: 10px;
+	}
+	
+	.tableTestEnv
+	{
+		background-color: #DADADA;
+		width: 90%;
+		font-family: Verdana;
+		font-size: 10px;
+	}
+	
+	.tableCount
+	{
+		background-color: #DADADA;
+		width: 90%;
+		font-family: Verdana;
+		font-size: 10px;
+	}
+	
+	.tableTestCases
+	{
+		background-color: #DADADA;
+		width: 90%;
+		font-family: Verdana;
+		font-size: 10px;
+	}
+	
+	.tableSteps
+	{
+		background-color: #DADADA;	
+		width: 90%;
+		font-family: Verdana;
+		font-size: 10px;
+	}				
+	
+	.tab	/* For all the table contents */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+	}
+	
+	
+	.tabold	/* For all the table contents */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		font-weight: bold;
+	}
+	
+	.bodyText
+	{
+		font-size: 10px;
+		font-family: Verdana;
+	}
+	
+	.head	/* For the top header of result log */
+	{
+		margin-left: 5%;
+		font-size: 10px;
+		font-family: Verdana;
+		font-weight: bold;
+	}
+	
+	.tabhead	/* Table header, i.e. first row in table */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		font-weight: bold;
+		background: #C0C0C0; /* gray; */
+	}
+	
+	.headercol	/* First column of the log header table */
+	{
+		
+		font-size: 10px;
+		font-family: Verdana;
+		font-weight: bold;
+	}	
+	
+	.hrsub		/* Horizontal rule in the page */
+	{
+		width: 90%;
+		height: 1;
+		color: black;
+	}
+	
+	.hrmain		/* Horizontal rule below the main heading of the page */
+	{
+		width: 90%;
+		height: 2;
+		color: black;
+	}
+	
+	.nlink 		/* For normal links */
+	{
+		text-decoration: none;
+	}
+
+	.nlink:hover 
+	{
+		text-decoration: underline;
+	}
+	
+	/*** PASS ***/	
+	.passed 	/* For pass events */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		background: green; /* color: green; #141472;*/
+		font-weight: bold
+	}
+	.passedno 	/* For pass summary info */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		color: green; /*#141472;*/
+		font-weight: bold
+	}
+	.passedhead 	/* For pass events in steps */
+	{
+		/* margin-left: 15%; */
+		font-size: 10px;
+		font-family: Verdana;
+		font-weight: bold;
+		background: green;
+	}
+
+	
+	/*** FAIL ***/
+	.failed	/* For fail events */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		background: #BC5C5C; /* color: #BC5C5C; */
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.failed:hover 
+	{
+		text-decoration: underline;
+	}
+	.failedno	/* For fail summary info */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		color: #BC5C5C;
+		font-weight: bold;
+		text-decoration: none;
+	}	
+	.failedhead 	/* For fail events in steps */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		font-weight: bold;
+		background: #BC5C5C;
+	}	
+	
+	.skipped	/* For skip events */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		background: gray; /* color: #BC5C5C; */
+		font-weight: bold;
+		text-decoration: none;
+	}	
+
+	.skippedno	/* For skip summary info */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		color: gray;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	/*** WARNING ***/
+
+	.warning	/* For warning events */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		background: yellow;
+		/*color: yellow;orange;*/
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.warning:hover 
+	{
+		text-decoration: underline;
+	}	
+	.warningno	/* For warning summary info */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		color: yellow;/*orange;*/
+		font-weight: bold;
+		text-decoration: none;
+	}	
+	.warninghead 	/* For warning events in steps */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		font-weight: bold;
+		background: yellow;
+	}
+	
+	
+	/*** INFO ***/
+	
+	.info	/* For information log statements */
+	{
+		font-size: 10px;
+		font-family: Verdana;
+		color: gray;
+		font-weight: bold;
+		margin-left: 5%;
+	}
+	
+	/*** For screenshot links ***/
+	.screenshot
+	{
+		font-size: 10px;
+		color: white;
+		text-decoration: none;
+	}	
+	
+	.screenshot:hover
+	{
+		text-decoration: underline;
+	}

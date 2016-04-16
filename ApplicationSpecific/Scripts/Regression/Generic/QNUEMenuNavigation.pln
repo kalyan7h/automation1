@@ -1,0 +1,14 @@
+﻿[ ] 
+[ ]  Script: ..\Generic\MenuNavigation.t
+[ ] 
+[+] Verify Quicken File Menu Navigation
+	[ ] testcase: Test01_FileMenuNavigation
+[+] Verify Quicken Edit Menu Navigation
+	[ ] testcase: Test02_EditMenuNavigation
+[+] Verify Quicken Tools Menu Navigation
+	[ ] testcase: Test03_ToolsMenuNavigation
+[+] Verify Quicken Reports Menu Navigation
+	[ ] testcase: Test04_ReportsMenuNavigation
+[+] Verify Quicken View Menu  Navigation
+	[ ] testcase: Test13_ViewMenuNavigation
+[ ] 

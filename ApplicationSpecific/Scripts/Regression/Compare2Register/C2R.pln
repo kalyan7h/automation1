@@ -1,0 +1,137 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<C2R.t>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   <This script contains all Compare 2 register test cases>
+	[ ] //
+	[ ] // DEPENDENCIES:	<include.inc>
+	[ ] //
+	[ ] // DEVELOPED BY:	Anagha Bhandare
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] // 	  Nov 18, 2013		Anagha	created
+[ ] // *********************************************************
+[ ] 
+[ ] Script:C2R.t
+[ ] 
+[-] C2R SetUp
+	[ ] testcase: C2R_SetUp
+[-]  Verify Accept Button present on each Transaction in C2R
+	[ ] testcase:Test01_AcceptButtonOnTransactionInC2R
+[-]  Verify Accept Button present and functionality on bottom of the C2R 
+	[ ] testcase:Test02_AcceptButtonOnBottomOfC2R
+[-] Verify Help Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test03_HelpButtonOnBottomOfC2R
+[-] Verify Accept All Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test04_AcceptAllButtonOnBottomOfC2R
+[-] Verify Finish Later Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test06_FinishLaterButtonOnBottomOfC2R
+[-] Verify Renaming Rules Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test07_RenamingRulesButtonOnBottomOfC2R
+[-] Verify Hide Accepted Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test08A_HideAcceptedButtonOnBottomOfC2R
+[-] Verify Show Accepted Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test08B_ShowAcceptedButtonOnBottomOfC2R
+[-] Verify Edit Menu-Delete Transaction in C2R 
+	[ ] testcase:Test09_EditMenuDeleteTransactionInC2R
+[-] Verify Edit Menu- Match Manually Transaction in C2R 
+	[ ] testcase:Test10_EditMatchManuallyTransactionInC2R
+[-] Verify Edit Menu- Make New Transaction in C2R
+	[ ] testcase:Test11_EditMakeNewTransactionInC2R
+[-] Verify Edit Menu- Make All New Transaction in C2R
+	[ ] testcase:Test12_EditMakeAllNewTransactionInC2R
+[-] Verify Edit Menu-UnMatch Transaction in C2R
+	[ ] testcase:Test13_EditUnMatchTransactionInC2R
+[-] Verify Edit Menu-Revert to Original Payee Transaction in C2R
+	[ ] testcase:Test14_EditRevertOriginalPayeeInC2R
+[-] Verify Edit Menu- Renaming RulesTransaction in C2R 
+	[ ] testcase:Test15_EditRenamingRulesTransactionInC2R
+[-] Verify Right Click Menu Accept Transaction in C2R
+	[ ] testcase:Test17_RightClickMenuAcceptTransactionC2R
+[-] Verify Right Click Menu Accept All Transaction in C2R
+	[ ] testcase:Test18_RightClickMenuAcceptALLTransactionC2R
+[-] Verify Right Click Menu Hide Accepted Transaction in C2R
+	[ ] testcase:Test19_RightClickHideAcceptedTransactionC2R
+[-] Verify Right Click Menu-Delete Transaction  in C2R
+	[ ] testcase:Test20_RightClickDeleteTransactionC2R
+[-] Verify Right Click Menu- Match Manually Transaction in C2R
+	[ ] testcase:Test21_RightClickMatchManuallyTransactionC2R
+[-] Verify Right Click Menu-UnMatch Transaction in C2R
+	[ ] testcase:Test22_RightClickUnMatchTransactionInC2R
+[-] Verify Right Click Menu- Make New Transaction in C2R
+	[ ] testcase:Test23_RightClickMakeNewTransactionInC2R
+[-] Verify Right Click Menu- Make All New Transaction in C2R
+	[ ] testcase:Test24_RightClickMakeAllNewTransactionInC2R
+[-] Verify Right Click-Revert to Original Payee Transaction in C2R
+	[ ] testcase:Test25_RightClickRevertOriginalPayeeInC2R
+[-] Verify Right Click Menu- Renaming RulesTransaction in C2R
+	[ ] testcase:Test26_RightClickRenamingRulesTransactionInC2R
+[-] Verify FI LOGO, Website link, Website Help Link in C2R
+	[ ] testcase:Test28_VerifyFILogoAndWebsiteLinkC2R
+[-] Verify Last Download link and Date  in C2R
+	[ ] testcase:Test29_VerifyLastDownloadLink
+[-] Verify Update Transactions button in C2R
+	[ ] testcase:Test30_UpdateTransactionInC2R
+[-] Verify Banking Account -  Online payment button in C2R
+	[ ] testcase:Test31A_OnlinePaymentButtonInC2R
+[-] Verify Banking Account -  Online payment button in C2R
+	[ ] testcase:Test31B_OnlinePaymentButtonInC2R
+[-] Verify Banking Account -  Make an online payment button in C2R 
+	[ ] testcase:Test32_MakeOnlinePaymentButtonInC2R
+[-] Verify Banking Account -   Pop up for transaction over a year old in C2R
+	[ ] testcase:Test33_OneYearTransactionInC2R
+[-] Verify Banking Account - Download transactions with the account open for Direct Connect FI
+	[ ] testcase:Test34_DownloadTransactionManualtoDC
+[-] Verify Banking Account - Download transactions with the account open for  Express Web Connect  FI
+	[ ] testcase:Test35_DownloadTransactionManualtoEWC
+[ ] 
+[-] Verify Importing web connect files twice, Activate One Step Update pop up is displayed
+	[ ] testcase:Test38_ImportWebConnectTwice
+[-] Verify Importing web connect files twice, on Activate One Step Update select No
+	[ ] testcase:Test39_ImportWebConnectTwiceSelectNo
+[-] Verify Importing web connect files twice, on Activate One Step Update select Yes
+	[ ] testcase:Test40_ImportWebConnectTwiceSelectYes
+[-] Verify Accept transactions one by one using 'Enter' key for Online Account
+	[ ] testcase:Test41_AcceptTrxnsEnterKeyOnline
+[-] Verify Accept transactions one by one using 'Enter' for Online Account for WC Account
+	[ ] testcase:Test42_AcceptTrxnsEnterKeyWC
+[-] Verify Investing Account Accept Button On Transaction
+	[ ] testcase:Test43_VerifyInvestingAccountAcceptButtonOnTransaction
+[-] Verify Investing Account AcceptButton At C2R Bottom Window
+	[ ] testcase:Test44_VerifyInvestingAccountAcceptButtonAtC2RBottom
+[-] Verify Help Button in Investing Account C2R Window
+	[ ] testcase:Test45_VerifyHelpButtonInvestingAccountC2RWindow
+[-] Verify Accept All Button At C2R Bottom Window of Investing Account
+	[ ] testcase:Test46_VerifyAcceptAllButtonC2RInvestingAccount
+[-] Verify Finish Later Button at  C2R Window of Investing Account
+	[ ] testcase:Test48_VerifyFinishLaterButtonC2R_InvestingAccount
+[-] Verify Renaming Rules Button at  C2R Window of Investing Account
+	[ ] testcase:Test49_VerifyRenamingRulesButtonC2R_InvestingAccount
+[-] Verify Edit Menu-Delete Transaction at C2R Window of Investing Account
+	[ ] testcase:Test50_VerifyEditMenuDeleteTransactionC2R_InvestingAccount
+[-] Verify Edit Menu-UnMatch at  C2R Window of Investing Account
+	[ ] testcase:Test51_VerifyEditMenuUnmatchTransactionC2R_InvestingAccount
+[-] Verify Right Click Menu-Accept Transaction in C2R of Investing Account
+	[ ] testcase:Test52_VerifyRightClickMenuAcceptTransactionC2R_InvestingAccount
+[-] Verify Right Click Menu Accept All  at C2R Window of Investing Account
+	[ ] testcase:Test47_VerifyAcceptAllRightClickMenuC2R_InvestingAccount
+[-] Verify Right Click Menu-Delete Transaction  in C2R of Investing Account
+	[ ] testcase:Test54_RightClickDeleteTransactionC2RInvesting
+[-] Verify Right Click Menu-UnMatch Transaction  in C2R of Investing Account
+	[ ] testcase:Test55_RightClickUnMatchTransactionC2RInvesting
+[-] Verify FI LOGO, Website link, Website Help Link in C2R of Investing Account 
+	[ ] testcase:Test56_VerifyFILogoAndWebsiteLinkC2RInvesting
+[-] Verify Last Download link and Date  in C2R of Investing Account
+	[ ] testcase:Test57_VerifyLastDownloadLinkInvesting
+[-] Update Transactions button in C2R Investing Account
+	[ ] testcase:Test58_UpdateTransactionInC2R
+[-] Investing Account -  Online payment button in C2R 
+	[ ] testcase:Test59A_OnlinePaymentButtonInC2RInvesting
+[-] Investing Account -  Online payment button in C2R
+	[ ] testcase:Test59B_OnlinePaymentButtonInC2RInvesting
+[-] Investing Account - Download transactions with the account open for Direct Connect FI
+	[ ] testcase:Test62_DownloadTransactionManualtoDCInvesting
+[-] Accept transactions one by one using 'Enter' key for Online Account
+	[ ] testcase:Test67_AcceptTrxnsEnterKeyOnline
+[ ] 
+[ ] 

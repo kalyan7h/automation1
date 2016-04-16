@@ -1,0 +1,112 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<HiddenAccount.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Hidden Accounts test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	HiddenAccount.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		03/10/2012
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 Oct 03, 2012	Udita Dube  Created
+[ ] // *********************************************************
+[ ] 
+[ ] Script: HiddenAccount.t
+[ ] 
+[ ] 
+[ ] //************************************************************************************************************
+[ ] 
+[+] Property & Debt: SetUp
+	[ ] testcase: PropertyDebt_SetUp
+[+] Other Asset account asSeparate account
+	[ ] testcase: Test01_OtherAssetAsSeparateAccount
+[+] Hide Other Asset account from account bar
+	[ ] testcase: Test02_HideOtherAssetAccountFromAccountBar
+[+] Hide House account from account bar 
+	[ ] testcase: Test03_HideHouseAccountFromAccountBar
+[+] Hide House account in Transaction Entry List
+	[ ] testcase: Test04_HouseHideInTransactionEntryList
+[+] Other Asset account with all display option selected
+	[ ] testcase: Test05_OtherAssetAccWithAllDisplayOption
+[+] Verify Close Account for House
+	[ ] testcase: Test06_HouseCloseAccount
+[+] Verify Close Account for Other Asset 
+	[ ] testcase: Test07_OtherAssetCloseAccount
+[+] Close Other Asset account having scheduled reminders
+	[ ] testcase: Test08_CloseOtherAssetWithReminders
+[+] Close Other Asset account in Move Transaction
+	[ ] testcase: Test09_ClosedOtherAssetInMoveTransaction
+[+] Separate Other Asset account in Move Transaction
+	[ ] testcase: Test10_SeparateOtherAssetInMoveTransaction
+[ ] 
+[ ] //************************************************************************************************************
+[ ] 
+[ ] 
+[+] Tax Center SetUp 
+	[ ] testcase:TaxCenter_SetUp
+[+] Verify Separate Account Verification Expenses-IncomeYTD 
+	[ ] testcase:Test01_SeparateAccExpensesIncomeYTD
+[+] Verify Closed Account Verification Expenses-IncomeYTD 
+	[ ] testcase:Test02_ClosedAccExpensesIncomeYTD
+[+] Verify Separate Brokerage Account Verification Capital Gains YTD
+	[ ] testcase:Test03_SeparateBrokAccCapitalGainsYTD
+[+] Verify Closed Brokerage Account Verification IncomeYTD
+	[ ] testcase:Test04_ClosedBrokAccCapitalGainsYTD
+[ ] 
+[ ] 
+[ ] //************************************************************************************************************
+[ ] 
+[+] Tools-Online Setup
+	[ ] testcase: ToolsOnline_SetUp
+[+] Verify CloseAccount Verification OSU
+	[ ] testcase: Test01_CloseAccountVerificationOSU
+[+] // Verify CloseAccount Verification OSU Summary   // there is no account listed in OSU summary window- need to add code for OSU
+	[ ] // testcase: Test02_CloseAccountVerificationOSUSummary
+[+] Verify Closed accounts should not be displayed on Reconcile an account
+	[ ] testcase: Test03_CloseAccountVerificationReconcile
+[+] Verify Close Account Verification Online Centre
+	[ ] testcase: Test04_CloseAccountVerificationOnlineCentre
+[+] Verify Close Account Verification Password Vault			
+	[ ] testcase: Test06_CloseAccountVerificationPasswordVault
+[ ] 
+[ ] //************************************************************************************************************
+[ ] 
+[+] Planning SetUp
+	[ ] testcase: Planning_SetUp
+[+] Verify Closed account should be part of budget planning
+	[ ] testcase: Test1_ClosedAccTxnPartOfBudget
+[+] Verify Transactions for accounts hidden for reports should not be part of budget
+	[ ] testcase: Test2_SeparateAccTxnNotPartOfBudget
+[+] Verify Transactions for accounts hidden from  Transaction entry lists should be part of budget
+	[ ] testcase: Test3_HideInTxnAccPartOfBudget
+[+] Verify Transactions for accounts hidden from account bar and account list should be part of budget
+	[ ] testcase:Test4_HideAccBarListPartOfBudget
+[+] Verify Separate the Account after creating the Budget 
+	[ ] testcase: Test5_SeparateAccAfterBudget
+[+] Verify Hidden in transaction entry list after creating the Budget
+	[ ] testcase: Test6_HideInTxnAccAfterBudget
+[+] Verify Accounts hidden from account bar and account list after creating the Budget
+	[ ] testcase: Test7_HideAccBarListAfterBudget
+[+] Verify Closed account after creating the Budget
+	[ ] testcase: Test8_ClosedAccTxnAfterBudget
+[+] Verify Hidden accounts should be part of DRP
+	[ ] testcase: Test9_HiddenAccPartOfDRP
+[+] Verify Closed accounts should not be part of DRP
+	[ ] testcase: Test10_ClosedAccNotPartOfDRP
+[+] Verify Closed accounts  after creating the DRP
+	[ ] testcase: Test11_ClosedAccAfterDRP
+[+] Verify Hidden Accs should be &  Closed Accs should not be included in Saving & Invt. Lifetime planner.   
+	[ ] testcase: Test12_HiddenAccClosedAccSavInvtLP
+[+] Verify Hidden Accs should be & Closed Accs should not be included in Home & Assest Lifetime planner.
+	[ ] testcase: Test14_HiddenAccClosedAccHomAsstLP
+[+] Verify Hidden Accs should be and Closed Accs should not be included in Loans & Debt Lifetime planner
+	[ ] testcase: Test15_HiddenAccClosedAccLoanLP
+[+] Verify Hidden Accs should be and Closed Accs should not be included in Loans & Debt Lifetime planner
+	[ ] testcase: Test16_ClosedAccLifetime
+[+] Verify Closed account Button not for Saving Goals Account
+	[ ] testcase: Test17_ClosedAccButtonNotSG
+[ ] //************************************************************************************************************
+[ ] 

@@ -1,0 +1,152 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<Business.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Business test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	QuickenBusiness.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Anagha
+	[ ] //
+	[ ] // Developed on: 		20/05/2013
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	20 May 2013    Created by Anagha
+[ ] // *********************************************************
+[ ] 
+[ ] 
+[ ] Script: Business.t
+[ ] 
+[ ] //----------------------------------------------Business Center -----------------------------------------------
+[-] Business Center SetUp
+	[ ] testcase: BusinessCenter_SetUp
+[-] Verify controls on the Profit/Loss page
+	[ ] testcase: Test01_VerifyProfitLossTabUI
+[-] Verify displaying of Cash Flow page
+	[ ] testcase: Test02_VerifyCashFlowPage
+[-] Verify controls on the Cash Flow page
+	[ ] testcase: Test03_VerifyCashFlowTabUI
+[-] Verify Month Navigation Control on the Cash Flow page
+	[ ] testcase: Test04_VerifyMonthControlOnCashFlow
+[-] Verify displaying of Invoice account in the Account Overview tab 
+	[ ] testcase: Test05_VerifyInvoiceAccountInAccountOverviewTab
+[-] Verify checking & saving accounts in Account Overview tab
+	[ ] testcase: Test06_VerifyBankingAccountInAccountOverviewTab
+[-] Verify credit card accounts in Account Overview tab
+	[ ] testcase: Test07_VerifyCreditCardAccInAccountOverviewTab
+[-] Verify Asset account in the Account Overview tab
+	[ ] testcase: Test08_VerifyAssetAccInAccountOverviewTab
+[-] Verify addition of business in Quicken 
+	[ ] testcase: Test09_VerifyAddBusinessUIAndFunctionality
+[-] Verify Edit business functionality
+	[ ] testcase: Test10_VerifyEditBusinessFunctionality
+[-] Verify Add second business functionality
+	[ ] testcase: Test11_VerifyAddSecondBusinessFunctionality
+[-] Verify Addition of Bills 
+	[ ] testcase: Test12_VerifyAdditionBills
+[-] Verify data on Profit/loss page
+	[ ] testcase: Test13_VerifyDataOnProfitLoss
+[-] Verify data on the business report
+	[ ] testcase: Test14_VerifyDataonBusinessReport
+[-] Verify data on Vehicle Mileage tracker
+	[ ] testcase: Test15_VerifyDataonVehicleMileageTracker
+[ ] 
+[ ] //----------------------------------------------Business Register -----------------------------------------------
+[ ] 
+[-] Business Register SetUp
+	[ ] testcase: BusinessRegister_SetUp
+[-] Verify sub-menu item present under the Business menu
+	[ ] testcase: Test03_VerifySubMenuOfBusiness
+[-] Verify sub-menus under the Business > Invoices & Esimates menu
+	[ ] testcase: Test04_VerifySubMenuOfInvoicesEsimates
+[-] Verify sub-menus under the Business -> Bills & Vendors menu
+	[ ] testcase: Test05_VerifySubMenuOfBillsVendors
+[-] Verify Add a Customer functionality
+	[ ] testcase: Test06_AddCustomerFunctionality
+[-] Verify displaying of Choose Invoice account dialog
+	[ ] testcase: Test07_ChooseInvoiceAccount
+[-] Verify displaying of Choose Bill account dialog
+	[ ] testcase: Test08_ChooseBillAccount
+[-] Verify creation of Customer Invoice
+	[ ] testcase: Test09_CreationOfCustomerInvoice
+[-] Verify creation of Customer Payment 
+	[ ] testcase: Test10_CreationOfCustomerPayment
+[-] Verify creation of Issue a Credit
+	[ ] testcase: Test11_CreationOfIssueCredit
+[-] Verify creation of Issue a Refund
+	[ ] testcase: Test12_CreationOfIssueRefund
+[-] Verify Create a Finance charge functionality
+	[ ] testcase: Test13_CreationOfFinanceCharge
+[-] Verify Add a Vendor functionality
+	[ ] testcase: Test14_AddVendorFunctionality
+[-] Verify Create Bill-Vendor Invoice functionality
+	[ ] testcase: Test15_CreationOfVendorInvoice
+[-] Verify creation of Payment to vendor
+	[ ] testcase: Test16_CreationOfVendorPayment
+[-] Verify creation of Receive a Credit
+	[ ] testcase: Test17_CreationOfReceiveCredit
+[-] Verify creation of Receive a Refund
+	[ ] testcase:  Test18_CreationOfReceiveRefund
+[-] Verify View all Invoices functionality
+	[ ] testcase: Test19_ViewAllInvoiceFunctionality
+[-] Verify Creation of sales Tax account
+	[ ] testcase:  Test20_CreationSalesTaxFunctionality
+[-] Verify Save & New functionality on Customer Invoice dialog
+	[ ] testcase:  Test21_SaveNewInvoiceFunctionality
+[-] Verify Save & New functionality on Create Bill dialog
+	[ ] testcase:  Test22_SaveNewBillFunctionality
+[-] Verify Print statement functionality
+	[ ] testcase: Test23_PrintStatementFunctionality
+[-] Verify create Estimate functionality
+	[ ] testcase: Test24_CreateEstimateFunctionality
+[-] Verify displaying of help for  create Estimate functionality
+	[ ] testcase: Test25_HelpEstimateFunctionality
+[-] Verify View all Invoice items functionality
+	[ ] testcase: Test26_AllInvoiceItemsFunctionality
+[-] Verify View saved customer Messages functionality
+	[ ] testcase: Test27_SavedCustomerMessagesFunctionality
+[-] Verify displaying of design Invoice forms dialog
+	[ ] testcase: Test28_DesignInvoiceFormsFunctionality
+[-] Verify UI of Customer Invoice dialog -> Create Invoice
+	[ ] testcase: Test29_UIofCreateInvoice
+[-] Verify UI of Customer Invoice dialog -> Receive Payment
+	[ ] testcase: Test30_UIofReceivePayment
+[-] Verify UI of Customer Invoice dialog -> Issue  a Credit
+	[ ] testcase: Test31_UIofIssueACredit
+[-] Verify UI of Customer Invoice dialog -> Issue  a Refund
+	[ ] testcase: Test32_UIofIssueARefund
+[-] Verify UI of Customer Invoice dialog -> Create Finance Charge
+	[ ] testcase: Test33_UIofFinanceCharge
+[-] Verify UI of Customer Invoice dialog ->  Create Estimates
+	[ ] testcase: Test34_UIofEstimates
+[-] Verify UI of Vendor Invoice dialog ->  Create Bills
+	[ ] testcase: Test35_UIofVendorInvoiceBill
+[-] Verify UI of Vendor Invoice dialog -> Make Payment to Vendor
+	[ ] testcase: Test36_UIofVendorInvoicePayment
+[-] Verify UI of Vendor Invoice dialog -> Receive a Credit
+	[ ] testcase: Test37_UIofReceiveACredit
+[-] Verify UI of Vendor Invoice dialog -> Receive  a Refund
+	[ ] testcase: Test38_UIofReceiveARefund
+[-] Verify displaying of menu items under Business Tools drop down menu
+	[ ] testcase: Test39_MenuItemsUnderBusinessTools
+[-] Verify displaying of menu items under Business Actions drop down menu
+	[ ] testcase: Test40_AccountActionsForBusinessAccount
+[-] Verify displaying of menu items under Business Tools drop down menu
+	[ ] testcase: Test41_MenuItemsUnderReports
+	[ ] 
+[ ] //----------------------------------------------Email Invoice -----------------------------------------------
+[ ] 
+[-] Verify E-mail/Clipboard button in Bill-Vendor Invoices form
+	[ ] testcase: Test01_EmailClipboardButtononVendorInvoiceBill
+[-] Verify UI of Send Invoice by mail dialog
+	[ ] testcase: Test03_UISendInvoicebyMail
+[-] Verify displaying of help for Email Invoice
+	[ ] testcase: Test05_HelpEmailInvoice
+[-] Verify E-Mail a created  Invoice
+	[ ] testcase: Test04_EmailACreatedInvoice
+[-] Verify Sending of Credit by email
+	[ ] testcase: Test10_EmailACreditInvoice
+[-] Verify Sending of Estimate by email
+	[ ] testcase: Test11_EmailAEstimateInvoice
+[-] Verify Sending Invoice to Clipboard.
+	[ ] testcase: Test09_SendingInvoicetoClipboard

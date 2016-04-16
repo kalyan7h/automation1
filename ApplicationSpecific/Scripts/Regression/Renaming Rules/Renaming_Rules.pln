@@ -1,0 +1,69 @@
+﻿[ ] //#######################################################
+[ ] //########  This Plan contains test cases for Renaming Rules ###########
+[ ] //#######################################################
+[ ] 
+[ ] 
+[ ]  Script: ..\Renaming Rules\Renaming_Rules.t
+[ ] 
+[ ] 
+[-] Renaming Rules SetUp
+	[ ] testcase: Test0_RenamingRulesSetUp
+[ ] 
+[-] Create automatic renaming rules
+	[ ] testcase: Test1_AutomaticRuleCreation
+[ ] 
+[-] Create Renaming Rule for first time
+	[ ] testcase: Test2_FirstRename
+[ ] 
+[-] Cancel Button of Create payee Renaming Rule window
+	[ ] testcase: Test3_FirstRenameCancelButton
+[ ] 
+[-] Close Create payee renaming Rule window
+	[ ] testcase: Test4_FirstRenameCrosslButton
+[ ] 
+[-]  Check 'Always create a renaming….' check box and click 'OK' button on 'Create Payee Renaming Rule' dialog
+	[ ] testcase: Test5_AlwaysCreateOKButton
+[ ] 
+[-]  Check 'Always create a renaming….' check box and click 'Cancel' button on 'Create Payee Renaming Rule' dialog
+	[ ] testcase: Test6_AlwaysCreateCancelButton
+[ ] 
+[-] 'Help' icon on 'Create Payee Renaming Rule' dialog
+	[ ] testcase: Test7_CreatePayeeRenameHelp
+[ ] 
+[-] Create Payee Renaming Rule dialog is as per SPEC
+	[ ] testcase: Test8_AlwaysCreateSPEC
+[ ] 
+[-]  Rename Payee When A Renaming Rule Exists
+	[ ] testcase: Test9_EditRename
+[ ] 
+[-] Cancel button in case of existing rule is a download rule
+	[ ] testcase: Test10_EditRenameCancelButton
+[ ] 
+[-] Close in case of existing rule is a download rule
+	[ ] testcase: Test11_EditRenameXButton
+[ ] 
+[-] 'Preferences' for Renaming Rules
+	[ ] testcase: Test12_Preferences
+[ ] 
+[-] Update Rule button in case of existing rule is a 'download rule'
+	[ ] testcase: Test13_EditRenameDownloadRule
+[ ] 
+[-] 'Help' icon on 'Create Custom Renaming Rule' dialog
+	[ ] testcase: Test14_CustomRenameHelp
+[ ] 
+[-]  'Create Custom Renaming Rule' dialog is as per SPEC
+	[ ] testcase: Test15_CustomRenameXButton
+[ ] 
+[-] Update Rule' button in case of existing rule is a 'mint rule'.
+	[ ] testcase: Test16_EditRenameMintRule
+[ ] 
+[-] Another rule exists for selected tokens and user clicks 'Ok' button
+	[ ] testcase: Test17_EditRenameCreateNewMintRule
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 

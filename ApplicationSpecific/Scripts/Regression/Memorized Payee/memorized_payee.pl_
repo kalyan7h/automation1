@@ -1,0 +1,108 @@
+﻿[ ] //#######################################################
+[ ] //########  This Plan contains test cases for Memorized Payee ###########
+[ ] //#######################################################
+[ ] 
+[ ] 
+[ ]  Script: ..\Memorized Payee\memorized_payee.t
+[ ] 
+[ ] 
+[-] Memorized Payee SetUp
+	[ ] testcase: Test0_MemorizedPayeeSetUp
+[ ] 
+[-] Open Memorized Payee From Tools
+	[ ] testcase: Test1_MemorizedPayeeListFromTools
+[ ] 
+[-] Open Memorized Payee From Shortcut keys
+	[ ] testcase: Test2_MemorizedPayeeListShortCutKeys
+[ ] 
+[-] Payee Adding , Merging and Renaming 
+	[ ] testcase: Test3_RenamingAndMerging
+[ ] 
+[-] Options functionality
+	[ ] testcase: Test4_Options
+[ ] 
+[-] Delete Payees From Delete Button
+	[ ] testcase: Test5_DeletePayeeButton
+[ ] 
+[-] Delete Payees From Row Button
+	[ ] testcase: Test6_DeletingFromRowButton
+[ ] 
+[-] Verify Show Payee in Calendar is Checked
+	[ ] testcase: Test7_ShowOnCalendar
+[ ] 
+[-] Verify Show Payee in Calendar is Unchecked
+	[ ] testcase: Test8_DontShowOnCalendar
+[ ] 
+[-] Verify Never Auto Categorize , Marked as Clear is Checked
+	[ ] testcase: Test9_MarkedAsClear
+[ ] 
+[-] Verify Edit Button Functionality
+	[ ] testcase: Test10_Edit
+[ ] 
+[-] Verify Overwriting Unlocked Payees
+	[ ] testcase: Test11_Overwrite
+[ ] 
+[-] Verify AutoFill Functionality
+	[ ] testcase: Test12_AutoFill
+[ ] 
+[-] Verify Payees with Same Name , Different Cateogries
+	[ ] testcase: Test13_PayeesWithSameName
+[ ] 
+[-] Verify Lock and Leave Payee Unchanged when Edited in Register Functionality
+	[ ] testcase: Test14_LockPayee
+[ ] 
+[-] Verify Context Menu Functionality for Single Payee
+	[ ] testcase: Test15_ContextMenuSinglePayee
+[ ] 
+[-] Verify Context Menu Functionality for Multiple Payees
+	[ ] testcase: Test16_ContextMenuMultiplePayees
+[ ] 
+[-] Verify Use Option Fucntionality When Never Auto Categorize is True
+	[ ] testcase: Test17_UseCategoryTrue
+[ ] 
+[-] Verify Use Option Functionality When Never Auto Categorize is False
+	[ ] testcase: Test18_UseCategoryFalse
+[ ] 
+[-] Verify New Payee Option From Context Menu
+	[ ] testcase: Test19_NewPayeeFromContextMenu
+[ ] 
+[-] Verify Edit Payee Option From Context Menu
+	[ ] testcase: Test20_EditPayeeFromContextMenu
+[ ] 
+[-] Verify Lock Option Functionality From context Menu
+	[ ] testcase: Test21_LockFromContextMenu
+[ ] 
+[-] Verify Show On Calendar Option Functionality From Context Menu For Single Payee
+	[ ] testcase: Test22_CalendarSinglePayeeContextMenu
+[ ] 
+[-] Verify Show On Calendar Option Functionality From Context Menu For Multiple Payees
+	[ ] testcase: Test23_CalendarMultiplePayeeContextMenu
+[ ] 
+[-] Data Migration : Verify Lock column is Present if a Payee has Lock Option Checked
+	[ ] testcase: Test24_DataMigrationLock
+[ ] 
+[-] Data Migration : Verify Lock column is Present if no Payee has Lock Option Checked
+	[ ] testcase: Test25_DataMigrationNoLock
+[ ] 
+[-] Verify Edit Button is Disabled Ffor Multiple Payees
+	[ ] testcase: Test26_EditMultiplePayees
+[ ] 
+[-] Verify Never Auto Categorize Functionality For Multiple Payees
+	[ ] testcase: Test27_MultiplePayeesNeverCategorize
+[ ] 
+[-] Importing Web Connect File
+	[ ] testcase: Test28_QFX
+[ ] 
+[-] Verify Sorting In Each Column
+	[ ] testcase: Test29_Sort
+[ ] 
+[-] Verify Help icon in Memorized Payee
+	[ ]  testcase: Test32_Help
+[ ] 
+[-] Verify  Functionality Of <CTRL-M>
+	[ ] testcase: Test30_CtrlM
+[ ] 
+[-] // Verify Downloaded Transactions
+	[ ] //  testcase: Test31_DownloadTransaction
+[ ] 
+[ ] 

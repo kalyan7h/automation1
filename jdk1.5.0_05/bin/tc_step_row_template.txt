@@ -1,0 +1,5 @@
+			<tr class="tab">
+    			<td width="25%">&nbsp;{StepName}</td>
+    			<td width="60%">&nbsp;{StepInfo}</td>
+    			<td class="{StepResult}" width="15%">&nbsp;{StepFailLinkStart}{StepResult}{StepFailLinkStart}</td>
+      		</tr>

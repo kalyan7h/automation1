@@ -1,0 +1,28 @@
+﻿[ ] //#######################################################
+[ ] //*******  This Plan contains Acceptance test scenarios for IUS *******
+[ ] //#######################################################
+[ ] 
+[ ]  Script: ..\Global\IUS.t
+[ ] 
+[+] Verify user is able to register
+	[ ] testcase: IUS_Test1
+[+] Verify Quicken registration using same id created in test scenario 1
+	[ ] testcase: IUS_Test2
+[+] Verify Quicken registration by creating a new IAM ID without mobile number
+	[ ] testcase: IUS_Test3
+[+] Verify Quicken registration using same id created in test scenario3 with mobile number
+	[ ] testcase: IUS_Test4
+[+] Verify Quicken registration using same id created in test scenario3 with incorrect mobile number
+	[ ] testcase: IUS_Test5
+[+] Use the same file; clear the registration;Sign out IAM; Create a new IAM user and register using it
+	[ ] testcase: IUS_Test6
+[+] Clear the registration;Create a new data file and perform Quicken registration using same id created in #6
+	[ ] testcase: IUS_Test7
+[+] Update Intuit id
+	[ ] testcase: IUS_Test8
+[+] Update Email id
+	[ ] testcase: IUS_Test9
+[+] Update Mobile Number
+	[ ] testcase: IUS_Test10
+[+] Go to Edit -Preferences and add a mobile number associated with Intuit Id
+	[ ] testcase: IUS_Test11

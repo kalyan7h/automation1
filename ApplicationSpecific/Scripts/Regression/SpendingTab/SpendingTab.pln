@@ -1,0 +1,60 @@
+﻿[ ] // Script: ..\..\ApplicationSpecific\Scripts\Register.t
+[ ]  Script: ..\SpendingTab\SpendingTab.t
+[ ]  //Script: ..\..\ApplicationSpecific\Scripts\Regression\Register\Register_Dean.t
+[ ] //Script: ..\..\ApplicationSpecific\Scripts\Regression\Register\Register.t
+[ ] 
+[+] Test_SpendingTabSetUp
+	[ ] testcase: Test_SpendingTabSetUp
+[+] Test1_VerifySpendingTab
+	[ ] testcase: Test1_VerifySpendingTab
+[+] Test2_VerifyRegisterandGraphalwaysmatchesinSpendingTab
+	[ ] testcase: Test2_VerifyRegisterandGraphalwaysmatchesinSpendingTab
+[+] Test3_VerifyFiltersOnSpendingTab
+	[ ] testcase: Test3_VerifyFiltersOnSpendingTab
+[+] Test5_VerifySavingsCashCreditCardAccountsonSpendingtab
+	[ ] testcase: Test5_VerifySavingsCashCreditCardAccountsonSpendingtab
+[+] Test7_VerifyBrokerageBuyTxnInSpendingTab
+	[ ] testcase: Test7_VerifyBrokerageBuyTxnInSpendingTab
+[+] Test8_VerifyBrokerageSellTxnInSpendingTab
+	[ ] testcase: Test8_VerifyBrokerageSellTxnInSpendingTab
+[+] Test9_VerifyBankingTransferTxnInSpendingTab
+	[ ] testcase: Test9_VerifyBankingTransferTxnInSpendingTab
+[+] Test11_VerifySplitCategoryTxnInSpendingTab
+	[ ] testcase: Test11_VerifySplitCategoryTxnInSpendingTab
+[+] Test12_13_14VerifySplitIconInCategoryFieldSpendingTabForPaycheck
+	[ ] testcase: Test12_13_14VerifySplitIconInCategoryFieldSpendingTabForPaycheck
+	[ ] 
+[+] Test12_13_14VerifySplitIconInCategoryFieldSpendingTabForLoan
+	[ ] testcase: Test12_13_14VerifySplitIconInCategoryFieldSpendingTabForLoan
+[+] Test16_VerifySpendingOptionsOnHomeTab
+	[ ] testcase: Test16_VerifySpendingOptionsOnHomeTab
+[+] Test_DateRangeOptionSetUp
+	[ ] testcase: Test_DateRangeOptionSetUp
+[-] Test21_01DefaultDataRangeFilterAndTransaction
+	[ ] testcase: Test21_01DefaultDataRangeFilterAndTransaction
+[+] Test21_02AllDatesDataRangeFilterAndTransaction
+	[ ] testcase: Test21_02AllDatesDataRangeFilterAndTransaction
+[+] Test21_03ThisMonthDataRangeFilterAndTransaction
+	[ ] testcase: Test21_03ThisMonthDataRangeFilterAndTransaction
+[+] Test21_04LastMonthDataRangeFilterAndTransaction
+	[ ] testcase: Test21_04LastMonthDataRangeFilterAndTransaction
+[+] Test21_05Last30DaysDataRangeFilterAndTransaction
+	[ ] testcase: Test21_05Last30DaysDataRangeFilterAndTransaction
+[+] Test21_06Last60DaysDataRangeFilterAndTransaction
+	[ ] testcase: Test21_06Last60DaysDataRangeFilterAndTransaction
+[+] Test21_07Last90DaysDataRangeFilterAndTransaction
+	[ ] testcase: Test21_07Last90DaysDataRangeFilterAndTransaction
+[+] Test21_08Last12MonthsDataRangeFilterAndTransaction
+	[ ] testcase: Test21_08Last12MonthsDataRangeFilterAndTransaction
+[+] Test21_09ThisQuarterDataRangeFilterAndTransaction
+	[ ] testcase: Test21_09ThisQuarterDataRangeFilterAndTransaction
+[+] Test21_10LastQuarterDataRangeFilterAndTransaction
+	[ ] testcase: Test21_10LastQuarterDataRangeFilterAndTransaction
+[+] Test21_11ThisYearDataRangeFilterAndTransaction
+	[ ] testcase: Test21_11ThisYearDataRangeFilterAndTransaction
+[+] Test21_12LastYearDataRangeFilterAndTransaction
+	[ ] testcase: Test21_12LastYearDataRangeFilterAndTransaction
+[+] Test21_13CustomDataRangeFilterAndTransaction
+	[ ] testcase: Test21_13CustomDataRangeFilterAndTransaction
+[+] Test22SearchOptionSpendingTab
+	[ ] testcase: Test22SearchOptionSpendingTab

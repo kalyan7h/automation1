@@ -1,0 +1,425 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<Loans.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Loans test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	HiddenAccount.t
+	[ ] //
+	[ ] // DEVELOPED BY: Dean Paes
+	[ ] //
+	[ ] // Developed on: 		03/10/2014
+	[ ] //			
+[ ] // *********************************************************
+[ ] 
+[ ] Script: Loans.t
+[ ] 
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //====================================Manual Loan Accounts=====================================
+[ ] 
+[+] Verify launching points for Add Manual Loan account - from 'Loan FI selection' screen
+	[ ] testcase: Test01_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen
+[ ] 
+[-] Verify that user is able to add manual loan account with different payment schedule
+	[ ] testcase: Test02_Add_Manual_Loan_Account_With_Different_Payment_Schedules
+[ ] 
+[+] Verify the functionality of the 'Account Type' dropdown box
+	[ ] testcase: Test03_Manual_Loan_Account_Verify_Account_Type_Dropbox
+[ ] 
+[+] Verify the functionality of the Add Loan Account Data Fields Validation
+	[ ] testcase: Test04_Functionality_Add_Loan_Account_Data_Fields_Validation
+[ ] 
+[+] Verify functionality of the 'Recalculate' button present next to 'Current Balance' field
+	[ ] testcase: Test05_Recalculate_Button_Next_To_Current_Balance_Field_Functionailty
+[ ] 
+[+] Verify validation of the 'Recalculate' button present next to 'Current Balance' field 
+	[ ] testcase: Test06_Recalculate_Button_Next_To_Current_Balance_Field_Validation
+[ ] 
+[+] Verify functionality of the 'Recalculate' button present next to '<Frequency> Payment' field 
+	[ ] testcase: Test07_08_Recalculate_Button_Next_To_Frequency_Payment_Field
+[ ] 
+[+] Verify validation of the 'Recalculate' button present next to 'Frequency Payment' field 
+	[ ] testcase: Test09_Recalculate_Button_Next_To_Frequency_Payment_Field_Validation
+[ ] 
+[+] Verify the functionality of the 'Back' and 'Cancel' button on Loan Details - Add Loan Details' screen
+	[ ] testcase: Test10_Functionality_Of_Buttons_On_Add_Loan_Details_Screen
+[ ] 
+[+] Verify the functionality of the 'Help' icon on the Loan Details screen
+	[ ] testcase: Test11_Functionality_Of_Help_Icon_On_Loan_Details
+[ ] 
+[-] Verify the functionality of the 'Next Payment Due' field on the Loan.DM.2: Loan Details - Add Payment Details' screen
+	[ ] testcase: Test12_Loans_DM2_Next_Payment_Due_Screen_Validation
+[ ] 
+[+] Verify that 'Principal' amount and  'Interest' amount  on the Loan.DM.2: Loan Details - Add Payment Details' screen are accurate
+	[ ] testcase: Test13_Functionality_Of_Principal_And_Interest_Fields_On_Loan_Details_DM2_Screen
+[ ] 
+[+] Verify the functionality of the 'Other' field and 'Extra Principal Monthly' on the Loan.DM.2: Loan Details - Add Payment Details' screen
+	[ ] testcase: Test14_15_Functionality_Of_Other_And_Extra_Principal_Monthly_Fields_On_Loan_Details_DM2_Screen
+[ ] 
+[+] Verify the functionality of the 'Back' and 'Cancel' button on Loan Details DM 2 - Add Loan Details' screen
+	[ ] testcase: Test16_Functionality_Of_Buttons_On_Add_Loan_Details_DM2_Screen
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //=============================Memorized Payee test cases for Loans=================================
+[ ] 
+[+] Verify that 'Loan Reminder' option is a default option while setting up a manual loan account on DM2 >> Payment option button
+	[ ] testcase: Test01_Loan_Reminder_Default_Option_For_Manual_Loan_Account_Payment_Option_Button
+[ ] 
+[+] Verify that on selecting the 'Memorized payee' option [DM2 >> Payment option button] should erase all the scheduled reminders from Bills tab
+	[ ] testcase: Test02_Selecting_Memorized_Payee_Option_For_Manual_Loan_Account_Payment_Option_Button
+[ ] 
+[+] Verify switching back to 'Loan Reminder' option from 'Memorized payee [DM2 >> Payment option button] should get back all the scheduled reminders on Bills tab
+	[ ] testcase: Test03_Switching_Back_To_Loan_Reminder_Option_For_Manual_Loan_Account_Reschedules_Reminders_On_Bills_Tab
+[ ] 
+[+] Verify that if scheduled reminders for the manual account are deleted from Bills tab, automatically 'Memorized payee' option is selected on Loan Payment options window. [DM2 >> Payment option button]
+	[ ] testcase: Test04_Deleting_Loan_Reminders_Makes_Memorized_Payee_Default_Option_For_Manual_Loan_Account_Payment_Options
+[ ] 
+[+] Verify that Memorized Payee option is still selected after data file migration from an older version of Quicken
+	[ ] testcase: Test06_Memorize_Payee_Option_Remains_Selected_After_Data_File_Migration_From_An_Older_Version_Of_Quicken
+[ ] 
+[+]  Verify that Loan Reminder option is still selected after data file migration from an older version of Quicken
+	[ ] testcase: Test05_Loan_Reminder_Option_Remains_Selected_After_Data_File_Migration_From_An_Older_Version_Of_Quicken
+[ ] 
+[+] Verify that Quicken should not crash On changing the Payment option from Memorized Payee to Reminder on bills tab  after data file is migrated
+	[ ] testcase: Test07_Change_Loan_Reminder_Option_To_Memorize_Payee_Option_In_A_Converted_Data_File
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //=============================Minimal-view Loan & Payment details test cases for Loans===================
+[ ] 
+[+] Verify that there is no minimal view for Manual loan account.
+	[ ] testcase: Test01_No_Minimal_View_For_Manual_Loan_Accounts
+[ ] 
+[+] Verify that Connected loan account has minimal view with 'Add Loan Details' button and 'Add linked asset account' dropdown
+	[ ] testcase: Test02_03_04_Connected_Manual_Loan_Account_With_Different_Payment_Schedules
+[ ] 
+[+] Verify Payment details tab of Account  for Connected loan account has minimal view with 'Add Loan Details' button and 'Add linked asset account' dropdown.
+	[ ] testcase: Test01_02_Verify_Payment_Details_Tab_Connected_Loan_Account
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //==============================  Reminder Split Category dialog ====================================
+[ ] 
+[ ] 
+[+] Verify that Split Category is not displayed when a simple reminder is added to the Loan account
+	[ ] testcase: Test01_Split_Category_Is_Not_Displayed_When_Simple_Reminder_Is_Added
+[ ] 
+[+] Verify that Split Category is  displayed when a Detail reminder is added to the Loan accoun
+	[ ] testcase: Test02_Split_Category_Is_Displayed_When_Detailed_Reminder_Is_Added
+[ ] 
+[+] Verify that first two rows of the splits for connected loan accounts from loan reminder should be non-editable
+	[ ] testcase: Test08_First_Two_Rows_Of_Splits_In_Connected_Loan_Reminder_Should_Be_Non_Editable
+[ ] 
+[+] Verify that when no reminder is added, then on Edit D2 screen 'Add Reminder' button is diplayed to the Loan account 
+	[ ] testcase: Test03_Add_Reminder_Button_Is_Displayed_When_Reminder_Is_Not_Added
+[ ] 
+[-] Verify that while adding Manual Loan account only Detail reminder is added with Split category
+	[ ] testcase: Test04_Detailed_Reminder_Is_Default_Option_For_Manual_Loan_Reminder
+[ ] 
+[-] Verify that first two rows of the splits for manual loan accounts from loan reminder should be non-editable
+	[ ] testcase: Test07_First_Two_Rows_Of_Splits_In_Manual_Loan_Reminder_Should_Be_Non_Editable
+[ ] 
+[-] Verify that the first two rows of the splits for Manual loan account register should be editable
+	[ ] testcase: Test05_First_Two_Rows_Of_Splits_For_Manual_Loan_Register_Should_Be_Editable
+[ ] 
+[-] Verify that the first two rows of the splits for connected loan account register should be editable 
+	[ ] testcase: Test06_First_Two_Rows_Of_Splits_For_Connected_Loan_Register_Should_Be_Editable
+[ ] 
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //===================  Add Loan Detail Validations test cases for Loans  ==================================
+[ ] 
+[+] Verify that the Opening balance accepts only numeric values
+	[ ] testcase: Test01_02_03_Opening_Balance_Accepts_Only_Non_Zero_Numeric_Values
+[ ] 
+[+] Verify that the Original Length field should not accept blank values
+	[ ] testcase: Test04_Original_Length_Does_Not_Accept_Blank_Values
+[ ] 
+[+]  Verify that values for Compounding Period field should be only selected from the dropdown
+	[ ] testcase: Test05_Verify_Values_For_Compounding_Period_Field_Should_Only_Be_From_Dropdown
+[ ] 
+[+] Verify that values for Payment Schedule field should be only selected from the dropdown
+	[ ] testcase: Test06_Verify_Values_For_Payment_Schedule_Field_Should_Only_Be_From_Dropdown
+[ ] 
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //=======================  Data File Conversion test cases for Loans  ===================================
+[ ] 
+[-] Verify No Old Flows Should Be Accessible In Data Files Migrated From Older Versions Of Quicken
+	[ ] testcase: Test01_To_Test08_Verify_No_Old_Flows_Should_Be_Accessible_In_Data_Files_Migrated_From_Older_Versions_Of_Quicken
+[ ] 
+[-] Verify Data Conversion Scenarions For Loans
+	[ ] testcase: Test09_To_Test18_Conversion_Scenarios_For_Loans
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //==============================  Full Payment Schedule  =========================================
+[ ] 
+[+] Verify that Full Payment schedule for manual  Loan account created in older version should be correctly displayed 
+	[ ] testcase: Test01_Full_Payment_Schedule_For_Manual_Loan_Migrated_Data_File
+[ ] 
+[+] Verify that Full Payment Schedule gets updated correctly on editing the manual loan account 
+	[ ] testcase: Test02_Verify_Full_Payment_Schedule_Gets_Updated_When_Manual_Loan_Account_Migrated_Data_File
+[ ] 
+[+] Verify that Full Payment schedule for manual Loan account should be correctly displayed
+	[ ] testcase: Test03_Verify_Full_Payment_Schedule_Displayed_For_Manual_Loan_Account
+[ ] 
+[+] Verify that Full Payment Schedule gets updated correctly on editing the manual loan account 
+	[ ] testcase: Test04_Verify_Full_Payment_Schedule_Gets_Updated_When_Manual_Loan_Account
+[ ] 
+[+] Verify that on clicking Loan Details link, D1 / DM1 screen should open
+	[ ] testcase: Test05_Verify_Clicking_On_Loan_Details_Link_Should_Open_Loan_Details_Window
+[ ] 
+[+] Verify that Payoff Date on Full Payment Schedule and on Dashboard should be same
+	[ ] testcase: Test06_PayOff_Date_On_Full_Payment_Schedule_And_Dashboard_Should_Match
+[ ] 
+[+] Verify that Remaining Payment  values should display correctly
+	[ ] testcase: Test07_Remaining_Payment_Values_Should_Display_Correctly
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //=================================  Loan Details =============================================
+[ ] 
+[+] Verify that  'Loan Details (minimal)' tab get launched
+	[ ] testcase:Test01_Loan_Details_Minimal_View_Tab_Should_Be_Launched
+[ ] 
+[+] Verify that Action menu items functionality works on 'Loan Dashboard' when 'Loan Details' (minimal) tab is displayed
+	[ ] testcase:Test02_Verify_Action_Menu_Items_Functionality_From_Loan_Dashboard
+[ ] 
+[+] Verify that 'Add Linked Asset Account' button functionality works on 'Loan Details (minimal)' tab when no Asset Acccounts are added
+	[ ] testcase:Test03_Verify_Add_Linked_Asset_Account_Button_Functionality_From_Loan_Details_No_Asset_Account
+[ ] 
+[+] Verify that 'Add Linked Asset Account' button functionality works on 'Loan Details (minimal)' tab when one Asset Acccounts is linked
+	[ ] testcase:Test04_Verify_Add_Linked_Asset_Account_Button_Functionality_From_Loan_Details_Asset_Account
+[ ] 
+[+] Verify that 'Add Linked Asset Account' button functionality works on 'Loan Details (minimal)' tab when multiple Asset Acccounts are linked
+	[ ] testcase:Test05_Verify_Add_Linked_Asset_Account_Button_Functionality_From_Loan_Details_Multiple_Asset_Accounts
+[ ] 
+[+] Verify that 'Add Loan Details' button functionality is working
+	[ ] testcase:Test06_Verify_Add_Loan_Details_Button_Functionality_From_Loan_Details_Tab
+[ ] 
+[+] Verify that Action menu items functionality works on 'Loan Dashboard' when 'Loan Details' (full) tab is displayed 
+	[ ] testcase:Test07_Verify_Action_Menu_Items_Functionality_When_Full_Loan_Details_Tab_Is_Displayed
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] //===========================================================================================
+[ ] //=================================  Loan Account Type ===========================================
+[ ] 
+[+] Verify that Loan type can be changed while setting up manual loan accounts
+	[ ] testcase:Test01_Loan_Account_Type_Verification_For_Manual_Loan_Account
+[ ] 
+[+] Verify that Loan type can be changed while setting up online loan accounts
+	[ ] testcase:Test02_Loan_Account_Type_Verification_For_Online_Loan_Account
+[ ] 
+[+] Verify Loan account type for linked accounts in a converted data file 
+	[ ] testcase:Test03_04_05_06_Loan_Account_Type_Verification_For_Converted_Loan_Account
+[ ] 
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //==========================================================================================
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] //===========================================================================================
+[ ] //================================= Edit Manual Loan Details  =======================================
+[ ] 
+[+] Verify launching points for Add Manual Loan account - from 'Loan FI selection' screen
+	[ ] testcase:TestA_Launching_Points_For_Add_Manual_Loan_Account_FI_Screen
+[ ] 
+[+] Verify that user is able to add manual loan account with different payment schedule 
+	[ ] testcase:TestB_Add_Manual_Loan_Account_With_Different_Payment_Schedules
+[ ] 
+[-] Verify Loan in Edit mode from Edit terms button on Loan details tab
+	[ ] testcase:Test01_VerifyFieldsEditManualLoanAccount
+[ ] 
+[-] Update Loan Name in Edit mode from Edit terms button on Loan details tab
+	[ ] testcase:Test02_UpdateManualLoanAccountName
+[ ] 
+[-] Update all Loan fields in Edit mode from Edit terms button on Loan details tab
+	[ ] testcase:Test03_UpdateManualLoanAccountFields
+[ ] 
+[-] Verify that  <Frequency> Payment can be updated from Edit DM1 screen.
+	[ ] testcase:Test04_ManualLoanAccountFrequencyUpdateVerification
+[ ] 
+[ ] 
+[ ] //===========================================================================================
+[ ] //================================= Edit Online Loan Details  =======================================
+[ ] 
+[-] Verify that Loan D1 screen can be open in Edit mode from Edit terms button
+	[ ] testcase:Test05_EditOnlineLoanAccount
+[ ] 
+[+] Update Loan Name in Edit mode from Edit terms button on Online Loan details tab
+	[ ] testcase:Test06_UpdateOnlineLoanAccountName_VerifyCurrentBalance
+[ ] 
+[-] Update all Loan fields in Edit mode for Online loan account
+	[ ] testcase:Test07_UpdateOnlineLoanAccountFields
+[ ] 
+[-] Verify that  <Frequency> Payment can be updated for online loan account.
+	[ ] testcase:Test08_OnlineLoanAccountFrequencyUpdateVerification
+[ ] 
+[+] Verify that Calculator icon should be present beside the <Frequency> Payment text field
+	[ ] testcase:Test9_VerifyCalculatorForFrequencyOnlineLoanAccount
+[ ] 
+[+] Verify that Help icons should be available for - Compounding Period<Frequency> Payment Edit D1 screen 
+	[ ] testcase:Test10_VerifyHelpIconForCompoundingPeriodFiled
+[ ] 
+[-] Verify that if we  edit interest rate as '0' it should get reflected on dashboard in full payment schedule 
+	[ ] testcase:Test11_VerifyZeroInterestRate
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] //===========================================================================================
+[ ] //================================= Edit Loan Payment Details  =======================================
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[-] Verify that Edit DM2 can be opened from Payment Details tab >> Edit Payment details link
+	[ ] testcase:Test01_VerifyEditManualLoanAccountFromPaymentDetailsTab
+[ ] 
+[+] Verify that Edit DM2 can be opened from Monthly payment >> Edit link
+	[ ] testcase:Test02_VerifyEditManualLoanAccountFromMonthlyPaymentEdit
+[ ] 
+[+] Verify that Next Payment date can be edited and its changes are correctly reflected on dashboard
+	[ ] testcase:Test03_EditNextPaymentDateFromMonthlyPaymentEdit
+[ ] 
+[+] Verify that Principal and Interest fields are non-editable and has a '$' symbol against each value
+	[ ] testcase:Test04_PrincipalAndInterestFieldsNotEditableForManualLoanAccount
+[ ] 
+[+] Extra Principal paid monthly' field should be editable and the green arrow should be pointing to Total payment 
+	[ ] testcase:Test05_VerifyExtraPrincipalPaidEditable
+[ ] 
+[+] Verify that when 'Total determines Extra  Principal' radio button is selected, then 'Total payment' field should be non editable
+	[ ] testcase:Test06_VerifyTotalDeterminesExtraPrincipalOption
+[ ] 
+[+] Verify that Loan Payment Options dialog should open on clicking on Payment Options button 
+	[ ] testcase:Test07_VerifyLoanPaymentOptions
+[ ] 
+[+] Verify that 'Edit Loan Reminder' option should open 'Edit Loan Payment Reminder' screen
+	[ ] testcase:Test08_VerifyEditLoanReminderForManualLoanAccount
+[ ] 
+[-] Verify that Cancel button does not save any changes made on Edit DM2 screen
+	[ ] testcase:Test09_VerifyCancelButtonForEditLoanDetails
+[ ] 
+[+] Verify that while calculating the Total payment, value provided in Other Category is not calculated in Full Payment schedule
+	[ ] testcase:Test10_VerifyFullPaymentScheduleForOtherCategory
+[ ] 
+[-] Verify that Edit DM2 can be opened from Payment Details tab >> Edit Payment details link
+	[ ] testcase:Test11_VerifyEditOnlineLoanAccountFromPaymentDetailsTab
+[ ] 
+[+] Verify that Principal and Interest fields are non-editable and has a '$' symbol against each value
+	[ ] testcase:Test12_PrincipalAndInterestFieldsNotEditableForOnlineLoanAccount
+[ ] 
+[+] Verify that adding values in Other and Extra Principal fields 
+	[ ] testcase:Test13_VerifyExtraPrincipalPaidUpdate
+[ ] 
+[+] Verify that 'Edit Loan Reminder' option should open 'Edit Loan Payment Reminder' screen for Online Loan Accoun
+	[ ] testcase:Test14_VerifyEditLoanReminderForOnlineLoanAccount
+[ ] 
+[+] Verify that 'Add Reminder' button should be displayed on Edit Loan D2 if No reminder option is selected
+	[ ] testcase:Test15_VerifyAddLoanReminderForOnlineLoanAccount
+[ ] 
+[+] Verify that Edit link for Other category is not present while adding manual loan account
+	[ ] testcase:Test16_VerifyEditLinkForOtherCategoryForManualLoanAccount
+[ ] 
+[+] Verify that Edit link for Other category is not present while adding online loan account
+	[ ] testcase:Test17_VerifyEditLinkForOtherCategoryForOnlineLoanAccount
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] //===========================================================================================
+[ ] //=================================  Paid Off Loans  ===========================================
+[ ] 
+[ ] 
+[+] Paid Off SetUp
+	[ ] testcase:PaidOff_SetUp
+[ ] 
+[-] Manual Loan Account Paid off 2012 converted
+	[ ] testcase:Test01_ManualPaidOffLoan2012Converted
+[ ] 
+[+] Lending account Paid off 2012 converted
+	[ ] testcase:Test02_LendingPaidOffLoan2012Converted
+[ ] 
+[-] Verify Interest Rate Entry Conversion
+	[ ] testcase:Test04_InterestRateCoversion
+[ ] 
+[ ] 
+[ ] 
+[ ] //===========================================================================================
+[ ] //================================= Variable Interest Rate ===========================================
+[ ] 
+[ ] 
+[+] Variable Interest Rate SetUp
+	[ ] testcase:VariableInterestRate_SetUp
+[ ] 
+[+] Verify editing the Interest rate, Regular Payment should also get updated 
+	[ ] testcase:Test01_EditInterestRateRegularPaymentUpdated
+[ ] 
+[+] Verify past effective date interest rate entry
+	[ ] testcase:Test02_PastEffectiveDateInterestRateEntry
+[ ] 
+[+] Verify Interest Rate Entry Deleted
+	[ ] testcase:Test03_InterestRateEntryDeleted
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] //==========================================================================================
+[ ] //================================= Add Online Loan Account ======================================
+[ ] 
+[+] Verify that User should be able to add a online loan account 
+	[ ] testcase: Test01_User_Should_Be_Able_To_Add_Single_Online_Loan_Account
+[ ] 
+[+] Verify that User should be able to add more then one online loan account with same FI user
+	[ ] testcase: Test02_User_Should_Be_Able_To_Add_Multiple_Online_Loan_Accounts_From_Same_FI
+[ ] 
+[+] Verify that Account discover screen should not have link option for loan account 
+	[ ] testcase: Test03_Account_Discover_Screen_Should_Not_Have_Link_Option_For_Loan_Account
+[ ] 
+[+] Verify that Loan account should be linked to assest account
+	[ ] testcase: Test04_Loan_Account_Should_Be_Linked_To_Asset_Account
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 

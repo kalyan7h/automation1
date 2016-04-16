@@ -1,0 +1,190 @@
+
+[Agent]
+OPT_XBROWSER_SYNC_TIMEOUT=0
+OPT_XBROWSER_SYNC_MODE=1
+OPT_XBROWSER_RECORD_LOWLEVEL=FALSE
+OPT_XBROWSER_LOCATOR_ATTRIBUTE_VALUE_BLACKLIST=*ext-gen*, *x-auto*, :*
+OPT_XBROWSER_LOCATOR_ATTRIBUTE_NAME_BLACKLIST=CHECKED, DISABLED, style, width, height, size, __*, class
+OPT_WINDOW_TIMEOUT=5000
+OPT_WINDOW_SIZE_TOLERANCE=0
+OPT_WINDOW_RETRY=60
+OPT_WINDOW_MOVE_TOLERANCE=0
+OPT_WAIT_ACTIVE_WINDOW_RETRY=0
+OPT_WAIT_ACTIVE_WINDOW=0
+OPT_VERIFY_UNIQUE=TRUE
+OPT_VERIFY_EXPOSED=TRUE
+OPT_VERIFY_ENABLED=TRUE
+OPT_VERIFY_CTRLTYPE=FALSE
+OPT_VERIFY_COORD=TRUE
+OPT_VERIFY_APPREADY=TRUE
+OPT_VERIFY_ACTIVE=TRUE
+OPT_VB_PROPSET_INI=vbprpset.ini
+OPT_VB_PROPSET=Values
+OPT_USE_SILKBEAN=FALSE
+OPT_USE_ANSICALL=FALSE
+OPT_TRIM_ITEM_SPACE=TRUE
+OPT_SHOW_OUT_OF_VIEW=TRUE
+OPT_SHOW_INVIS_OBJS=FALSE
+OPT_SHOW_ALL_METHODS=FALSE
+OPT_SHOW_ALL_CLASSES=FALSE
+OPT_SCROLL_INTO_VIEW=TRUE
+OPT_REPLAY_SUB_MODE=0
+OPT_REPLAY_MODE=0
+OPT_REL1_CLASS_LIBRARY=FALSE
+OPT_RECORD_STYLE=0
+OPT_RECORD_SCROLLBAR_ABSOLUT=FALSE
+OPT_RECORD_MOUSE_CLICK_RADIUS=5
+OPT_RECORD_MOUSEMOVE_DELAY=200
+OPT_RECORD_MOUSEMOVES=FALSE
+OPT_RECORD_LISTVIEW_SELECT_BY_TYPEKEYS=FALSE
+OPT_RECORDING_MODE=0
+OPT_RECORDING_ANALOG=FALSE
+OPT_RADIO_LIST=TRUE
+OPT_POST_REPLAY_DELAY=0
+OPT_PAUSE_TRUELOG=FALSE
+OPT_NO_ICONIC_MESSAGE_BOXES=FALSE
+OPT_NORMAL_PROPSET_INI=propset.ini
+OPT_NORMAL_PROPSET=
+OPT_MULTIPLE_TAGS=TRUE
+OPT_MOUSE_DELAY=0
+OPT_MENU_PICK_BEFORE_GET=FALSE
+OPT_MENU_INVOKE_START_POPUP=<Button1><Up><Down>
+OPT_MENU_INVOKE_POPUP=<Button2><Up><Down>
+OPT_MATCH_ITEM_CASE=FALSE
+OPT_LOG_LEVEL_TECHDOMAIN=800
+OPT_LANGUAGE=de
+OPT_KILL_HANGING_APPS=FALSE
+OPT_KEYBOARD_DELAY=0
+OPT_ITEM_RECORD=TRUE
+OPT_HANG_APP_TIME_OUT=10001
+OPT_GET_MULTITEXT_KEEP_EMPTY_LINES=TRUE
+OPT_GET_CONTENTS_REMOVE_EMPTY_LINES=FALSE
+OPT_ENSURE_ACTIVE_WINDOW=FALSE
+OPT_DYNAMIC_WINDOW_TITLES=
+OPT_DROPDOWN_PICK_BEFORE_GET=FALSE
+OPT_COMPATIBLE_TAGS=FALSE
+OPT_COMBINE_TEXT_TAGS=FALSE
+OPT_COLON_IN_PRIORTEXT=TRUE
+OPT_CLOSE_WINDOW_TIMEOUT=2000
+OPT_CLOSE_WINDOW_POLL_INTERVAL=100
+OPT_CLOSE_WINDOW_MENUS=File/Exit*, File/Quit*
+OPT_CLOSE_WINDOW_BUTTONS=CANCEL, CLOSE, EXIT, DONE
+OPT_CLOSE_MENU_NAME=Close
+OPT_CLOSE_DIALOG_KEYS=<ESC>
+OPT_CLOSE_CONFIRM_BUTTONS=NO, CLOSE TABS
+OPT_BITMAP_PIXEL_TOLERANCE=0
+OPT_BITMAP_MATCH_TIMEOUT=5000
+OPT_BITMAP_MATCH_INTERVAL=100
+OPT_BITMAP_MATCH_COUNT=5
+OPT_APPREADY_TIMEOUT=180000
+OPT_APPREADY_RETRY=100
+OPT_ALWAYS_NORMALIZE_NAMES=FALSE
+OPT_ALTERNATE_RECORD_BREAK=FALSE
+OPT_AGENT_CLICKS_ONLY=FALSE
+
+[General]
+HelpFiles=4test.txt, extend\browser.ht, extend\domex.ht
+
+[Runtime]
+PreferLocators=TRUE
+AnimationRunMode=FALSE
+DefaultAgent=Classic Agent
+DBEmptyStringForNull=FALSE
+MatchContainerTags=TRUE
+StatusWindowPlacement=
+SaveStatusPlacement=FALSE
+EvaluateDynamicTags=TRUE
+UseY2KRules=FALSE
+UseRecordingStatement=TRUE
+WinvarInitCorrectly=TRUE
+AutoGuiTarget=TRUE
+AllowExtensions=FALSE
+DefaultBrowser=
+OldStartupFunction=TRUE
+SaveObjfiles=TRUE
+GuiTarget=
+BitwiseOperators=TRUE
+ShowDetailStatus=TRUE
+MinimizeOnRun=FALSE
+ResultsShowSummary=TRUE
+ResultsFindWarnings=TRUE
+ResultsLogExtraInfo=FALSE
+ResultsFlush=TRUE
+TraceToLevel=1
+TraceImplicitCalls=FALSE
+TraceCalls=FALSE
+TraceAgentTags=FALSE
+TraceAgentCalls=FALSE
+ResultsHistorySize=5
+ResultsPath=C:\Quicken\ApplicationSpecific\Results
+ObjfilePath=
+
+UsePath=C:\Quicken\FrameworkSpecific\FrameworkFiles
+UseFiles=extend\explorer.inc,C:\Quicken\FrameworkSpecific\FrameworkFiles\Includes.inc,extend\xBrowser\xbrowser.inc,extend\WIN32\WIN32.inc
+
+Arguments=
+AgentName=(local)
+NetworkProtocol=TCP/IP
+AsciiSort=FALSE
+
+[ClassMap]
+
+[Extension: IEExec.exe]
+
+[Extension: waol.exe]
+
+[Extension: connect.exe]
+
+[Extension: iexplore.exe#4]
+
+[Extension: iexplore.exe#5]
+
+[Extension: iexplore.exe#6]
+domex.dll=TRUE
+
+[Extension: java.exe jre.exe jrew.exe appletviewer.exe javaw.exe]
+
+[Extension: pr3240.dll]
+
+[Extension: netscp6.exe]
+
+[Extension: netscp.exe]
+
+[Extension: firefox.exe]
+
+[Extension: iexplore.exe#7]
+
+[Extension: DataGenerationTool.exe]
+
+[Extension: iexplore.exe#8]
+
+[Extension: qw.exe]
+
+[CompilerConstants]
+
+[PlaybackOptions]
+
+[4TestExtensions]
+
+[Y2KRules]
+mm/dd/yy|0|0|0|mm/dd/yyyy|0
+
+[ExtensionOA_0: *\qw.exe]
+CmdLine=
+Name=qw.exe
+TechDomains=xBrowser,WIN32
+
+[ExtensionOA_1: *\qw.exe]
+CmdLine=
+Name=qw.exe
+TechDomains=xBrowser,WIN32
+
+[ExtensionOA_2: *\qw.exe]
+CmdLine=
+Name=qw.exe
+TechDomains=xBrowser,WIN32
+
+[ExtensionOA_3: *\qwauto.exe]
+CmdLine=
+Name=qwauto.exe
+TechDomains=WIN32

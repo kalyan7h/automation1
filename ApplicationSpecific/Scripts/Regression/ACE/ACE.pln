@@ -1,0 +1,63 @@
+﻿[ ] //#######################################################
+[ ] //########  This Plan contains test cases for ACE ###########
+[ ] //#######################################################
+[ ] 
+[ ] 
+[ ]  Script: ..\ACE\ACE.t
+[ ] 
+[ ] 
+[ ] 
+[-] ACE SetUp
+	[ ] testcase: Test0_ACESetUp
+[ ] 
+[-] First time download for clean payee in C2R mode
+	[ ] testcase: Test1_FirstTimeDownloadC2RMode
+[ ] 
+[-] First time download for clean payee in non C2R mode
+	[ ] testcase: Test2_FirstTimeDownloadNonC2RMode
+[ ] 
+[-] First time download for clean payee in C2R mode when payee is already memorized
+	[ ] testcase: Test3_PayeeMemorizedC2RMode
+[ ] 
+[-] First time download for clean payee in Non C2R mode when payee is already memorized
+	[ ] testcase: Test4_PayeeMemorizedNonC2RMode
+[ ] 
+[-] Payee name and memo values are interchanged
+	[ ] testcase: Test5_NameMemoInterChange
+[ ] 
+[-] Second time download with details same as the first in C2R mode
+	[ ] testcase: Test6_SecondTimeDownloadC2RMode
+[ ] 
+[-] Second time download with details same as the first in non C2R mode
+	[ ] testcase: Test7_SecondTimeDownloadNonC2RMode
+[ ] 
+[-] Second time download using Web Connect file for a Unique Payee not present in the first in non C2R mode
+	[ ] testcase: Test8_UniquePayeeNonC2RMode
+[ ] 
+[-] Second time download using Web Connect file changing category in C2R mode
+	[ ] testcase: Test9_ChangeCategoryC2RMode
+[ ] 
+[-] Single ACE request is made for all the unique Payee names obtained in C2R Mode
+	[ ] testcase: Test10_SingleRequestMultiplePayees
+[ ] 
+[-] ACE and Quicken AutoCat Logic finds no category for the payee name in C2R mode
+	[ ] testcase: Test13_NoCategoryLogic
+[ ] 
+[-] Automatically Memorizing new payees in C2R Mode
+	[ ] testcase: Test11_AutomaticMemorizePayees
+[ ] 
+[-] Do Not Automatically Memorizing new payees in C2R Mode
+	[ ] testcase: Test12_DoNotMemorizePayees
+[ ] 
+[-]  First time download while setting an online account - Direct Connect in C2R Mode
+	[ ] testcase: Test14_FirstDownloadDirectConnectC2R
+[ ] 
+[-] First time download while setting an online account - Direct Connect in Non C2R Mode
+	[ ] testcase: Test15_FirstDownloadDirectConnectNonC2R
+[ ] 
+[-] First time download while setting Direct Connect in C2R Mode when Payee is already memorized 
+	[ ] testcase: Test16_DirectConnectMemorizedPayeeC2R
+[ ] 
+[-] First time download while setting Direct Connect in non C2R Mode when Payee is already memorized 
+	[ ] testcase: Test17_DirectConnectMemorizedPayeeNonC2R
+[ ] 

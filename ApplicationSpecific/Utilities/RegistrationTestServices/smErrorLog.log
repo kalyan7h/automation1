@@ -1,0 +1,4 @@
+2012-03-21 16:20:55 Catch in smFunncs  - setLicProperties
+2012-03-21 16:21:15 Catch in SgMeLicense::dest_impl - m_impl->m_server->m_object->end_use
+2012-03-22 11:10:21 Catch in SgMeLicense::connect_remote - m_impl->m_server->m_object->start_use
+2012-03-22 11:10:21 Catch in SgMeLicense::init

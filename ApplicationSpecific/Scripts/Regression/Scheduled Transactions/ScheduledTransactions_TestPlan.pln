@@ -1,0 +1,425 @@
+﻿[ ] 
+[ ] // *********************************************************
+[-] // FILE NAME:	<ScheduledTransactions.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Scheduled Transactions test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	ScheduledTransactions.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Suyash Joshi
+	[ ] //
+	[ ] // Developed on: 		26/2/2013
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 Feb 26, 2013	Suyash Joshi  Created
+	[ ] // *********************************************************
+[ ] // *********************************************************
+[ ] 
+[ ] 
+[ ]  Script: ..\Scheduled Transactions\ScheduledTransactions.t
+[ ] 
+[-] Verify Add Reminder with a new data file, having no active account
+	[ ] testcase: TC01_No_Active_Account
+[-] Verify Get Started functionality with a new data file, having no account
+	[ ] testcase: TC02_GetStarted_NO_Account
+[-] Verify Reminder Launching Points
+	[ ] testcase: TC03_ReminderLaunchingpoints
+[-] Verify Manage Reminder Launching Points
+	[ ] testcase: TC04_ManageReminderLaunchingpoints
+[-] Verify Add Bill Reminder First Screen UI
+	[ ] testcase: TC05_BillReminderFirstScreen
+[-] Verify Add Bill Reminder Second Screen UI
+	[ ] testcase: TC06_BillReminderSecondScreen
+[-] Verify 'Next' Button functionality on Add Bill Reminder First Screen
+	[ ] testcase: TC07_BillNextButtonFirstScreen
+[-] Verify available 'Frequency' selection options for Add Bill Reminder
+	[ ] testcase: TC08_BillChangeLinkSecondScreen
+[-] Verify Add Category,Tag and Memo Panel UI for 
+	[ ] testcase: TC09_BillUIAddCategoryTagMemoPanel
+[-] Verify Add Category,Tag and Memo Panel Functionality
+	[ ] testcase: TC10_BillFunctionalityAddCategoryTagMemo
+[-] Verify invoking point for Split window on Add Bill Reminder
+	[ ] testcase: TC11_BillInvokingPointforSplitDialog
+[-] Verify Split window functinality on Add Bill Reminder
+	[ ] testcase: TC12_BillSplitCategoryFunctionality
+[-] Verify presence of Online bill Pay check box when online bill pay activated account selected on bill reminder
+	[ ] testcase: TC13_OnlineBillPayUI
+[-] Verify presence of Online bill Pay check box when Quicken bill pay activated account selected on bill reminder
+	[ ] testcase: TC14_QuickenBillPayUI
+[-] Verify fuctionality of Online bill Pay check box when online bill pay activated account selected on bill reminder
+	[ ] testcase: TC15_OnlineBillPayFunctionality
+[-] Verify functionality of Online bill Pay check box when Quicken bill pay activated account selected on bill reminder
+	[ ] testcase: TC16_QuickenBillPayFunctionality
+[-] Verify presence of Make this a repeating onlinel paymwnt check box when online bill pay checkbox is selected on bill reminder
+	[ ] testcase: TC18_MakeRepeatingOnlinePaymentUI
+[-] Verify options available in Optional settings section for manual checking account for add a bill reminder dialog
+	[ ] testcase: TC19_VerifyBillOptionalSettings
+[-] Verify UI of 'Reminder days form' for Bill Reminder
+	[ ] testcase: TC20_VerifyBillOptionalSettingsReminderChangeLink
+[-] Verify automatic enter transaction functionality
+	[ ] testcase: TC21_VerifyBillOptionalSettingsAutomaticEnterTxn
+[-] Verify UI of "Related website" form
+	[ ] testcase: TC22_VerifyBillOptionalSettingsRelatedWebsite
+[-] Verify appearance of "Go to Website" link in Add Bill Reminder dialog when website is entered
+	[ ] testcase: TC23_VerifyBillOptionalSettingsGoToWebsiteLink
+[-] Verify functionality of sync to outlook checkbox in Add Bill Reminder dialog
+	[ ] testcase: TC24_VerifyBillOptionalSettingsSyncOutlook
+[-] Verify functionality of print check with quicken check box in Add Bill Reminder dialog
+	[ ] testcase: TC25_VerifyBillOptionalSettingsPrintCheck
+[-] Verify UI of Estimate Bill amount dialog
+	[ ] testcase: TC26_BillUIEstimateAmount
+[-] Verify functionality of 'Previous Payments' on 'Estimate amount for me' dialog for Add Bill Reminder dialog
+	[ ] testcase: TC27_BillFunctionalityPreviousPayments
+[-] Verify functionality of 'Fixed Amount' on 'Estimate amount for me' dialog for Add Bill Reminder dialog
+	[ ] testcase: TC28_BillFunctionalityFixedAmount
+[-] Verify functionality of 'Time Of Year' on 'Estimate amount for me' dialog for Add Bill Reminder dialog
+	[ ] testcase: TC29_BillFunctionalityTimeOfYear
+[-] Verify functionality of 'Cancel' button on Add Bill Reminder dialog
+	[ ] testcase: TC31_BillFunctionalityCancelButton
+[-] Verify functionality of 'Help' icon on Add Bill Reminder dialog
+	[ ] testcase: TC32_BillFunctionalityHelpIcon
+[-] Verify functionality of 'Back' button on Add Bill Reminder dialog
+	[ ] testcase: TC33_BillFunctionalityBackButton
+[-] Verify Add Income Reminder First Screen UI
+	[ ] testcase: TC35_AddIncomeReminderScreenOneUI
+[-] Verify Add Income Reminder Second Screen UI
+	[ ] testcase: TC36_AddIncomeReminderScreenTwoUI
+[-] Verify 'Next' Button functionality on Add Income Reminder First Screen
+	[ ] testcase: TC37_NextButtonAddIncomeReminderFirstScreen
+[-] Verify vailable 'Frequency' selection options for Add Income Reminder
+	[ ] testcase: TC38_IncomeReminderFrequencyChangeLink
+[-] Verify Add Category,Tag and Memo Panel UI for Add Income Reminder
+	[ ] testcase: TC39_UIAddCategoryTagMemoPanel
+[-] Verify Add Category,Tag and Memo Panel functionality for Add Income Reminder
+	[ ] testcase: TC40_FunctionalityAddCategoryTagMemo
+[-] Verify invoking point for Split window on Add Income Reminder
+	[ ] testcase: TC41_IncomeInvokingPointforSplitDialog
+[-] Verify Split window functinality on Add Income Reminder
+	[ ] testcase: TC42_IncomeSplitCategoryFunctionality
+[-] Verify appearance of Income method popup list for brokerage account for Income Reminder
+	[ ] testcase: TC43_IncomeMethodPopupListUI
+[-] Verify list items of Income method popup list for brokerage account for Income Reminder
+	[ ] testcase: TC44_IncomeMethodPopupListItems
+[ ] 
+[ ] //done till here
+[ ] 
+[ ] 
+[ ] 
+[-] Verify functionality of scheduling dividend transactions for Income Reminder
+	[ ] testcase: TC45_ScheduleDividendReminder
+[-] Verify functionality of scheduling interest transactions for Income Reminder
+	[ ] testcase: TC46_ScheduleInterestReminder
+[-] Verify Payee In Income Reminder For Brokerage
+	[ ] testcase:TC49_VerifyPayeeInIncomeReminderForBrokerage
+[-] Verify functionality of scheduling dividend reminder without specifying Security name for Income Reminder
+	[ ] testcase: TC55_ScheduleDividendReminderNoSecurity
+[-] Verify functionality of scheduling interest reminder without specifying Security name for Income Reminder
+	[ ] testcase: TC56_ScheduleInterestReminderNoSecurity
+[-] Verify options available in Optional settings section for manual checking account for Income Reminder
+	[ ] testcase: TC48_VerifyIncomeReminderOptionalSettings
+[-] Verify UI of Reminder days form for Income Reminder
+	[ ] testcase: TC50_IncomeReminderOptionalSettingsReminderChangeLink
+[-] Verify functionality of automatic enter transaction for Income Reminder
+	[ ] testcase: TC51_IncomeReminderOptionalSettingsAutomaticEnterTxn
+[-] Verify UI of "Related website" form for Income Reminder
+	[ ] testcase: TC52_IncomeReminderOptionalSettingsRelatedWebsite
+[-] Verify appearance of "Go to Website" link in Add Income Reminder dialog when website is entered
+	[ ] testcase: TC53_IncomeReminderOptionalSettingsGoToWebsiteLink
+[-] Verify functionality of sync to outlook checkbox in Add Income Reminder dialog
+	[ ] testcase: TC54_IncomeReminderOptionalSettingsSyncOutlook
+[-] Verify UI of Estimate Income amount dialog
+	[ ] testcase: TC57_IncomeUIEstimateAmount
+[-] Verify functionality of 'Previous Payments' on 'Estimate amount for me' dialog for Add Income Reminder dialog
+	[ ] testcase: TC58_IncomeFunctionalityPreviousPayments
+[-] Verify functionality of 'Fixed Amount' on 'Estimate amount for me' dialog for Add Income Reminder dialog
+	[ ] testcase: TC59_IncomeFunctionalityFixedAmount
+[-] Verify functionality of 'Time Of Year' on 'Estimate amount for me' dialog for Add Income Reminder dialog
+	[ ] testcase: TC60_IncomeFunctionalityTimeOfYear
+[-] Verify functionality of 'Done' button on Add Income Reminder dialog
+	[ ] testcase: TC61_IncomeFunctionalityDoneButton
+[-] Verify functionality of 'Cancel' button on Add Income Reminder dialog
+	[ ] testcase: TC62_IncomeFunctionalityCancelButton
+[-] Verify functionality of 'Help' icon on Add Income Reminder dialog
+	[ ] testcase: TC63_IncomeFunctionalityHelpIcon
+[-] Verify functionality of 'Back' button on Add Income Reminder dialog
+	[ ] testcase: TC64_IncomeFunctionalityBackButton
+[-] Verify UI controls Present on Add Transfer Reminder First screen
+	[ ] testcase: TC66_TransferReminderFirstScreen
+[-] Verify UI controls Present on Add Transfer Reminder second screen
+	[ ] testcase: TC67_TransferReminderSecondScreen
+[-] Verify functionality of Next button on Add Transfer Reminder first screen
+	[ ] testcase: TC68_TransferNextButtonFirstScreen
+[-] Verify available options for frequency selection for due date in change link
+	[ ] testcase: TC69_TransferChangeLink
+[-] Verify functionality of Ok, cancel button in Date/Schedule form for change link
+	[ ] testcase: TC70_OkCancelButtonDueDate
+[ ] 
+[-] Verify UI if Add tag or memo panel for transfer reminder
+	[ ] testcase: TC71_TransferUIAddTagMemoPanel
+[-] Verify functionality of Add category, tag or memo
+	[ ] testcase: TC72_TransferFunctionalityAddCategoryTagMemo
+[-] Verify options available in Optional settings section for Transfer Reminder
+	[ ] testcase: TC74_VerifyTransferReminderOptionalSettings
+[-] Verify automatic enter transaction for Transfer Reminder
+	[ ] testcase: TC75_VerifyTransferReminderOptionalSettingsAutomaticEnterTxn
+[-] Verify UI of "Related website" for Transfer Reminder
+	[ ] testcase: TC76_VerifyTransferReminderOptionalSettingsRelatedWebsite
+[-] Verify appearance of "Go to Website" link in Add Transfer Reminder dialog when website is entered
+	[ ] testcase: TC77_VerifyTransferReminderOptionalSettingsGoToWebsiteLink
+[-] Verify sync to outlook checkbox for Transfer Reminder
+	[ ] testcase: TC78_VerifyTransferReminderOptionalSettingsSyncOutlook
+[ ] 
+[ ] 
+[-] Verify UI of Estimate amount for me "change" link window
+	[ ] testcase:TC79_TransferUIEstimateAmount
+[-] Verify functionality of Fixed Amount in Estimate amount for me  
+	[ ] testcase: TC81_TransferFunctionalityFixedAmount
+[-] Verify functionality of Done button on "Add Transfer Reminder" dialog
+	[ ] testcase: TC83_TransferFunctionalityDoneButton
+[-] Verify functionality of Cancel button on "Add Transfer Reminder" dialog
+	[ ] testcase: TC84_TransferFunctionalityCancelButton 
+[-] Verify functionality of help icon on Add Bill Reminder dialog
+	[ ] testcase: TC85_TransferFunctionalityHelpIcon
+[-] Verify functionality of Back button on "Add Bill Reminder" dialog
+	[ ] testcase: TC86_TransferFunctionalityBackButton
+[-] Verify transfer reminder option doesn't exists if data file has only one active account 
+	[ ] testcase: TC88_TransferReminderOptionExists
+[-] Verify transfer reminder will get entered without any category if user deletes 'To Account' before entering the reminder
+	[ ] testcase: TC91_TransferReminderOption
+[-] verify-skip reminder confirmation dialog UI and functionality
+	[ ] testcase: TC92_SkipButtonFunctionality
+[-] verify-Enter reminder confirmation dialog UI and functionality
+	[ ] testcase: TC93_EnterButtonFunctionality
+[-] verify-Enter reminder confirmation dialog UI and functionality
+	[ ] testcase: TC94_InvoiceReminderFirstScreen
+[-] Verify UI controls Present on Add Invoice Reminder second screen
+	[ ] testcase: TC95_InvoiceReminderSecondScreen
+[ ] 
+[ ] //done till here
+[-] Verify options present in Type dropdown for Invoice Reminder
+	[ ] testcase: TC96_InvoiceTypeDropdown() appstate none
+[-] Verify that accounts should be populated according to "Type" selected
+	[ ] testcase: TC97_InvoiceTypeSelection() appstate none
+[-] Verify that Type columns should contain choices according to A/P and A/R added.
+	[ ] testcase: TC98_InvoiceTypeSelectionAPandAR
+[-] Verify that -Functionality of invoice panel: data not entered for customer invoice
+	[ ] testcase: TC99_FunctionalityInvoicePanelCustomerInvoiceNoData
+[-] Verify that -Functionality of invoice panel: data not entered for Vendor invoice
+	[ ] testcase: TC100_FunctionalityInvoicePanelVendorInvoiceNoData
+	[ ] 
+[-] Verify that Functionality of invoice panel: data entered for customer invoice
+	[ ] testcase: TC101_FunctionalityinvoicePanelCustomerInvoiceData
+	[ ] 
+[-] Verify that Functionality of invoice panel: data entered for Vendor invoice
+	[ ] testcase: TC102_FunctionalityinvoicePanelVendorInvoiceData
+[-] Verify that form invoking point for invoice reminder
+	[ ] testcase: TC103_InvokingPointInvoiceReminder
+[-] Verify that dynamic labels for invoice reminder
+	[ ] testcase: TC104_DynamicLabelsInvoiceReminder
+[-] Verify header label on model form for invoice reminder
+	[ ] testcase: TC105_HeaderLabelInvoiceReminder
+[-] Verify UI of Estimate Bill amount dialog spcial case for 'Credit Card'
+	[ ] testcase: TC108_BillUIEstimateAmountCreditCard
+[-] Verify functionality of Estimate Bill amount dialog spcial case for 'Credit Card'
+	[ ] testcase: TC109_BillFunctionalityEstimateAmountCreditCard
+[-] Verify functionality of Memorized payee when used for Bill Reminder
+	[ ] testcase: TC34_MemorizedPayeeWithBill
+[-] Verify functionality of Memorized payee when used for Income Reminder
+	[ ] testcase: TC65_MemorizedPayeeWithIncome
+[-] Verify functionality of Memorized payee when used for Transfer Reminder
+	[ ] testcase: TC87_MemorizedPayeeWithTransfer
+[-] Verify functionality of 'Done' button on Add Bill Reminder dialog
+	[ ] testcase: TC30_BillFunctionalityDoneButton
+[ ] 
+[ ] 
+[ ] 
+[ ] //Bill Reminders
+[-] Setup Reminder Frequency Data File
+	[ ] testcase:TCSetup_ReminderFrequencyDataFile
+[-] Verify Schedule Monthly Bill
+	[ ] testcase:TC110_ScheduleMonthlyBill
+[-] Verify Schedule Every X Month Bill
+	[ ] testcase:TC111_ScheduleEveryXMonthBill
+[-] Verify Schedule Xth Day Of Month Bill
+	[ ] testcase:TC112_ScheduleXthDayOfMonthBill
+[-] Verify Day Dropdown Content Bill
+	[ ] testcase:TC113_DayDropdownContentBill
+	[ ] 
+[-] Verify Schedule Monthly Bill For Last Day Of The Month
+	[ ] testcase:TC114_ScheduleMonthlyBillForLastDayOfTheMonth
+[-] Verify Schedule Monthly Bill For Last XXX Day Of The Month
+	[ ] testcase:TC115_ScheduleMonthlyBillForLastXXXDayOfTheMonth
+[-] Verify Schedule Weekly Bill
+	[ ] testcase:TC116_ScheduleWeeklyBill
+[-] Verify Schedule Weekly Bill For Certain Weeks
+	[ ] testcase:TC117_ScheduleWeeklyBillForCertainWeeks
+[-] Verify Schedule Weekly Bill For Certain Day Of The Week
+	[ ] testcase:TC118_ScheduleWeeklyBillForCertainDayOfTheWeek
+[-] Verify Schedule BiWeekly Bill
+	[ ] testcase:TC119_ScheduleBiWeeklyBill
+[-] Verify Schedule BiWeekly Bill For Certain Day Of The Week
+	[ ] testcase:TC120_ScheduleBiWeeklyBillForCertainDayOfTheWeek
+[-] Verify Schedule Twice A Month Bill
+	[ ] testcase:TC121_ScheduleTwiceAMonthBill
+[-] Verify Schedule Twice A Month BillB
+	[ ] testcase:TC122_ScheduleTwiceAMonthBillB
+[-] Verify Schedule Quarterly Bill
+	[ ] testcase:TC123_ScheduleQuarterlyBill
+[-] Verify Schedule Yearly Bill
+	[ ] testcase:TC124_ScheduleYearlyBill
+[-] Verify ScheduleTwice A Year Bill
+	[ ] testcase:TC125_ScheduleTwiceAYearBill
+[-] Verify Schedule Bill Twice A Year For Two Particular Days
+	[ ] testcase:TC126_ScheduleBillTwiceAYearForTwoParticularDays
+[-] Verify Schedule Only Once Bill
+	[ ] testcase:TC127_ScheduleOnlyOnceBill
+[-] Verify End On Option Bill Reminder
+	[ ] testcase:TC129_VerifyEndOnOptionBillReminder
+[-] Verify End After Option Bill Reminder
+	[ ] testcase:TC130_VerifyEndAfterOptionBillReminder
+[ ] //Income Reminders
+[-] Verify Schedule Monthly Income Reminder
+	[ ] testcase:TC131_ScheduleMonthlyIncome
+[-] Verify Schedule Every X Month Income Reminder
+	[ ] testcase:TC132_ScheduleEveryXMonthIncome
+[-] Verify Schedule Xth Day Of Month Income Reminder
+	[ ] testcase:TC133_ScheduleXthDayOfMonthIncome
+[-] Verify Day Dropdown Content Income Reminder
+	[ ] testcase:TC134_DayDropdownContentIncome
+	[ ] 
+[-] Verify Schedule Monthly Income Reminder For Last Day Of The Month
+	[ ] testcase:TC135_ScheduleMonthlyIncomeReminderForLastDayOfTheMonth
+[-] Verify Schedule Monthly Income Reminder For Last XXX Day Of The Month
+	[ ] testcase:TC136_ScheduleMonthlyIncomeForLastXXXDayOfTheMonth
+[-] Verify Schedule Weekly Income Reminder
+	[ ] testcase:TC137_ScheduleWeeklyIncomeReminder
+[-] Verify Schedule Weekly Income Reminder For Certain Weeks
+	[ ] testcase:TC138_ScheduleWeeklyIncomeReminderForCertainWeeks
+[-] Verify Schedule Weekly Income Reminder For Certain Day Of The Week
+	[ ] testcase:TC139_ScheduleWeeklyIncomeReminderForCertainDayOfTheWeek
+[-] Verify Schedule BiWeekly Income Reminder
+	[ ] testcase:TC140_ScheduleBiWeeklyIncomeReminder
+[-] Verify Schedule BiWeekly Income Reminder For Certain Day Of The Week
+	[ ] testcase:TC141_ScheduleBiWeeklyIncomeReminderForCertainDayOfTheWeek
+[-] Verify Schedule Twice A Month Income Reminder
+	[ ] testcase:TC142_ScheduleTwiceAMonthIncomeReminder
+[-] Verify Schedule Twice A Month Income ReminderB
+	[ ] testcase:TC143_ScheduleTwiceAMonthIncomeReminderB
+[-] Verify Schedule Quarterly Income Reminder
+	[ ] testcase:TC144_ScheduleQuarterlyIncomeReminder
+[-] Verify Schedule Yearly Income Reminder
+	[ ] testcase:TC145_ScheduleYearlyIncomeReminder
+[-] Verify ScheduleTwice A Year Income Reminder
+	[ ] testcase:TC146_ScheduleTwiceAYearIncomeReminder
+[-] Verify Schedule Income Reminder Twice A Year For Two Particular Days
+	[ ] testcase:TC147_ScheduleIncomeReminderTwiceAYearForTwoParticularDays
+[-] Verify Schedule Only Once Income Reminder
+	[ ] testcase:TC148_ScheduleOnlyOnceIncomeReminder
+[-] Verify End On Option Income Reminder
+	[ ] testcase:TC150_VerifyEndOnOptionIncomeReminder
+[-] Verify End After Option Income Reminder
+	[ ] testcase:TC151_VerifyEndAfterOptionIncomeReminder
+[ ] //Transfer Reminders
+[-] Verify Schedule Monthly Transfer Reminder
+	[ ] testcase:TC152_ScheduleMonthlyTransfer
+[-] Verify Schedule Every X Month Transfer Reminder
+	[ ] testcase:TC153_ScheduleEveryXMonthTransfer
+[-] Verify Schedule Xth Day Of Month Transfer Reminder
+	[ ] testcase:TC154_ScheduleXthDayOfMonthTransfer
+[-] Verify Day Dropdown Content Transfer Reminder
+	[ ] testcase:TC155_DayDropdownContentTransfer
+[-] Verify Schedule Monthly Transfer Reminder For Last Day Of The Month
+	[ ] testcase:TC156_ScheduleMonthlyTransferReminderForLastDayOfTheMonth
+[-] Verify Schedule Monthly Transfer Reminder For Last XXX Day Of The Month
+	[ ] testcase:TC157_ScheduleMonthlyTransferForCertainDayOfTheMonth
+[-] Verify Schedule Weekly Transfer Reminder
+	[ ] testcase:TC158_ScheduleWeeklyTransferReminder
+[-] Verify Schedule Weekly Transfer Reminder For Certain Weeks
+	[ ] testcase:TC159_ScheduleWeeklyTransferReminderForCertainWeeks
+[-] Verify Schedule Weekly Transfer Reminder For Certain Day Of The Week
+	[ ] testcase:TC160_ScheduleWeeklyTransferReminderForCertainDayOfTheWeek
+[-] Verify Schedule BiWeekly Transfer Reminder
+	[ ] testcase:TC161_ScheduleBiWeeklyTransferReminder
+[-] Verify Schedule BiWeekly Transfer Reminder For Certain Day Of The Week
+	[ ] testcase:TC162_ScheduleBiWeeklyTransferReminderForCertainDayOfTheWeek
+[-] Verify Schedule Twice A Month Transfer Reminder
+	[ ] testcase:TC163_ScheduleTwiceAMonthTransferReminder
+[-] Verify Schedule Twice A Month Transfer ReminderB
+	[ ] testcase:TC164_ScheduleTwiceAMonthTransferReminderB
+[-] Verify Schedule Quarterly Transfer Reminder
+	[ ] testcase:TC165_ScheduleQuarterlyTransferReminder
+[-] Verify Schedule Yearly Transfer Reminder
+	[ ] testcase:TC166_ScheduleYearlyTransferReminder
+[-] Verify ScheduleTwice A Year Transfer Reminder
+	[ ] testcase:TC167_ScheduleTwiceAYearTransferReminder
+[-] Verify Schedule Transfer Reminder Twice A Year For Two Particular Days
+	[ ] testcase:TC168_ScheduleTransferReminderTwiceAYearForTwoParticularDays
+[-] Verify Schedule Only Once Transfer Reminder
+	[ ] testcase:TC169_ScheduleOnlyOnceTransferReminder
+[-] Verify End On Option Transfer Reminder
+	[ ] testcase:TC171_VerifyEndOnOptionTransferReminder
+[-] Verify End After Option Transfer Reminder
+	[ ] testcase:TC172_VerifyEndAfterOptionTransferReminder
+[ ] //Invoice Reminders
+[-] Invoice Reminder Frequency TestCase Setup
+	[ ] testcase:TCSetup_ReminderFrequencyDataFileInvoice
+[-] Verify Schedule Monthly Invoice Reminder
+	[ ] testcase:TC173_ScheduleMonthlyInvoiceReminder
+[-] Verify Schedule Every X Month Invoice Reminder
+	[ ] testcase:TC174_ScheduleEveryXMonthInvoiceReminder
+[-] Verify Schedule Xth Day Of Month Invoice Reminder
+	[ ] testcase:TC175_ScheduleXthDayOfMonthInvoicer
+[-] Verify Day Dropdown Content Transfer Reminder
+	[ ] testcase:TC176_DayDropdownContentInvoice
+[-] Verify Schedule Monthly Invoice Reminder For Last Day Of The Month
+	[ ] testcase:TC177_ScheduleMonthlyInvoiceReminderForLastDayOfTheMonth
+[-] Verify Schedule Monthly Invoice Reminder For Last XXX Day Of The Month
+	[ ] testcase:TC178_ScheduleMonthlyInvoiceForCertainDayOfTheMonth
+[-] Verify Schedule Weekly Invoice Reminder
+	[ ] testcase:TC179_ScheduleWeeklyInvoiceReminder
+[-] Verify Schedule Weekly Invoice Reminder For Certain Weeks
+	[ ] testcase:TC180_ScheduleWeeklyInvoiceReminderForCertainWeeks
+[-] Verify Schedule Weekly Invoice Reminder For Certain Day Of The Week
+	[ ] testcase:TC181_ScheduleWeeklyInvoiceReminderForCertainDayOfTheWeek
+[-] Verify Schedule BiWeekly Invoice Reminder
+	[ ] testcase:TC182_ScheduleBiWeeklyInvoiceReminder
+[-] Verify Schedule BiWeekly Invoice Reminder For Certain Day Of The Week
+	[ ] testcase:TC183_ScheduleBiWeeklyInvoiceReminderForCertainDayOfTheWeek
+[-] Verify Schedule Twice A Month Invoice Reminder
+	[ ] testcase:TC184_ScheduleTwiceAMonthInvoiceReminder
+[-] Verify Schedule Twice A Month Invoice ReminderB
+	[ ] testcase:TC185_ScheduleTwiceAMonthInvoiceB
+[-] Verify Schedule Quarterly Invoice Reminder
+	[ ] testcase:TC186_ScheduleQuarterlyInvoice
+[-] Verify Schedule Yearly Invoice Reminder
+	[ ] testcase:TC187_ScheduleYearlyInvoice
+[-] Verify ScheduleTwice A Year Invoice Reminder
+	[ ] testcase:TC188_ScheduleTwiceAYearInvoice
+	[ ] 
+	[ ] 
+	[ ] 
+[-] Verify Schedule Invoice Reminder Twice A Year For Two Particular Days
+	[ ] testcase:TC189_ScheduleInvoiceReminderTwiceAYearForTwoParticularDays
+[-] Verify Schedule Only Once Invoice Reminder
+	[ ] testcase:TC190_ScheduleOnlyOnceInvoiceReminder
+[-] Verify End On Option Invoice Reminder
+	[ ] testcase:TC192_VerifyEndOnOptionTransferReminder
+[-] Verify End After Option Invoice Reminder
+	[ ] testcase:TC193_VerifyEndAfterOptionTransferReminder
+[ ] //Estimated Tax Reminders
+[-] Setup Estimated Taxes Reminder Frequency Data File
+	[ ] testcase:TCSetup_ReminderFrequencyEstimatedTaxReminders
+[-] Verify Schedule Estimated Taxes Bill Reminder
+	[ ] testcase:TC128_ScheduleEstimatedTaxesReminder
+[-] Verify Schedule Estimated Taxes Income Reminder
+	[ ] testcase:TC149_ScheduleEstimatedTaxesReminderIncome
+[-] Verify Schedule Estimated Taxes Transfer Reminder
+	[ ] testcase:TC170_ScheduleEstimatedTaxesReminderTransfer
+[-] Verify Schedule Estimated Taxes Invoice Reminder
+	[ ] testcase:TC191_ScheduleEstimatedTaxesReminderInvoice
+	[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 

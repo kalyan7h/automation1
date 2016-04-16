@@ -1,0 +1,46 @@
+﻿[ ] //###############################################
+[ ] //########  This Plan contains all test cases for Build Acceptance Test ###########
+[ ] //###############################################
+[ ] 
+[ ] script: ..\Global\BatQuicken.t
+[ ] 
+[ ] 
+[+] Bat prerequisites
+	[ ] testcase: BatSetUp
+	[ ] 
+[ ] 
+[+] // Uninstall existing Quicken installed on machine
+	[ ] // script: ..\..\ApplicationSpecific\Scripts\BatQuicken.t
+	[ ] // testcase: Test01_UnInstall
+[ ] // 
+[+] // Install latest build and Check existence of key files
+	[ ] // script: ..\..\ApplicationSpecific\Scripts\BatQuicken.t
+	[ ] // testcase: Test02_Install
+[ ] 
+[+] // Launch Quicken and check version
+	[ ] // script:  ..\..\ApplicationSpecific\Scripts\BatQuicken.t
+	[ ] // testcase: Test03_QuickenVersion
+	[ ] // 
+[ ] 
+[+] Create new data file
+	[ ] testcase: Test04_NewDataFileCreation
+	[ ] 
+[ ] 
+[+] Add a checking account
+	[ ] testcase: Test05_AddCheckingAccount
+	[ ] 
+[ ] 
+[+] Add a transaction to checking register
+	[ ] testcase: Test06_AddTransaction
+	[ ] 
+[ ] 
+[+] Add a category under Category List
+	[ ] testcase: Test07_AddCategory
+	[ ] 
+[ ] 
+[+] Open Report and check transactions
+	[ ] testcase: Test08_VerifyReportTransaction
+	[ ] 
+[ ] 
+[+] Bat CleanUp
+	[ ] testcase: BatClean

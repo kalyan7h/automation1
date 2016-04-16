@@ -1,0 +1,98 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<HiddenAccountReports.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Hidden Accounts Reports test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	HiddenAccount.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		03/10/2012
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 Oct 03, 2012	Udita Dube  Created
+[ ] // *******************
+[ ] **************************************
+[ ] 
+[ ] Script: HiddenAccounts_Reports.t
+[ ] 
+[ ] 
+[+] Separate Account Set Up
+	[ ] testcase:SeparateAccountReports_SetUp
+[ ] 
+[+] Separate Accounts BankingReports
+	[ ] testcase:Test01_SeparateAccountsBankingReports
+[ ] 
+[+] Separate Accounts ComparisionReports
+	[ ] testcase:Test02_SeparateAccountsComparisonReports
+[ ] 
+[+] Separate Net Worth & Balances Reports
+	[ ] testcase:Test03_SeparateAccountsNetWorthAndBalancesReports
+[ ] 
+[+] Separate Accounts SpendingReports
+	[ ] testcase:Test04_SeparateAccountsSpendingReports
+[ ] 
+[+] Separate Accounts InvestingReports
+	[ ] testcase:Test05_SeparateAccountsInvestingReports
+[ ] 
+[+] Separate Accounts TaxReports
+	[ ] testcase:Test06_SeparateAccountsTaxReports
+[ ] 
+[+] Separate Accounts BusinessReports
+	[ ] testcase:Test07_SeparateAccountsBusinessReports
+[ ] 
+[ ] 
+[ ] 
+[+] Separate And Closed  Account Set Up
+	[ ] testcase:SeparateAndClosedAccountReports_SetUp
+[ ] 
+[+] Separate And Closed BankingReports
+	[ ] testcase:Test08_SeparateAndClosedAccountsBankingReports
+[ ] 
+[+] Separate And Closed ComparisionReports
+	[ ] testcase:Test09_SeparateAndClosedAccountsComparisonReports
+[ ] 
+[+] Separate And Closed Net Worth & Balances Reports
+	[ ] testcase:Test10_SeparateAndClosedAccountsNetWorthAndBalancesReports
+[ ] 
+[+] Separate And Closed SpendingReports
+	[ ] testcase:Test11_SeparateAndClosedAccountsSpendingReports
+[ ] 
+[+] Separate And Closed InvestingReports
+	[ ] testcase:Test12_SeparateAndClosedAccountsInvestingReports
+[ ] 
+[+] Separate And Closed TaxReports
+	[ ] testcase:Test13_SeparateAndClosedAccountsTaxReports
+[ ] 
+[+] Separate And Closed BusinessReports
+	[ ] testcase:Test14_SeparateAndClosedAccountsBusinessReports
+[ ] 
+[ ] 
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar Set Up
+	[ ] testcase:HiddenInAccountBarAndAccountListReports_SetUp
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar BankingReports
+	[ ] testcase:Test15_HiddenAccountsBankingReports
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar ComparisionReports
+	[ ] testcase:Test16_HiddenAccountsComparisonReports
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar Net Worth & Balances Reports
+	[ ] testcase:Test17_HiddenAccountsNetWorthAndBalancesReports
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar SpendingReports
+	[ ] testcase:Test18_HiddenAccountsSpendingReports
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar InvestingReports
+	[ ] testcase:Test19_HiddenAccountsInvestingReports
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar TaxReports
+	[ ] testcase:Test20_HiddenAccountsTaxReports
+[ ] 
+[+] Accounts Hidden in Account List and Account Bar BusinessReports
+	[ ] testcase:Test21_HiddenAccountsBusinessReports
+[ ] 
+[+] Accounts Hidden in Transaction Entry List Reports
+	[ ] testcase: Test22_AccountsHiddenInTransactionEntryList

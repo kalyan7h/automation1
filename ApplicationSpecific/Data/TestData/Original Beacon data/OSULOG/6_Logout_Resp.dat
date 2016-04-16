@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><cc:CCWSResponse xmlns:cc="http://www.intuit.com/CustomerCentral"> 
+  <status> 
+    <code>ok</code> 
+    <string>call successful</string> 
+  </status> 
+  <body> 
+    <ccresp:CCLogoutResponse xmlns:ccresp="http://www.intuit.com/CustomerCentral/Responses"/> 
+  </body> 
+</cc:CCWSResponse> 
+ 

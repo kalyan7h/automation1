@@ -1,0 +1,362 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+<SIGNONMSGSRSV1>
+<SONRS>
+<STATUS>
+<CODE>0
+<SEVERITY>INFO
+</STATUS>
+<DTSERVER>20130620235914.000[-5:CDT]
+<LANGUAGE>ENG
+<DTACCTUP>20130807235914.000[-5:CDT]
+<FI>
+<ORG>Bank of America
+<FID>5959
+</FI>
+<INTU.BID>6526
+<INTU.USERID>Qtest123
+</SONRS>
+</SIGNONMSGSRSV1>
+<BANKMSGSRSV1>
+<STMTTRNRS>
+<TRNUID>0
+<STATUS>
+<CODE>0
+<SEVERITY>INFO
+</STATUS>
+<STMTRS>
+<CURDEF>USD
+<BANKACCTFROM>
+<BANKID>121000358
+<ACCTID>345890546822
+<ACCTTYPE>CHECKING
+</BANKACCTFROM>
+<BANKTRANLIST>
+<DTSTART>20130620120000
+<DTEND>20120807120000
+<STMTTRN>
+            <TRNTYPE>CREDIT
+            <DTPOSTED>20130620
+            <TRNAMT>2500.0
+            <FITID>1
+            <NAME>Direct Deposit
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130621
+            <TRNAMT>-61.0
+            <FITID>2
+            <NAME>Wal-mart
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130622
+            <TRNAMT>-25.0
+            <FITID>3
+            <NAME>Walgreens
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20140626
+            <TRNAMT>-10.0
+            <FITID>43
+            <NAME>Valero
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>Debit
+            <DTPOSTED>20140625
+            <TRNAMT>-25.5
+            <FITID>44
+            <NAME>Fry's Electronics
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130625
+            <TRNAMT>-16.25
+            <FITID>6
+            <NAME>Macy's
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130626
+            <TRNAMT>-30.75
+            <FITID>7
+            <NAME>Costco
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130627
+            <TRNAMT>-225.0
+            <FITID>8
+            <NAME>Apple
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130628
+            <TRNAMT>-50.5
+            <FITID>9
+            <NAME>Ca State Tax
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130629
+            <TRNAMT>-90.0
+            <FITID>10
+            <NAME>Comcast
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130630
+            <TRNAMT>-65.0
+            <FITID>11
+            <NAME>Metro Pcs
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130630
+            <TRNAMT>-77.7
+            <FITID>12
+            <NAME>Arco
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130701
+            <TRNAMT>-6.9
+            <FITID>13
+            <NAME>Chipotle
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130702
+            <TRNAMT>-54.0
+            <FITID>14
+            <NAME>Amc
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT
+            <DTPOSTED>20130703
+            <TRNAMT>2500.0
+            <FITID>15
+            <NAME>Direct Deposit
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130704
+            <TRNAMT>-60.25
+            <FITID>16
+            <NAME>Allstate
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130705
+            <TRNAMT>-120.0
+            <FITID>17
+            <NAME>Pacific Gas & Electric
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130706
+            <TRNAMT>-12.0
+            <FITID>18
+            <NAME>Interlink Network Trans
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130707
+            <TRNAMT>-200.0
+            <FITID>19
+            <NAME>Best Buy
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130708
+            <TRNAMT>-33.0
+            <FITID>20
+            <NAME>Fandango
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130709
+            <TRNAMT>-150.0
+            <FITID>21
+            <NAME>Fed Tax
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130710
+            <TRNAMT>-24.0
+            <FITID>22
+            <NAME>AT&T
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130711
+            <TRNAMT>-12.0
+            <FITID>23
+            <NAME>VTA
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130712
+            <TRNAMT>-90.9
+            <FITID>24
+            <NAME>Home Depot
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130714
+            <TRNAMT>-12.0
+            <FITID>25
+            <NAME>Walmart Mountain View CA
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130715
+            <TRNAMT>-15.0
+            <FITID>26
+            <NAME>Barnes And Noble
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130716
+            <TRNAMT>-16.0
+            <FITID>27
+            <NAME>American Eagle
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130718
+            <TRNAMT>-18.0
+            <FITID>28
+            <NAME>BigLots
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130718
+            <TRNAMT>-6.0
+            <FITID>30
+            <NAME>Auto Zone
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130719
+            <TRNAMT>-19.0
+            <FITID>29
+            <NAME>Oreilly Auto
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130719
+            <TRNAMT>-19.0
+            <FITID>31
+            <NAME>Pet Smart
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130721
+            <TRNAMT>-39.0
+            <FITID>32
+            <NAME>Toys 'R' Us
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130722
+            <TRNAMT>-12.0
+            <FITID>33
+            <NAME>Babies R Us
+          </STMTTRN>
+		   <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130723
+            <TRNAMT>-199.0
+            <FITID>34
+            <NAME>Enterprise rent
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130723
+            <TRNAMT>-399.0
+            <FITID>35
+            <NAME>Kaiser
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130723
+            <TRNAMT>-120.0
+            <FITID>36
+            <NAME>MetLife
+          </STMTTRN>
+		  <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130724
+            <TRNAMT>-199.0
+            <FITID>37
+            <NAME>FedEx
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130724
+            <TRNAMT>-31.40
+            <FITID>38
+            <NAME>99 Ranch Mkt
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130724
+            <TRNAMT>-1.32
+            <FITID>39
+            <NAME>AMZN.com
+          </STMTTRN>
+		  <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130725
+            <TRNAMT>-19.10
+            <FITID>40
+            <NAME>Cheesecake
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130724
+            <TRNAMT>-32.90
+            <FITID>41
+            <NAME>Greyhound Lines
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20130724
+            <TRNAMT>-1.32
+            <FITID>42
+            <NAME>Jack N Box
+          </STMTTRN>
+         <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20140627
+            <TRNAMT>-15
+            <FITID>43
+            <NAME>Transfer to Savings account xx1234
+          </STMTTRN>
+         <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20140627
+            <TRNAMT>-25
+            <FITID>44
+            <NAME>Transfer to Checking account xx3333
+          </STMTTRN>
+</BANKTRANLIST>
+<LEDGERBAL>
+<BALAMT>1360.20
+<DTASOF>20130807235914
+</LEDGERBAL>
+</STMTRS>
+</STMTTRNRS>
+</BANKMSGSRSV1>
+</OFX>

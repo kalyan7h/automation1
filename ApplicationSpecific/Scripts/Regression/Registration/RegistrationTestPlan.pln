@@ -1,0 +1,12 @@
+﻿[ ] 
+[ ] //########################################################
+[ ] //########  This Plan contains all test cases for Registration###########
+[ ] //########################################################
+[ ] 
+[ ]  Script: ..\Registration\Registration.t
+[ ] 
+[-] Quicken Registration
+	[ ] testcase: Quicken_Registration
+[+] // Cleanup
+	[ ] // testcase: Cleanup
+[ ] 

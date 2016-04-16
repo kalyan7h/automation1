@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Name: com/rxtend/report/
+Main-Class: com.rxtend.report.ReportGenerator
+Sealed: true
+

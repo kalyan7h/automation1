@@ -1,0 +1,136 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<FileManagement_TestPlan.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all File Management test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	FileManagement.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		02/13/2014
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 Feb 13, 2014	Udita Dube  Created
+[ ] // *********************************************************
+[ ] 
+[ ] 
+[ ] 
+[ ] Script: FileBackupRestore.t
+[ ] 
+[ ] 
+[+] Verify UI for Quicken Backup Dialog Window
+	[ ] testcase: Test01_VerifyUIForQuickenBackupDialog
+[ ] 
+[+] Verify Backup on My Computer Hard Drive at default path location
+	[ ] testcase: Test02_VerifyBackupOnMyComputerHardDriveAtDefaultPathLocation
+[ ] 
+[+] Verify restore functionality by restoring data file from default location 
+	[ ] testcase: Test03_VerifyRestoreFromMyComputerHardDriveAtDefaultPathLocation
+[ ] 
+[+] Verify Backup on My Computer Hard Drive at different path location
+	[ ] testcase: Test04_VerifyBackupOnMyComputerHardDriveAtDifferentPathLocation
+[ ] 
+[+] Verify restore functionality by restoring data file from different location
+	[ ] testcase: Test05_VerifyRestoreFromMyComputerHardDriveAtDifferentPathLocation
+[ ] 
+[+] Verify the navigation for Quicken Backup Preferences Dialog & Verify the functionality of Automatic Backup check box option
+	[ ] testcase: Test14_VerifyPreferencesForAutomaticBackup
+[ ] 
+[+] Verify the navigation for Quicken Backup Preferences Dialog & Verify the functionality of Manual Backup check box option
+	[ ] testcase: Test15_VerifyPreferencesForManualBackup
+[ ] 
+[+] Verify UI for Quicken Restore Dialog Window
+	[ ] testcase: Test06_VerifyUIForRestoreDialog
+[ ] 
+[+] Verify the Functionality of available buttons for Restore backup screen.
+	[ ] testcase: Test07_VerifytheFunctionalityOfAvailableButtonsForRestoreBackup
+[ ] 
+[+] Verfiy the Open Backup directory button for newly created data file
+	[ ] testcase: Test08_VerfiyTheOpenBackupDirectoryButtonForNewlyCreatedDataFile
+[ ] 
+[+] Verify newly added "Save a copy as…" and "Show this file on my computer" menu option from Classic menu
+	[ ] testcase: Test10_VerifySaveACopyAsMenuOptionFromClassicMenu
+[ ] 
+[+] Verify restore functionality by Restoring Existing File with overwrite option
+	[ ] testcase: Test11_VerifyRestoreFunctionalityByRestoringExistingFileWithOverwriteOption
+[ ] 
+[+] Verify restore functionality by Restoring Existing File with Copy option
+	[ ] testcase: Test12_VerifyRestoreFunctionalityByRestoringExistingFileWithCopyOption
+[ ] 
+[+] Find Quicken Files
+	[ ] testcase: Test13_FindQuickenFiles
+[+] Verify whether Invalid file locations can be selected from backup directory
+	[ ] testcase: Test16_VerifyInvalidLoacationForManualBackup
+[+] Verify Restore And Overwrite For 2012 Backup File
+	[ ] testcase: Test18_VerifyRestoreAndOverwriteFor2012BackupFile
+[+] Verify Restore And Create A Copy For 2012 Backup File
+	[ ] testcase: Test19_VerifyRestoreAndCreateACopyFor2012BackupFile
+[+] Verify validation message while taking the backup of large char data file
+	[ ] testcase: Test20_VerifyValidationMessageOfDataFileHavingMaxFileName
+[+] Verify the action while taking the backup of large char data file
+	[ ] testcase: Test21_VerifyBackupOfDataFileHavingMaxFileName
+[+] Verify Data file restore operation for large char data file
+	[ ] testcase: Test22_VerifyRestoreOfDataFileHavingMaxFileName
+[+] Verify restore feature for Slient Launch
+	[ ] testcase: Test23_VerifyRestoreOfDataFileSilentQuickenLaunch
+[+] Verify restore feature form New user Flow using menu on Get started window
+	[ ] testcase: Test24_VerifyRestoreFromNewUserFlowUsingMenu
+[+] Verify restore feature form New user Flow by clicking Get started button 
+	[ ] testcase: Test25_VerifyRestoreFromNewUserFlowByClickingGetStartedButton
+[+] Verify Create New data file feature when there is no file opened with Quicken using menu
+	[ ] testcase: Test26_VerifyCreateNewDataFileFromNewUserFlowUsingMenu
+[+] Verify Create New data file feature when there is no file opened with Quicken  by clicking Get started button 
+	[ ] testcase: Test27_VerifyCreateNewDataFileFromNewUserFlowByClickingGetStartedButton
+[+] Verify Open data file feature when there is no file opened with Quicken using menu
+	[ ] testcase: Test28_VerifyOpenDataFileFromNewUserFlowUsingMenu
+[+] Verify Open data file feature when there is no file opened with Quicken  by clicking Get started button
+	[ ] testcase: Test29_VerifyOpenDataFileFromNewUserFlowByClickingGetStartedButton
+[+] Verify  Help link on Quicken backup dialog
+	[ ] testcase: Test30_VerifyHelpLinkOnBackupDialog
+[+] Verify  Help link on Quicken Restore dialog 
+	[ ] testcase: Test31_VerifyHelpLinkOnRestoreDialog
+[+] Validation for blank file name while backing up files.
+	[ ] testcase: Test32_ValidateBlankFileNameOnBackupDialog
+[+] Verify Quicken backup feature by putting target location "\\"            
+	[ ] testcase: Test33_ValidateSpecialCharactersAsFileNameOnBackupDialog
+[+] Validate Backup success notification dialog 				/////
+	[ ] testcase: Test34_ValidateBackupSuccessDialog
+[+] Verify the functionality of Browse button from Quicken Restore
+	[ ] testcase: Test35_ValidateBrowseOnQuickenRestoreDialog
+[+] Verify whether Invalid file locations can be selected from Restore directory           ////
+	[ ] testcase: Test36_VerifyInvalidLoacationForRestore
+[+] Verify available link Learn More from Restore dialog 
+	[ ] testcase: Test37_VerifyLearnMoreLinkForRestore
+[+] Verify whether user is able to restore QDF-Backup file from File->Open menu
+	[ ] testcase: Test38_VerifyRestoreBackupFromOpenFile
+[+] Verify whether user is able to Immediately open newly created file
+	[ ] testcase: Test39_VerifyOpenNewCreatedFile
+[+] Verify file path with space in the beginning and in the end.
+	[ ] testcase: Test40_VerifySpacesTrimmedForBackupFile
+[+] Verify displayed validation Quicken CD Backup dialog
+	[ ] testcase: Test41_VerifyBackupValidationMessageForEmptyCDDrive
+[+] Verify upgrade Process / Existing User data migration                 ////
+	[ ] testcase: Test42_VerifyDataFileMigration
+[+] Verify backup feature if user specify blank spaces (>12) in file name
+	[ ] testcase: Test43_VerifyBackupWhenFileNameHavingMoreThan12Spaces
+[+] Verify "Don't show again" check box on backup dialog while overwriting with any existing backup file 
+	[ ] testcase: Test44_ValidateDontShowAgainForOverwriteBackup
+[+] Verify action for auto backup file when user double clicks a file from list 
+	[ ] testcase: Test45_ValidateAutoBackupRestoreByDoubleClick
+[+] Verify default focus for Quicken Backup dialog.
+	[ ] testcase: Test46_VerifyDefaultFocusOnQuickenBackupDialog
+[+] After canceling the Open File dialog, Quicken should display last opened data file properly.
+	[ ] testcase: Test47_VerifyCancelOperationOpensLastOpenedDataFile
+[+] Verify restore functionality for password protected backup file
+	[ ] testcase: Test48_VerifyRestoreForPasswordProtectedDataFile
+[+] Verify restore feature by hitting enter key
+	[ ] testcase: Test49_VerifyRestoreByHittingEnterKey
+[+] Verify whether user is able to restore backup data at new created folder location
+	[ ] testcase: Test50_VerifyRestoreAtNewFolderLocation
+	[ ] 
+[+] Verify the restore functionality by "Restoring Currently Open File"										////
+	[ ] testcase: Test09_VerifyTheRestoreFunctionalityByRestoringCurrentlyOpenFile
+[+] Verify File menus and submenus  
+	[ ] testcase: Test17_VerifyFileMenu
+[ ] 

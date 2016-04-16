@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><cc:CCWSResponse xmlns:cc="http://www.intuit.com/CustomerCentral"> 
+  <status> 
+    <code>ok</code> 
+    <string>call successful</string> 
+  </status> 
+  <body> 
+    <ccresp:CCGetAccountsResponse xmlns:ccresp="http://www.intuit.com/CustomerCentral/Responses"> 
+      <account> 
+        <tp_account_id>1000000245</tp_account_id> 
+        <status>A</status> 
+        <tp_account_type_id>100</tp_account_type_id> 
+        <account_number>XXXXXX0124</account_number> 
+        <account_number_real>1003140124</account_number_real> 
+        <account_nickname>BUSINESS CHECKING</account_nickname> 
+        <aggr_account_nickname>BUSINESS CHECKING</aggr_account_nickname> 
+        <aggr_position/> 
+        <tp_customer_id>55000100012</tp_customer_id> 
+        <tp_institution_id>31</tp_institution_id> 
+        <description/> 
+        <name_register_user/> 
+        <balance_amount>278.5</balance_amount> 
+        <balance_date>2011-05-27T07:00:00</balance_date> 
+        <balance_previous_amount/> 
+        <last_txn_date>2011-05-12T12:00:00</last_txn_date> 
+        <aggr_success_date>2011-06-01T01:58:36</aggr_success_date> 
+        <aggr_attempt_date>2011-06-01T01:58:36</aggr_attempt_date> 
+        <aggr_status_code>0</aggr_status_code> 
+        <data_indicator>B</data_indicator> 
+        <user1/> 
+        <user2/> 
+        <user3/> 
+        <user4/>

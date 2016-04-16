@@ -1,0 +1,117 @@
+
+11/25/2002 4:37PM An Ability to select (Click) on graphic items that appear in lists.  If a Graphic item is found in the list, maybe display the text [GRAPHIC]. Then interpret a request to click on [GRAPHIC] as an actual click on the graphic item.
+
+
+================================================================================================
+
+11/25/2002 4:33PM: Return the physical attributes of the active Window (the Window that has focus) in Quicken. 
+
+Command Example:
+
+get_active_window_description();
+
+Result:
+{
+	width: 853@
+	x: 255@
+	y: 116@
+	abs_x: 255@
+	class: window@
+	MSW_class: QWinPopup@
+	abs_y: 116@
+	maximizable: 1@
+	height: 824@
+	MSW_id: 0@
+	handle: 1048908@
+	label: Budget@
+	TOOLKIT_class: QWinPopup@
+}
+The most beneficial are those unique items that describe the Window and the x,x,y,y coordinates (and of course, the handle.)
+
+
+================================================================================================
+
+
+11/25/2002 4:31PM: Return the phyisical attributes of the active object (the object that has focus) in Quicken. 
+
+Command Example:
+
+get_active_object_description();
+
+Result:
+{
+	width: 50@
+	x: 92@
+	y: 595@
+	abs_x: 820@
+	class: object@
+	MSW_class: QREdit@
+	abs_y: 699@
+	height: 14@
+	active: 0@
+	MSW_id: 3@
+	handle: 132018@
+	TOOLKIT_class: QREdit
+}
+
+The most beneficial are those unique items that describe the Window and the x,x,y,y coordinates (and of course, the handle.)
+
+
+The most beneficial are those unique items that describe the Window and the x,x,y,y coordinates.
+
+================================================================================================
+
+
+11/25/2002 4:27PM: Return the contents of the active (highlighted) register row in a delimited format.
+
+
+================================================================================================
+
+
+11/13/2002 1:43PM: There should always be some form of return code or static text indicator within the dialog of success or failure.
+
+================================================================================================
+
+
+11/13/2002 1:06PM: Extend the Listviewer to QWSnapHolder:
+The Online Update Summary displays various lists however the text for these lists are not exposed.
+
+
+================================================================================================
+
+
+10/30/2002 6:47M: LISTVIEW_SELECTROW_TEXT should support left or right click
+LISTVIEW_SELECTROW_TEXT(Listviewer Handle,[Row num, TEXT, [mouse_button])
+
+(optional) mouse_button:	Specifies the mouse button that clicks on the text string. The value can be LEFT, or RIGHT. If no button is specified, the default is the left button. 
+
+
+================================================================================================
+
+
+10/30/2002 6:34M:Standard command syntax
+(Example)
+
+obj_get_info ( object, property, out_value1, [outvalue2] );
+
+object		The logical name or description of the GUI object. The object may belong to any class. 
+property	Any of the properties listed in the User's Guide. 
+out_value1	The output variable that stores the value1 of the property.
+out_value2	The output variable that stores the value2 of the property.
+
+arg with no brackets are required
+
+================================================================================================
+
+
+
+10/30/2002 5:23PM: The cpdatadialog functionality should not be version/build dependent.  
+Changes that occur in the tool should not be dependent on the build of Quicken in test. 
+
+
+================================================================================================
+
+
+10/30/2002 5:10PM: Listbox select text from row functionality
+LISTVIEW_SELECTROW_TEXT,[Listviewer Handle],[Row #], [TEXT]
+

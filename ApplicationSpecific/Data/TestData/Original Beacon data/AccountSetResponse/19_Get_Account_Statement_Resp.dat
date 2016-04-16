@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><cc:CCWSResponse xmlns:cc="http://www.intuit.com/CustomerCentral"> 
+  <status> 
+    <code>ok</code> 
+    <string>call successful</string> 
+  </status> 
+  <body> 
+    <ccresp:CCGetAccountStatementResponse xmlns:ccresp="http://www.intuit.com/CustomerCentral/Responses"> 
+      <OFXHEADERLIST> 
+        <OFXHEADER>100</OFXHEADER> 
+        <DATA>OFXSGML</DATA> 
+        <VERSION>210</VERSION> 
+        <SECURITY>NONE</SECURITY> 
+        <ENCODING>USASCII</ENCODING> 
+        <CHARSET>1252</CHARSET> 
+        <COMPRESSION>NONE</COMPRESSION> 
+        <OLDFILEUID>NONE</OLDFILEUID> 
+        <NEWFILEUID>NONE</NEWFILEUID> 
+      </OFXHEADERLIST> 
+      <OFX> 
+        <SIGNONMSGSRSV1> 
+          <SONRS> 
+            <STATUS> 
+              <CODE>0</CODE> 
+              <SEVERITY>INFO</SEVERITY> 
+            </STATUS> 
+            <DTSERVER>20110601014853.297</DTSERVER> 
+            <LANGUAGE>ENG</LANGUAGE> 
+            <FI> 
+              <ORG>Wells Fargo</ORG> 
+              <FID>3000</FID> 
+            </FI> 
+            <INTU.BID>3000</INTU.BID> 
+            <INTU.PRESENCEID>3000</INTU.PRESENCEID> 
+          </SONRS> 
+        </SIGNONMSGSRSV1> 
+        <BANKMSGSRSV1> 
+          <STMTTRNRS> 
+            <TRNUID>0</TRNUID> 
+            <STATUS> 
+              <CODE>0</CODE> 
+              <SEVERITY>INFO</SEVERITY> 
+            </STATUS> 
+            <STMTRS> 
+              <CURDEF>USD</CURDEF> 
+              <BANKACCTFROM> 
+                <BANKID>000000000</BANKID> 
+                <ACCTID>1003140124</ACCTID> 
+                <ACCTTYPE>CHECKING</ACCTTYPE> 
+              </BANKACCTFROM> 
+              <BANKTRANLIST> 
+                <DTSTART>19700101000000.000</DTSTART> 
+                <DTEND>20110601014853.278</DTEND> 
+                <STMTTRN> 
+                  <TRNTYPE>FEE</TRNTYPE> 
+                  <DTPOSTED>20110311120000.000</DTPOSTED> 
+                  <TRNAMT>-10.00</TRNAMT> 
+                  <FITID>201103111</FITID> 
+                  <NAME>MONTHLY SERVICE FEE</NAME> 
+                </STMTTRN> 
+                <STMTTRN> 
+                  <TRNTYPE>FEE</TRNTYPE> 
+                  <DTPOSTED>20110512120000.000</DTPOSTED> 
+                  <TRNAMT>-10.00</TRNAMT> 
+                  <FITID>201105121</FITID> 
+                  <NAME>MONTHLY SERVICE FEE</NAME> 
+                </STMTTRN> 
+                <STMTTRN> 
+                  <TRNTYPE>FEE</TRNTYPE> 
+                  <DTPOSTED>20110413120000.000</DTPOSTED> 
+                  <TRNAMT>-10.00</TRNAMT> 
+                  <FITID>201104131</FITID> 
+                  <NAME>MONTHLY SERVICE FEE</NAME> 
+                </STMTTRN> 
+                <STMTTRN> 
+                  <TRNTYPE>SRVCHG</TRNTYPE> 
+                  <DTPOSTED>20110426120000.000</DTPOSTED> 
+                  <TRNAMT>-10.00</TRNAMT> 
+                  <FITID>201104262</FITID> 
+                  <NAME>WIRE TRANS SVC CHARGE - SEQUENCE</NAME> 
+                  <MEMO>WIRE TRANS SVC CHARGE - SEQUENCE: 110426081500 SRF# 5293100116JO TRN#110426081500 RFB# CAP OF 11/04/26</MEMO> 
+                </STMTTRN> 
+                <STMTTRN> 
+                  <TRNTYPE>FEE</TRNTYPE> 
+                  <DTPOSTED>20110502120000.000</DTPOSTED> 
+                  <TRNAMT>-9.95</TRNAMT> 
+                  <FITID>201105021</FITID> 
+                  <NAME>BILL PAY SERVICE FEE ON 05-01</NAME> 
+                </STMTTRN> 
+                <STMTTRN> 
+                  <TRNTYPE>FEE</TRNTYPE> 
+                  <DTPOSTED>20110401120000.000</DTPOSTED> 
+                  <TRNAMT>-9.95</TRNAMT> 
+                  <FITID>201104011</FITID> 
+                  <NAME>BILL PAY SERVICE FEE ON 04-01</NAME> 
+                </STMTTRN> 
+                <STMTTRN> 
+                  <TRNTYPE>DIRECTDEBIT</TRNTYPE> 
+                  <DTPOSTED>20110407120000.000</DTPOSTED> 
+                  <TRNAMT>-21.95</TRNAMT> 
+                  <FITID>201104071</FITID> 
+                  <NAME>INNOVATIVE MERCH</NAME> 
+                  <MEMO>INNOVATIVE MERCH                  IMS 040611 426696100034569 QUICKENTEST2004A</MEMO> 
+                </STMTTRN> 
+                <STMTTRN> 
+                  <TRNTYPE>DEP</TRNTYPE> 
+                  <DTPOSTED>20110426120000.000</DTPOSTED> 
+                  <TRNAMT>300.00</TRNAMT> 
+                  <FITID>201104261</FITID> 
+                  <NAME>WT FED#04970 JPM</NAME> 
+                  <MEMO>WT FED#04970 JPM                 ORGAN CHASE BAN /ORG=INTUIT INC SRF# 5293100116JO TRN#110426081500 RFB# CAP OF 11/04/26</MEMO> 
+                </STMTTRN> 
+              </BANKTRANLIST> 
+              <LEDGERBAL> 
+                <BALAMT>278.50</BALAMT> 
+                <DTASOF>20110527070000.000</DTASOF> 
+              </LEDGERBAL> 
+              <AVAILBAL> 
+                <BALAMT>278.50</BALAMT> 
+                <DTASOF>20110527070000.000</DTASOF> 
+              </AVAILBAL> 
+            </STMTRS> 
+          </STMTTRNRS> 
+        </BANKMSGSRSV1> 
+      </OFX> 
+    </ccresp:CCGetAccountStatementResponse> 
+  </body> 
+</cc:CCWSResponse> 

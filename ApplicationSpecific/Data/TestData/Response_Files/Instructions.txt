@@ -1,0 +1,17 @@
+1. Launch Quicken.
+2. Create new data file.
+3. Click on Add Account button.
+4. Select checking radio button -> Click on Next button.
+5. Enter FI name as Mission Federal Credit Union -> Click on Next button.
+6. Fake response dialog will be displayed. Enter 1_brand_resp.dat file and click on Continue button.
+7. Login screen will be displayed. 
+8. Enter user name as 91058196 and password as 123456 -> Click on Next button.
+9. Fake response dialog will be displayed. Enter 2_prof_resp.dat file and click on Continue button.
+10. Fake response dialog will be displayed. Enter 3_acct_info.dat file and click on Continue button.
+11. Account Selection screen will be displayed.
+12. Click on Next button.
+13. Fake response dialog will be displayed. Enter 4_payment_sync.dat file and click on Continue button.
+14. Fake response dialog will be displayed. Enter 5_stmt_resp.dat file and click on Continue button.
+15. Local Web Request dialog will be displayed. Click on Fail Request button.
+16. Accounts Added screen will be displayed. Click on Finish button.
+17. Click on Finish button.

@@ -1,0 +1,120 @@
+﻿[ ] //#######################################################
+[ ] //########  This Plan contains test cases for PerformanceSuit ###########
+[ ] //#######################################################
+[ ] 
+[ ]  Script: ..\Performance\PerformanceSuit.t
+[ ] 
+[-] Performance SetUp
+	[ ] testcase: PerformanceSetUp
+[ ] 
+[-] Launch Quicken 
+	[ ] testcase: Test01_LaunchQuicken
+[ ] 
+[-] Open Register Checking
+	[ ] testcase: Test02_OpenRegisterChecking
+[ ] 
+[-] Enter Transaction into Checking Register in C2R
+	[ ] testcase: Test03_EnterTransactionIntoCheckingRegisterWithC2R
+[ ] 
+[-] Enter Split Transactionin C2R mode
+	[ ] testcase: Test04_EnterSplitTransactionWithC2Rmode
+[ ] 
+[-] Open Register Checking02
+	[ ] testcase: Test05_OpenRegisterChecking02
+[ ] 
+[-] Enter Transaction into Checking Register
+	[ ] testcase:Test06_EnterTransactionIntoCheckingRegister
+[ ] 
+[-] Enter Split Transaction
+	[ ] testcase: Test07_EnterSplitTransaction
+[ ] 
+[-] Open ManageBill and ReminderReport
+	[ ] testcase:Test08_OpenManageBillandReminderReport
+[ ] 
+[-] Open Account List Dialog from Tools Menu
+	[ ] testcase: Test09_OpenAccountList
+[ ] 
+[-] Open Category List Dialog from Tools Menu
+	[ ] testcase:Test10_OpenCategoryList
+[ ] 
+[-] Open Memorized Payee List 
+	[ ] testcase:Test11_OpenMemorizedPayeeList
+[ ] 
+[-] Open Investment Register
+	[ ] testcase:Test12_OpenInvestmentRegister
+[ ] 
+[-] Investment Buy Transaction
+	[ ] testcase:Test13_InvestmentBuyTransaction
+[ ] 
+[-] Investment Sel Transaction
+	[ ] testcase:Test14_InvestmentSellTransaction
+[ ] 
+[-] Investment IncomeTransaction
+	[ ] testcase:Test15_InvestmentIncomeTransaction
+[ ] 
+[-] Investment Reinvest Transaction
+	[ ] testcase:Test16_InvestmentReinvestTransaction
+[ ] 
+[-] Open Net Worth Report
+	[ ] testcase:Test17_OpenNetWorthReport
+[ ] 
+[-] Open Spending Report
+	[ ] testcase:Test18_RunSpendingReport
+[ ] 
+[-] Open Investment Performance Report
+	[ ] testcase:Test19_OpenInvestmentPerformanceReport
+[ ] 
+[-] Open Payee Report
+	[ ] testcase:Test20_PayeeReport
+[ ] 
+[-] Open temized Categories
+	[ ] testcase:Test21_ItemizedCategories
+[ ] 
+[-] Open Investment Performance 
+	[ ] testcase:Test22_InvestmentPerformance
+[ ] 
+[-] Quotes Download
+	[ ] testcase:Test24_QuotesDownload
+[ ] 
+[-] Planning Center
+	[ ] testcase:Test25_PlanningCenter
+[ ] 
+[-] Tax Center
+	[ ] testcase:Test26_TaxCenter
+[ ] 
+[-] Spending Planner
+	[ ] testcase:Test27_SpendingPlanner
+[ ] 
+[-] Open Protfolio View
+	[ ] testcase:Test28_OpenProtfolioView
+[ ] 
+[-] Open Reconcile Dialog
+	[ ] testcase:Test29_OpenReconcileDialog
+[ ] 
+[-] Import web connect file Banking
+	[ ] testcase:Test30_ImportWebConnectFileBanking
+[ ] 
+[-] Import Web Connect File Investment
+	[ ] testcase:Test31_ImportWebConnectFileInvestment
+[ ] 
+[+] // Accepting Banking Tranasaction
+	[ ] // testcase:Test32_AcceptingBankingTransaction
+[ ] 
+[-] Add Checking Account
+	[ ] testcase:Test33_AddCheckingAccount
+[ ] 
+[-] Add Brokerage Account
+	[ ] testcase:Test34_AddBrokerageAccount
+[ ] 
+[-] Add Category In Category List
+	[ ] testcase:Test35_AddCategoryInCategoryList
+[ ] 
+[-] Create New Data file
+	[ ] testcase:Test36_NewDataFileCreation
+[ ] 
+[-] Close Quicken
+	[ ] testcase:Test37_CloseQuicken
+[ ] 
+[-] Performance Clean
+	[ ] testcase:PerformanceClean
+[ ] 

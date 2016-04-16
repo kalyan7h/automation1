@@ -1,0 +1,218 @@
+OFXHEADER:100 
+DATA:OFXSGML 
+VERSION:102 
+SECURITY:NONE 
+ENCODING:USASCII 
+CHARSET:1252 
+COMPRESSION:NONE 
+OLDFILEUID:NONE 
+NEWFILEUID:NONE 
+ 
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>Success.
+            </STATUS>
+            <DTSERVER>20080307082510.000[0:GMT]
+            <LANGUAGE>ENG
+            <DTPROFUP>20030701070000.000[0:GMT]
+            <FI>
+                <ORG>MISSION
+                <FID>1001
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <PROFMSGSRSV1>
+        <PROFTRNRS>
+            <TRNUID>199E0240-7A09-1000-9AE9-D10B0C130026
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>Success
+            </STATUS>
+            <PROFRS>
+                <MSGSETLIST>
+                    <SIGNONMSGSET>
+                        <SIGNONMSGSETV1>
+                            <MSGSETCORE>
+                                <VER>1
+                                <URL>https://missionlink.missionfcu.org/scripts/serverext.dll
+                                <OFXSEC>NONE
+                                <TRANSPSEC>Y
+                                <SIGNONREALM>Realm1
+                                <LANGUAGE>ENG
+                                <SYNCMODE>LITE
+                                <RESPFILEER>Y
+                                <SPNAME>Corillian Corporation
+                            </MSGSETCORE>
+                        </SIGNONMSGSETV1>
+                    </SIGNONMSGSET>
+                    <SIGNUPMSGSET>
+                        <SIGNUPMSGSETV1>
+                            <MSGSETCORE>
+                                <VER>1
+                                <URL>https://missionlink.missionfcu.org/scripts/serverext.dll
+                                <OFXSEC>NONE
+                                <TRANSPSEC>Y
+                                <SIGNONREALM>Realm1
+                                <LANGUAGE>ENG
+                                <SYNCMODE>LITE
+                                <RESPFILEER>Y
+                                <SPNAME>Corillian Corporation
+                            </MSGSETCORE>
+                            <WEBENROLL>
+                                <URL>https://missionlink.missionfcu.org
+                            </WEBENROLL>
+                            <CHGUSERINFO>N
+                            <AVAILACCTS>Y
+                            <CLIENTACTREQ>N
+                        </SIGNUPMSGSETV1>
+                    </SIGNUPMSGSET>
+                    <BANKMSGSET>
+                        <BANKMSGSETV1>
+                            <MSGSETCORE>
+                                <VER>1
+                                <URL>https://missionlink.missionfcu.org/scripts/serverext.dll
+                                <OFXSEC>NONE
+                                <TRANSPSEC>Y
+                                <SIGNONREALM>Realm1
+                                <LANGUAGE>ENG
+                                <SYNCMODE>FULL
+                                <RESPFILEER>Y
+                                <SPNAME>Corillian Corporation
+                            </MSGSETCORE>
+                            <CLOSINGAVAIL>N
+                            <XFERPROF>
+                                <PROCENDTM>230000[0:GMT]
+                                <CANSCHED>N
+                                <CANRECUR>N
+                                <CANMODXFERS>N
+                                <CANMODMDLS>N
+                                <MODELWND>0
+                                <DAYSWITH>0
+                                <DFLTDAYSTOPAY>0
+                            </XFERPROF>
+                            <EMAILPROF>
+                                <CANEMAIL>Y
+                                <CANNOTIFY>N
+                            </EMAILPROF>
+                        </BANKMSGSETV1>
+                    </BANKMSGSET>
+                    <CREDITCARDMSGSET>
+                        <CREDITCARDMSGSETV1>
+                            <MSGSETCORE>
+                                <VER>1
+                                <URL>https://missionlink.missionfcu.org/scripts/serverext.dll
+                                <OFXSEC>NONE
+                                <TRANSPSEC>Y
+                                <SIGNONREALM>Realm1
+                                <LANGUAGE>ENG
+                                <SYNCMODE>FULL
+                                <RESPFILEER>Y
+                                <SPNAME>Corillian Corporation
+                            </MSGSETCORE>
+                            <CLOSINGAVAIL>N
+                        </CREDITCARDMSGSETV1>
+                    </CREDITCARDMSGSET>
+                    <BILLPAYMSGSET>
+                        <BILLPAYMSGSETV1>
+                            <MSGSETCORE>
+                                <VER>1
+                                <URL>https://missionlink.missionfcu.org/scripts/serverext.dll
+                                <OFXSEC>NONE
+                                <TRANSPSEC>Y
+                                <SIGNONREALM>Realm1
+                                <LANGUAGE>ENG
+                                <SYNCMODE>FULL
+                                <RESPFILEER>Y
+                                <SPNAME>Corillian Corporation
+                            </MSGSETCORE>
+                            <DAYSWITH>5
+                            <DFLTDAYSTOPAY>6
+                            <XFERDAYSWITH>0
+                            <XFERDFLTDAYSTOPAY>0
+                            <PROCDAYSOFF>SATURDAY
+                            <PROCDAYSOFF>SUNDAY
+                            <PROCENDTM>150000[-8]
+                            <MODELWND>91
+                            <POSTPROCWND>180
+                            <STSVIAMODS>Y
+                            <PMTBYADDR>Y
+                            <PMTBYXFER>N
+                            <PMTBYPAYEEID>N
+                            <CANADDPAYEE>Y
+                            <HASEXTDPMT>N
+                            <CANMODPMTS>Y
+                            <CANMODMDLS>N
+                            <DIFFFIRSTPMT>N
+                            <DIFFLASTPMT>N
+                            <INTU.DATEMODEL>PROCDATE2
+                            <INTU.DFLTDAYSWITH>5
+                        </BILLPAYMSGSETV1>
+                    </BILLPAYMSGSET>
+                    <EMAILMSGSET>
+                        <EMAILMSGSETV1>
+                            <MSGSETCORE>
+                                <VER>1
+                                <URL>https://missionlink.missionfcu.org/scripts/serverext.dll
+                                <OFXSEC>NONE
+                                <TRANSPSEC>Y
+                                <SIGNONREALM>Realm1
+                                <LANGUAGE>ENG
+                                <SYNCMODE>FULL
+                                <RESPFILEER>Y
+                                <SPNAME>Corillian Corporation
+                            </MSGSETCORE>
+                            <MAILSUP>Y
+                            <GETMIMESUP>N
+                        </EMAILMSGSETV1>
+                    </EMAILMSGSET>
+                    <PROFMSGSET>
+                        <PROFMSGSETV1>
+                            <MSGSETCORE>
+                                <VER>1
+                                <URL>https://missionlink.missionfcu.org/scripts/serverext.dll
+                                <OFXSEC>NONE
+                                <TRANSPSEC>Y
+                                <SIGNONREALM>Realm1
+                                <LANGUAGE>ENG
+                                <SYNCMODE>LITE
+                                <RESPFILEER>Y
+                                <SPNAME>Corillian Corporation
+                            </MSGSETCORE>
+                        </PROFMSGSETV1>
+                    </PROFMSGSET>
+                </MSGSETLIST>
+                <SIGNONINFOLIST>
+                    <SIGNONINFO>
+                        <SIGNONREALM>Realm1
+                        <MIN>4
+                        <MAX>20
+                        <CHARTYPE>ALPHAORNUMERIC
+                        <CASESEN>Y
+                        <SPECIAL>N
+                        <SPACES>N
+                        <PINCH>Y
+                        <CHGPINFIRST>N
+                    </SIGNONINFO>
+                </SIGNONINFOLIST>
+                <DTPROFUP>20030701070000.000[0:GMT]
+                <FINAME>Mission Federal Credit Union
+                <ADDR1>5785 Oberlin Drive
+                <CITY>San Diego
+                <STATE>CA
+                <POSTALCODE>92121
+                <COUNTRY>USA
+                <CSPHONE>800-500-6358
+                <TSPHONE>619-546-2181
+                <FAXPHONE>619-535-0680
+                <URL>http://www.missionfcu.org
+                <EMAIL>missionmail@missionfcu.org
+            </PROFRS>
+        </PROFTRNRS>
+    </PROFMSGSRSV1>
+</OFX> 

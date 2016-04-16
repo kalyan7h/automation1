@@ -1,0 +1,66 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<C2R.t>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   <This script contains all Compare 2 register test cases>
+	[ ] //
+	[ ] // DEPENDENCIES:	<include.inc>
+	[ ] //
+	[ ] // DEVELOPED BY:	Anagha Bhandare
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] // 	  Nov 18, 2013		Anagha	created
+[ ] // *********************************************************
+[ ] 
+[ ] Script:C2R.t
+[ ] 
+[-] C2R SetUp
+	[ ] testcase: C2R_SetUp
+[-]  Verify Accept Button present on each Transaction in C2R
+	[ ] testcase:Test01_AcceptButtonOnTransactionInC2R
+[-]  Verify Accept Button present and functionality on bottom of the C2R 
+	[ ] testcase:Test02_AcceptButtonOnBottomOfC2R
+[-] Verify Help Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test03_HelpButtonOnBottomOfC2R
+[-] Verify Accept All Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test04_AcceptAllButtonOnBottomOfC2R
+[-] Verify Finish Later Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test06_FinishLaterButtonOnBottomOfC2R
+[-] Verify Renaming Rules Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test07_RenamingRulesButtonOnBottomOfC2R
+[-] Verify Hide Accepted Button present and functionality on bottom of the C2R window
+	[ ] testcase:Test08A_HideAcceptedButtonOnBottomOfC2R
+	[ ] Verify Show Accepted Button present and functionality on bottom of the C2R window
+	[ ] Verify Edit Menu-Delete Transaction in C2R 
+	[ ] Verify Edit Menu- Match Manually Transaction in C2R 
+	[ ] Verify Edit Menu- Make New Transaction in C2R
+	[ ] Verify Edit Menu- Make All New Transaction in C2R
+	[ ] Verify Edit Menu-UnMatch Transaction in C2R
+	[ ] Verify Edit Menu-Revert to Original Payee Transaction in C2R
+	[ ] Verify Edit Menu- Renaming RulesTransaction in C2R 
+	[ ] Verify Right Click Menu-Delete Transaction  in C2R
+	[ ] Verify Right Click Menu- Match Manually Transaction in C2R
+	[ ] Verify Right Click Menu-UnMatch Transaction in C2R
+	[ ] Verify Right Click Menu- Make New Transaction in C2R
+	[ ] Verify Right Click Menu- Make All New Transaction in C2R
+	[ ] Verify Right Click-Revert to Original Payee Transaction in C2R
+	[ ] Verify Right Click Menu- Renaming RulesTransaction in C2R
+	[ ] Verify Update Transactions button in C2R
+	[ ] Verify Banking Account -  Online payment button in C2R
+	[ ] Verify Banking Account -  Online payment button in C2R
+	[ ] Verify Banking Account -  Make an online payment button in C2R 
+	[ ] Verify Banking Account -   Pop up for transaction over a year old in C2R
+	[ ] Verify Banking Account - Download transactions with the account open for Direct Connect FI
+	[ ] Verify Banking Account - Download transactions with the account open for  Express Web Connect  FI
+	[ ] Verify Importing web connect files twice, Activate One Step Update pop up is displayed
+	[ ] Verify Importing web connect files twice, on Activate One Step Update select No
+	[ ] Verify Importing web connect files twice, on Activate One Step Update select Yes
+	[ ] Verify Accept transactions one by one using 'Enter' key for Online Account
+	[ ] Verify Accept transactions one by one using 'Enter' for Online Account for WC Account
+	[ ] Verify Investing Account Accept Button On Transaction
+	[ ] Verify Investing Account AcceptButton At C2R Bottom Window
+	[ ] Verify Help Button in Investing Account C2R Window
+	[ ] Verify Accept All Button At C2R Bottom Window of Investing Account
+	[ ] Verify Accept All Right Click Menu at C2R Window of Investing Account
+	[ ] Verify Finish Later Button at  C2R Window of Investing Account
+	[ ] Verify Renaming Rules Button at  C2R Window of Investing Account

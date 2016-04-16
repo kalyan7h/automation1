@@ -1,0 +1,235 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<HiddenAccount.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Hidden Accounts test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	HiddenAccount.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		03/10/2012
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 Oct 03, 2012	Udita Dube  Created
+[ ] // *********************************************************
+[ ] 
+[ ] Script: HiddenAccount.t
+[ ] 
+[ ] 
+[+] Banking: SetUp
+	[ ] testcase: Banking_SetUp
+[+] Verify UI of Display Options Tab 
+	[ ] testcase: Test01_DisplayOptions
+[+] Verify Keep this account separate option for Banking account
+	[ ] testcase: Test02_SeparateAccountVerification
+[+] Verify Hide in Transaction entry lists option for Banking account
+	[ ] testcase: Test03_HideInTransactionEntryListVerification
+[+] Verify Hide account name from account bar and account list option for Banking account
+	[ ] testcase: Test04_HideAccountFromAccountBarVerification
+[+] Verify Close Account for Banking account
+	[ ] testcase: Test05_CloseAccountVerification
+[+] Verify Closed account as Separate account for Banking account
+	[ ] testcase: Test07_MakeClosedAccountAsSeparate
+[+] Verify Hidden Account From Account Bar as Separate account for Banking account
+	[ ] testcase: Test08_MakeHiddenAccountFromAccountBarAsSeparate
+[ ] 
+[ ] //************************************************************************************************************
+[+] Investing: SetUp
+	[ ] testcase: Investing_SetUp
+[+] Verify Investing account as Separate Account
+	[ ] testcase: Test01_InvestingAsSeparateAccount
+[+] Verify Alert Message when user tries to close investing account with securities
+	[ ] testcase: Test02_CloseInvestingAccWithSecurity
+[+] Verify Close Account for Investing account (Balance =0 and Security = Intu)
+	[ ] testcase: Test03_CloseZeroBalanceInvestingAcc
+[+] Verify Hide account name from account bar and account list option for Investing account
+	[ ] testcase: Test04_HideInvestingAccountFromAccountBar
+[+] Verify Hide in Transaction entry lists for investing account
+	[ ] testcase: Test05_InvestingHideInTransactionEntryList
+[+] Investing account with all display options selected
+	[ ] testcase: Test06_InvestingAccWithAllDisplayOption
+[+] Close 529/brokerage account having linked checking account
+	[ ] testcase: Test07_CloseLinked529InvestingAcc
+[+] Closed Investing account In Enter Transaction
+	[ ] testcase: Test22_InvestingClosedAccountInTransaction
+[+] Separate Investing account In Enter Transaction 
+	[ ] testcase: Test23_InvestingSeparateAccountInTransaction
+[+] Close Brokerage account having linked checking account
+	[ ] testcase: Test20_CloseLinkedBrokerageInvestingAcc
+[+] Close 401(k) account and verify menu item
+	[ ] testcase: Test26_Close401kInvestingAcc
+[+] // Verify disabling of menu item for closed Investing accounts  //------------------
+	[ ] // testcase: Test27_VerifyMenuItemsCloseInvestingAcc
+[+] // Close Investing account with Negative Balance
+	[ ] // testcase: Test28_CloseInvestingAccWithNegativeBalance
+[+] // Verify Close investment account in OSU
+	[ ] // testcase: Test19_CloseInvestingAccVerificationOSU
+[+] // Verify separate investment account in OSU           //Need to fix
+	[ ] // testcase: Test21_SeparateInvestingAccVerificationOSU
+[ ] 
+[ ] 
+[ ] //************************************************************************************************************
+[+] Business: SetUp
+	[ ] testcase: Business_SetUp
+[+] Verify Business account as Separate Account
+	[ ] testcase: Test01_BusinessAsSeparateAccount
+[+] Verify Hide account name from account bar and account list option for Business account
+	[ ] testcase: Test02_HideBusinessAccountFromAccountBar
+[+] Verify Hide in Transaction entry lists option for Business account
+	[ ] testcase: Test03_BusinessHideInTransactionEntryList
+[+] Business account with all display options selected
+	[ ] testcase: Test04_BusinessAccWithAllDisplayOption
+[+] Close Business account and verify
+	[ ] testcase: Test05_BusinessCloseAccount
+[+] Verify Closed Account in Choose Invoice account dialog
+	[ ] testcase: Test06_CustomerInvClosedAccountVerify
+[+] Verify Closed account in Choose Bill account dialog                                 /////////////////
+	[ ] testcase: Test07_VendorInvClosedAccountVerify
+[+] Verify Separate Cust Inv Account in Choose Invoice account dialog
+	[ ] testcase: Test08_CustomerInvSeparateAccountVerify
+[+] Verify Separate Vendor Inv Account in Choose Bill account dialog
+	[ ] testcase: Test09_VendorInvSeparateAccountVerify
+[+] Verify Separate Vendor Inv Account in Refund- Vendor Invoices dialog
+	[ ] testcase: Test10_SeparateVendorInvAccountInRefundVI
+[+] Verify Closed Checking Account in Refund- Vendor Invoices dialog
+	[ ] testcase: Test11_ClosedCheckingAccountInRefundVI
+[+] Close Vendor Inv account having scheduled reminders
+	[ ] testcase: Test12_CloseVIAccWithReminders
+[+] Verify Offset transaction entry for Close Account
+	[ ] testcase: Test13_BusinessOffsetTxnVerify
+[+] Close Customer Inv account having scheduled reminders
+	[ ] testcase: Test15_CloseCIAccWithReminders
+[ ] 
+[ ] //************************************************************************************************************
+[+] Tools: SetUp
+	[ ] testcase: Tools_SetUp
+[+] Verify Closed saving Account in Reconcile Account window
+	[ ] testcase: Test01_CloseAccountInReconcileAccount
+[+] Verify Separate saving Account in Reconcile Account window
+	[ ] testcase: Test02_SeparateAccountInReconcileAccount
+[+] Verify Closed saving Account in Write Checks window
+	[ ] testcase: Test03_CloseAccountInWriteChecks
+[+] Verify Separate saving Account in Write Checks window 
+	[ ] testcase: Test04_SeparateAccountInWriteChecks
+[+] Verify Closed saving Account in Calender
+	[ ] testcase: Test05_CloseAccountInCalendar
+[+] Verify Separate saving Account in Calender
+	[ ] testcase: Test06_SeparateAccountInCalendar
+[+] Verify Closed saving account in Enter Expense Transaction dialog
+	[ ] testcase: Test07_CloseAccountInEnterExpenseTxn
+[+] Verify Separate saving account in Enter Expense Transaction dialog
+	[ ] testcase: Test08_SeparateAccountInEnterExpenseTxn
+[+] Verify Closed saving account in Enter Income Transaction dialog
+	[ ] testcase: Test09_CloseAccountInEnterIncomeTxn
+[+] Verify Separate saving account in Enter Income Transaction dialog
+	[ ] testcase: Test10_SeparateAccountInEnterIncomeTxn
+[+] Verify Closed saving account in Edit Register Transaction dialog
+	[ ] testcase: Test11_CloseAccountInEditRegisterTxn
+[+] Verify Separate saving account in Edit Register Transaction dialog
+	[ ] testcase: Test12_SeparateAccountInEditRegisterTxn
+[ ] 
+[ ] //************************************************************************************************************
+[+] Bills Reminders: SetUp
+	[ ] testcase: BillsReminders_SetUp
+[+] Verify Closed checking Account in Add Bill Reminder window
+	[ ] testcase: Test01_CloseAccountInAddBillReminder
+[+] Verify Closed checking Account in Add Income Reminder window
+	[ ] testcase: Test02_CloseAccountInAddIncomeReminder
+[+] Verify Closed checking Account in Add Transfer Reminder window
+	[ ] testcase: Test03_CloseAccountInAddTransferReminder
+[+] Verify Closed checking Account in Add Paycheck Reminder window for Net Amount
+	[ ] testcase: Test04_CloseAccountInPaycheckReminder1
+[+] Verify Closed checking Account in Add Paycheck Reminder window for Gross Amount
+	[ ] testcase: Test05_CloseAccountInPaycheckReminder2
+[+] Verify Separate checking Account in Add Bill Reminder window
+	[ ] testcase: Test06_SeparateAccountInAddBillReminder
+[+] Verify Separate checking Account in Add Income Reminder window 
+	[ ] testcase: Test07_SeparateAccountInAddIncomeReminder
+[+] Verify Separate checking Account in Add Transfer Reminder window
+	[ ] testcase: Test08_SeparateAccountInAddTransferReminder
+[+] Verify Separate checking Account in Add Paycheck Reminder window for Net Amount
+	[ ] testcase: Test09_SeparateAccountInPaycheckReminder1
+[+] Verify Separate checking Account in Add Paycheck Reminder window for Gross Amount
+	[ ] testcase: Test10_SeparateAccountInPaycheckReminder2
+[+] // Verify Hide in Transaction entry lists in Add Bill Reminder 
+	[ ] // testcase: Test11_HideInTxnListInAddBillReminder
+[+] // Verify Hide in Transaction entry lists in Add Income Reminder
+	[ ] // testcase: Test12_HideInTxnListInAddIncomeReminder
+[+] // Verify Hide in Transaction entry lists in Add Transfer Reminder 							/////////////////////////
+	[ ] // testcase: Test13_HideInTxnListInAddTransferReminder
+[+] // Verify Hide in Transaction entry lists in Add Paycheck Reminder window for Net Amount
+	[ ] // testcase: Test14_HideInTxnListInAddPaycheck1
+[+] // Verify Hide in Transaction entry lists in Add Paycheck Reminder for Gross Amount
+	[ ] // testcase: Test15_HideInTxnListInAddPaycheck2
+[+] Verify Hide account name in account bar in Add Bill Reminder 
+	[ ] testcase: Test16_HideAccountInAccBarForBillReminder
+[+] Verify Hide account name in account bar in Add Income Reminder
+	[ ] testcase: Test17_HideAccountInAccBarForIncomeReminder
+[+] Verify Hide account name in account bar in Add Transfer Reminder
+	[ ] testcase: Test18_HideAccountInAccBarForTransferReminder
+[+] Verify Hide account name in account bar in Add Paycheck Reminder for Net Amount
+	[ ] testcase: Test19_HideAccountInAccBarForAddPaycheck1
+[+] Verify Hide account name in account bar in Add Paycheck Reminder for Gross Amount
+	[ ] testcase: Test20_HideAccountInAccBarForAddPaycheck2
+[+] Close Banking account having scheduled reminders 
+	[ ] testcase: Test21_CloseBankingAccWithRemindersVerifyAlert
+[+] Close Banking account having scheduled reminders
+	[ ] testcase: Test22_CloseBankingAccWithRemindersCancelAlert
+[+] Close Banking account having scheduled reminders
+	[ ] testcase: Test23_CloseBankingAccWithReminders
+[+] Close To account having Transfer reminders 
+	[ ] testcase: Test24_CloseToAccWithTransferReminder
+[ ] //************************************************************************************************************
+[ ] 
+[+] Rental SetUp
+	[ ] testcase: Rental_SetUp
+[+] Verify Closed House Account in Add Rental Property window
+	[ ] testcase: Test01_CloseAccountInAddRentalProperty
+[+] Verify Separated House Account in Add Rental Property window 
+	[ ] testcase: Test02_SeparateAccountInAddRentalProperty
+[+] Verify Hide in Transaction List in Add Rental Property window 
+	[ ] testcase: Test03_HideInTxnListInAddRentalProperty
+[+] Verify Hide in Account bar and Account List 
+	[ ] testcase: Test04_HideInAccountBarInAddRentalProperty
+[+] Verify Closed account in Property and Tenants section 
+	[ ] testcase: Test05_ClosedAccountInRentalPropertyTenant
+[+] Verify Separate account in Property and Tenants section
+	[ ] testcase: Test06_SeparateAccountInRentalPropertyTenant
+[+] Verify Hide in Transaction List in Add Rental Property Tenant window 
+	[ ] testcase: Test07_HideInTxnListInAddRentalPropertyTenant
+[+] Verify Hide in Account bar  in Add Rental Property Tenant window 
+	[ ] testcase: Test08_HideInAccountBarInAddRentalPropertyTenant
+[+] Verify Closed account in Edit Rental Property Tenant 
+	[ ] testcase: Test09_ClosedAccountInEditRentalPropertyTenant
+[+] Verify Separate account in Edit Rental Property Tenant
+	[ ] testcase: Test10_SeparateAccountInEditRentalPropertyTenant
+[+] Verify Hide in Transaction List in Edit Rental Property Tenant 
+	[ ] testcase: Test11_HideInTxnListInEditRentalPropertyTenant
+[+] Verify Hide in Account bar  in Edit Rental Property Tenant window 
+	[ ] testcase: Test12_HideInAccountBarInEditRentalPropertyTenant
+[+] Verify Closed account in Enter Rent window
+	[ ] testcase: Test13_ClosedAccountInEnterRent
+[+] Verify Closed account in Enter Expense window
+	[ ] testcase: Test14_ClosedAccountInEnterExpense
+[+] Verify Closed account in Enter Other Income window 
+	[ ] testcase: Test15_ClosedAccountInEnterOtherIncome
+[+] Verify Separate account in Enter Rent window 
+	[ ] testcase: Test16_SeparateAccountInEnterRent
+[+] Verify Closed account in Enter Expense window
+	[ ] testcase: Test17_SeparateAccountInEnterExpense
+[+] Verify Separate account in Enter Other Income window
+	[ ] testcase: Test18_SeparateAccountInEnterOtherIncome
+[+] Verify Hide in Transaction entry lists in Enter Rent window
+	[ ] testcase: Test19_HideInTxnListAccountInEnterRent
+[+] Verify Hide in Transaction entry lists in Enter Expense window 
+	[ ] testcase: Test20_HideInTxnListAccountInEnterExpense
+[+] Verify Hide in Transaction entry lists in Enter Other Income window
+	[ ] testcase: Test21_HideInTxnListAccountInEnterOtherIncome
+[+] Verify Hide in Account bar and Account list in Enter Rent window
+	[ ] testcase: Test22_HiddenFromAccBarAccountInEnterRent
+[+] Verify Hide in Account bar and Account list in Enter Expense window
+	[ ] testcase: Test23_HiddenFromAccBarAccountInEnterExpense
+[+] Verify Hide in Account bar and Account list in Enter Other Income window
+	[ ] testcase: Test24_HiddenFromAccBarAccountInEnterOtherIncome
+[ ] 

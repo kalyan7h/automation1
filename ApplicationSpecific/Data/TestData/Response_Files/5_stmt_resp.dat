@@ -1,0 +1,156 @@
+OFXHEADER:100 
+DATA:OFXSGML 
+VERSION:102 
+SECURITY:NONE 
+ENCODING:USASCII 
+CHARSET:1252 
+COMPRESSION:NONE 
+OLDFILEUID:19A02520-7A09-1000-9AE9-D10B0C130026 
+NEWFILEUID:19A15DA0-7A09-1000-9AE9-D10B0C130026 
+ 
+ 
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>Success
+            </STATUS>
+            <DTSERVER>20080307082531.000[0:GMT]
+            <LANGUAGE>ENG
+            <DTPROFUP>20030701070000.000[0:GMT]
+            <DTACCTUP>20080307082512.000[0:GMT]
+            <FI>
+                <ORG>MISSION
+                <FID>1001
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS> 
+            <TRNUID>19A15DA1-7A09-1000-9AE9-D10B0C130026 
+            <STATUS> 
+                <CODE>0 
+                <SEVERITY>INFO 
+                <MESSAGE>Success 
+            </STATUS> 
+            <STMTRS> 
+                <CURDEF>USD 
+                <BANKACCTFROM> 
+                    <BANKID>322281507 
+                    <ACCTID>91058196-09 
+                    <ACCTTYPE>CHECKING 
+                </BANKACCTFROM> 
+                <BANKTRANLIST> 
+                    <DTSTART>20071207080000.000[0:GMT] 
+                    <DTEND>20080307080000.000[0:GMT] 
+                    <STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20100220120000.000[0:GMT] 
+                        <TRNAMT>1.00 
+                        <FITID>91058196-0920100220000293779  
+                        <NAME>Don 
+                        <MEMO>REFUND
+                    </STMTTRN> 
+                    <STMTTRN> 
+                        <TRNTYPE>DEBIT 
+                        <DTPOSTED>20100131120000.000[0:GMT] 
+                        <TRNAMT>-6.00 
+                        <FITID>91058196-0920100131001158768  
+                        <NAME>Jack 
+                    </STMTTRN> 
+                    <STMTTRN> 
+                        <TRNTYPE>DEBIT 
+                        <DTPOSTED>20100315120000.000[0:GMT] 
+                        <TRNAMT>-600.00 
+                        <FITID>91058196-0920100315001792071  
+                        <NAME>Jill 
+                        <MEMO>Withdrawal 
+                    </STMTTRN> 
+                </BANKTRANLIST> 
+                <LEDGERBAL> 
+                    <BALAMT>49.52 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </LEDGERBAL> 
+                <AVAILBAL> 
+                    <BALAMT>49.52 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </AVAILBAL> 
+            </STMTRS> 
+        </STMTTRNRS> 
+        <STMTTRNRS> 
+            <TRNUID>19A15DA2-7A09-1000-9AE9-D10B0C130026 
+            <STATUS> 
+                <CODE>0 
+                <SEVERITY>INFO 
+                <MESSAGE>Success 
+            </STATUS> 
+            <STMTRS> 
+                <CURDEF>USD 
+                <BANKACCTFROM> 
+                    <BANKID>322281507 
+                    <ACCTID>91058196-01 
+                    <ACCTTYPE>SAVINGS 
+                </BANKACCTFROM> 
+                <BANKTRANLIST> 
+                    <DTSTART>20071207080000.000[0:GMT] 
+                    <DTEND>20080307080000.000[0:GMT] 
+                    <STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20100420120000.000[0:GMT] 
+                        <TRNAMT>1.69 
+                        <FITID>91058196-0120100420001352963  
+                        <NAME>Mike 
+                        <MEMO>Dividend 
+                    </STMTTRN> 
+                </BANKTRANLIST> 
+                <LEDGERBAL> 
+                    <BALAMT>673.37 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </LEDGERBAL> 
+                <AVAILBAL> 
+                    <BALAMT>673.37 
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </AVAILBAL> 
+            </STMTRS> 
+        </STMTTRNRS> 
+        
+	<STMTTRNRS> 
+            <TRNUID>19A15DA2-7A09-1000-9AE9-D10B0C130026 
+            <STATUS> 
+                <CODE>0 
+                <SEVERITY>INFO 
+                <MESSAGE>Success 
+            </STATUS> 
+            <STMTRS> 
+                <CURDEF>USD 
+                <BANKACCTFROM> 
+                    <BANKID>322281507 
+                    <ACCTID>91058196-01 
+                    <ACCTTYPE>SAVINGS 
+                </BANKACCTFROM> 
+                <BANKTRANLIST> 
+                    <DTSTART>20071207080000.000[0:GMT] 
+                    <DTEND>20080307080000.000[0:GMT] 
+                    <STMTTRN> 
+                        <TRNTYPE>CREDIT 
+                        <DTPOSTED>20100324120000.000[0:GMT] 
+                        <TRNAMT>100 
+                        <FITID>91058196-0120100324001352900  
+                        <NAME>Micky 
+                        <MEMO>Refund
+                    </STMTTRN> 
+                </BANKTRANLIST> 
+                <LEDGERBAL> 
+                    <BALAMT>10000
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </LEDGERBAL> 
+                <AVAILBAL> 
+                    <BALAMT>10000
+                    <DTASOF>20100307082532.000[0:GMT] 
+                </AVAILBAL> 
+            </STMTRS> 
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>

@@ -1,0 +1,166 @@
+
+[ProjectState]
+ProjectWndInfo=243,0,1,1
+CurrentProject=
+
+[Classmap]
+_AOL_Toolbar=Ignore
+AOL Toolbar=Ignore
+ThunderRT6CommandButton=PushButton
+
+[State]
+NewFile=5
+LastOptionSet9=
+LastOptionSet8=
+LastOptionSet7=
+LastOptionSet6=
+LastOptionSet5=
+LastOptionSet4=
+LastOptionSet3=d:\udita\quicken_5jan11\applicationspecific\includes\quickendesktopoptionset.opt
+LastOptionSet2=d:\mamta\quicken\applicationspecific\includes\quickendesktopoptionset.opt
+LastOptionSet1=d:\quicken\applicationspecific\includes\quickendesktopoptionset.opt
+Placement=17,362,1007,346,3
+OptionsSet=d:\quicken\applicationspecific\includes\quickendesktopoptionset.opt
+LastFile9=Open D:\Quicken\FrameworkSpecific\FrameworkFiles\RecoveryLib.inc
+LastFile8=Open D:\Quicken\FrameworkSpecific\FrameworkFiles\Classes.inc
+LastFile7=Open D:\Quicken\FrameworkSpecific\FrameworkFiles\Globals.inc
+LastFile6=Open D:\Quicken\ApplicationSpecific\Scripts\BatQuicken.g.t
+LastFile5=Open D:\Quicken\ApplicationSpecific\Scripts\SmokeQuicken.g.t
+LastFile4=Open D:\Quicken\ApplicationSpecific\Scripts\SmokeQuicken.t
+LastFile3=Open D:\Quicken\ApplicationSpecific\Scripts\SmokeQuicken_Bakup.t
+LastFile2=Open D:\Quicken\ApplicationSpecific\Scripts\Smoke_TestPlan.pln
+LastFile1=Open D:\Quicken\FrameworkSpecific\STFTFramework\STFTFramework.ini
+CurrentDirectory=D:\Quicken\FrameworkSpecific\STFTFramework
+
+[Extension: IEExec.exe]
+
+[Extension: waol.exe]
+
+[Extension: connect.exe]
+
+[Extension: iexplore.exe#4]
+
+[Extension: iexplore.exe#5]
+
+[Extension: iexplore.exe#6]
+domex.dll=TRUE
+
+[Extension: java.exe jre.exe jrew.exe appletviewer.exe javaw.exe]
+
+[Extension: pr3240.dll]
+
+[Extension: netscp6.exe]
+
+[Extension: netscp.exe]
+
+[Runtime]
+DefaultAgent=Classic Agent
+ResultsFindWarnings=TRUE
+ResultsFlush=TRUE
+AgentName=(local)
+ResultsHistorySize=100
+UseFiles=extend\explorer.inc,D:\SilkFramework\Automation\ApplicationSpecific\Includes\AppWindows.inc
+DefaultBrowser=explorer6_DOM
+
+[General]
+FileHistorySize=4
+HelpFiles=4test.txt, extend\browser.ht, extend\domex.ht
+
+
+[RecordWinDecl]
+KeepOnTop=FALSE
+MultiTagFormat=Caption,WindowID,Attributes
+IDFormat =256
+WinHeight=447
+WinWidth=585
+WinPosY=140
+WinPosX=390
+
+[Extension: firefox.exe]
+
+[Extension: iexplore.exe#7]
+
+[Extension: DataGenerationTool.exe]
+
+[RecordAppState]
+BasedOn=(None)
+
+[Truelog]
+AgentBrowserNewWindow=TRUE
+AgentBrowserTerminate=TRUE
+AgentBrowserNavigate=TRUE
+AgentBrowserDownload=TRUE
+ControlRecordObjects=TRUE
+AgentCloseWindow=0
+AgentCreateWindow=0
+AgentMove=7
+AgentDoubleSelect=7
+AgentDoubleClick=7
+AgentPresRelMouse=7
+AgentPresRelKeys=7
+AgentMouseClick=7
+AgentTypeKeys=7
+AgentPickMenu=7
+AgentSelect=7
+AgentSetMultiText=7
+AgentSetText=7
+AgentRecord=0
+DisableCallStack=FALSE
+ReportingLevel=2
+BeforeErrorBitMap=FALSE
+BitMapsEnabled=TRUE
+BitMapOnError=TRUE
+DeskTopBitMap=TRUE
+RecordFullOrOnError=1
+TrueLogEnabled=TRUE
+BitMapDir=
+LogFilePath=D:\Quicken\Log\TrueLogTest.xlg
+
+[RecordClass]
+WinPosY=73
+WinPosX=526
+
+[Agent]
+OPT_VERIFY_COORD=TRUE
+OPT_VERIFY_UNIQUE=TRUE
+OPT_VERIFY_EXPOSED=TRUE
+OPT_VERIFY_ENABLED=TRUE
+OPT_VERIFY_APPREADY=TRUE
+OPT_VERIFY_ACTIVE=TRUE
+
+[DataDriven]
+ValidateReplacements=FALSE
+ConnectString=DSN=Silk DDA Excel;DBQ=D:\Quicken\ApplicationSpecific\Data\TestData\TestDriver.xls;UID=;PWD=;
+
+[RecordTestCase]
+AppState=(None)
+
+[RecordWinLoc]
+LocType=Client
+WinPosY=23
+WinPosX=167
+
+[RecordWinId]
+WinPosY=120
+WinPosX=481
+
+[RecordActions]
+WinPosY=258
+WinPosX=564
+
+[PassFailReport]
+ChartShowLegend=1
+Chart3D=1
+ChartStacking=0
+ChartType=0
+SubtotalBy=Developer
+Marked=0
+Percentages=0
+WindowPos=233,100,790,608
+
+[RecordTag]
+WinPosY=433
+WinPosX=759
+
+
+

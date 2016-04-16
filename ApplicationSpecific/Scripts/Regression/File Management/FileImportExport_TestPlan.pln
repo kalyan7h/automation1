@@ -1,0 +1,61 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<FileImportExport_TestPlan.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all File Import Export test cases for Quicken Desktop
+	[ ] //
+	[ ] // DEPENDENCIES:	FileImportExport.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		07/16/2014
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 July 16, 2014	Udita Dube  Created
+[ ] // *********************************************************
+[ ] 
+[ ] Script: FileImportExport.t
+[ ] 
+[+] Verify QIF Export UI 
+	[ ] testcase: Test01_VerifyQIFExportUI
+[+] Verify Close and Alt f4 for QIF Export window 
+	[ ] testcase: Test02_VerifyCloseAndAltF4ForQIFExportWindow
+[+]  Check the Date Fields special case
+	[ ] testcase: Test03_VerifyDateFieldsForQIFExport
+[+] Verify the Date Field validation
+	[ ] testcase: Test04_ValidateDateFieldsForQIFExport
+[+] Verify QIF Export Functionality 
+	[ ] testcase: Test05_VerifyQIFExport
+[+]  Verify For Quicken Mac checkbox QIF Export
+	[ ] testcase: Test06_VerifyForQuickenMacCheckboxOnQIFExport
+[+] QIF Export - saying no to overwrite file
+	[ ] testcase: Test07_VerifyQIFExportForNotOverwriting
+[+] Verify QIF Import UI 
+	[ ] testcase: Test08_VerifyQIFImportUI
+[+] Verify Close and Alt f4 for QIF Import window 
+	[ ] testcase: Test09_VerifyCloseAndAltF4ForQIFImportWindow
+[+]  Verify QIF Import Functionality 
+	[ ] testcase: Test10_VerifyQIFImport
+[+] Verify QXF Export UI 
+	[ ] testcase: Test11_VerifyQXFExportUI
+[+] Verify Close and Alt f4 for QXF Export window
+	[ ] testcase: Test12_VerifyCloseAndAltF4ForQXFExportWindow
+[+] Verify QXF Export 
+	[ ] testcase: Test13_VerifyQXFExport
+[+]  Verify QXF Import UI
+	[ ] testcase: Test14_VerifyQXFImportUI
+[+] Verify Close and Alt f4 for QXF Import window
+	[ ] testcase: Test15_VerifyCloseAndAltF4ForQXFImportWindow
+[+] Verify QXF Import functionality: by viewing logs
+	[ ] testcase: Test16_VerifyQXFImport
+[+]  Verify QXF Import functionality: without opening logs
+	[ ] testcase: Test17_VerifyQXFImportWithoutViewingLogs
+[+] Verify Webconnect Import UI
+	[ ] testcase: Test18_VerifyQWebConnectImportUI
+[+] Verify Close and Alt f4 for Webconnect Import window 
+	[ ] testcase: Test19_VerifyCloseAndAltF4ForWebConnectImportWindow
+[+] Verify Investing Web connect Import
+	[ ] testcase: Test20_InvestingWebConnectImport
+[+] Validate Import AddessBook  
+	[ ] testcase: Test21_VerifyImportAddressBook
+	[ ] 

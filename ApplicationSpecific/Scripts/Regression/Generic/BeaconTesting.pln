@@ -1,0 +1,14 @@
+﻿[ ] 
+[ ]  Script: ..\Generic\Beacon_Testing.t
+[ ] 
+[+] Beacon Setup
+	[ ] testcase: BeaconSetup
+[+] Add EWC Wells Fargo Account
+	[ ] testcase: Test1_AddEWCWellsFargoAccount
+[+] One Step Update For Wells Fargo
+	[ ] testcase: Test2_OneStepUpdateForWellsFargo
+[+] Update Now for Wells Fargo
+	[ ] testcase:Test3_UpdateNowForWellsFargo
+[+] Beacon Cleanup
+	[ ] testcase: BeaconClean
+[ ] 

@@ -1,0 +1,52 @@
+[ ] 
+[ ] //#######################################################
+[ ] //########  This Plan contains test cases of Data Converion suit ###########
+[ ] //#######################################################
+[ ] 
+[ ]  Script: ..\Generic\DataConversion.t
+[ ] 
+[+] Data Conversion Setup
+	[ ] testcase: DataConversionSetup
+[ ] 
+[+] Data Conversion of 2001
+	[ ] testcase: Test01_DataConversionof2001
+[ ] 
+[+] Data Conversion of 2002
+	[ ] testcase: Test02_DataConversionof2002
+[ ] 
+[+] Data Conversion of 2003
+	[ ] testcase: Test03_DataConversionof2003
+[ ] 
+[+] Data Conversion of 2004
+	[ ] testcase: Test04_DataConversionof2004
+[ ] 
+[+] Data Conversion of 2005
+	[ ] testcase: Test05_DataConversionof2005
+[ ] 
+[+] Data Conversion of 2006
+	[ ] testcase: Test06_DataConversionof2006
+[ ] 
+[+] Data Conversion of 2007
+	[ ] testcase: Test07_DataConversionof2007
+[ ] 
+[+] Data Conversion of 2008
+	[ ] testcase: Test08_DataConversionof2008
+[ ] 
+[+] Data Conversion of 2009
+	[ ] testcase: Test09_DataConversionof2009
+[ ] 
+[-] Data Conversion of 2010
+	[ ] testcase: Test10_DataConversionof2010
+[ ] 
+[+] Data Conversion of 2011
+	[ ] testcase: Test11_DataConversionof2011
+[ ] 
+[+] Data Conversion of 2012
+	[ ] testcase: Test12_DataConversionof2012
+[ ] 
+[-] Data Conversion of 2013
+	[ ] testcase: Test13_DataConversionof2013
+[ ] 
+[+] Data Conversion Cleanup
+	[ ] testcase: DataConversionCleanup
+[ ] 

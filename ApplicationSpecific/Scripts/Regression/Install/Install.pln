@@ -1,0 +1,29 @@
+﻿[+] // FILE NAME:	<Install.pln>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This plan file contains all Install/Uninstall testcases
+	[ ] //
+	[ ] // DEPENDENCIES:	Install.t
+	[ ] //
+	[ ] // DEVELOPED BY:	Udita Dube
+	[ ] //
+	[ ] // Developed on: 		22/7/2011
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 July 22, 2011	Udita Dube  Created
+	[ ] // *********************************************************
+[ ] // *********************************************************
+[ ]  Script: ..\Install\Install.t
+[ ] 
+[+] Install SetUp
+	[ ] testcase: InstallSetUp
+	[ ] 
+[+] Verify Quicken Installation
+	[ ] testcase: Test01_InstallQuickenByWizard
+	[ ] 
+[+] Verify Quicken Uninstallation 
+	[ ] testcase: Test02_UninstallQuicken
+	[ ] 
+[ ] 
+[ ] 
+[ ] 

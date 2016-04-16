@@ -1,0 +1,640 @@
+OFXHEADER:100 
+DATA:OFXSGML 
+VERSION:102 
+SECURITY:NONE 
+ENCODING:USASCII 
+CHARSET:1252 
+COMPRESSION:NONE 
+OLDFILEUID:NONE 
+NEWFILEUID:19A02520-7A09-1000-9AE9-D10B0C130026 
+ 
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+                <MESSAGE>Success
+            </STATUS>
+            <DTSERVER>20080307082523.000[0:GMT]
+            <LANGUAGE>ENG
+            <DTPROFUP>20030701070000.000[0:GMT]
+            <DTACCTUP>20080307082512.000[0:GMT]
+            <FI>
+                <ORG>MISSION
+                <FID>1001
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <BANKMAILSYNCRS>
+            <TOKEN>450168
+            <BANKACCTFROM>
+                <BANKID>322281507
+                <ACCTID>91058196-09
+                <ACCTTYPE>CHECKING
+            </BANKACCTFROM>
+        </BANKMAILSYNCRS>
+        <BANKMAILSYNCRS>
+            <TOKEN>450168
+            <BANKACCTFROM>
+                <BANKID>322281507
+                <ACCTID>91058196-01
+                <ACCTTYPE>SAVINGS
+            </BANKACCTFROM>
+        </BANKMAILSYNCRS>
+        <INTRASYNCRS>
+            <TOKEN>0
+            <BANKACCTFROM>
+                <BANKID>322281507
+                <ACCTID>91058196-09
+                <ACCTTYPE>CHECKING
+            </BANKACCTFROM>
+        </INTRASYNCRS>
+        <INTRASYNCRS>
+            <TOKEN>0
+            <BANKACCTFROM>
+                <BANKID>322281507
+                <ACCTID>91058196-01
+                <ACCTTYPE>SAVINGS
+            </BANKACCTFROM>
+        </INTRASYNCRS>
+    </BANKMSGSRSV1>
+    <BILLPAYMSGSRSV1>
+        <PAYEESYNCRS>
+            <TOKEN>22
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>191087
+                    <PAYEE>
+                        <NAME>- Support Services Payee #10 -1
+                        <ADDR1>1211 Concord Ave
+                        <ADDR2>Attn: Tom Kiser _ MOD1
+                        <CITY>Tucson
+                        <STATE>AZ
+                        <POSTALCODE>85750
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>6509442958
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>259925
+                    <PAYEE>
+                        <NAME>A.Maryanchik
+                        <ADDR1>Intuit, Inc.
+                        <ADDR2>2525 Garcia Ave.
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446432
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>test account
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>242405
+                    <PAYEE>
+                        <NAME>Akim
+                        <ADDR1>2525 Garcia
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>94040
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>123456
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>283907
+                    <PAYEE>
+                        <NAME>Alla Rozenvasser
+                        <ADDR1>2525 Garcia
+                        <CITY>Mtn. View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>Test
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>241578
+                    <PAYEE>
+                        <NAME>Anne Colendich
+                        <ADDR1>2525 Garcia
+                        <CITY>Mtn. View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>1234
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>235063
+                    <PAYEE>
+                        <NAME>B John
+                        <ADDR1>2525 Garcia Ave
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>94039
+                        <COUNTRY>USA
+                        <PHONE>6509445346
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>650-944-5346
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>235952
+                    <PAYEE>
+                        <NAME>Brian Uyemoto
+                        <ADDR1>P.O. Box 7850
+                        <ADDR2>2525 Garcia
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446540
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>Uyemoto
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>253010
+                    <PAYEE>
+                        <NAME>Comcast Cable
+                        <ADDR1>224 Scott Blvd
+                        <CITY>San Mateo
+                        <STATE>CA
+                        <POSTALCODE>94108
+                        <COUNTRY>USA
+                        <PHONE>6508881515
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>smith
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>196512
+                    <PAYEE>
+                        <NAME>Dale Knievel
+                        <ADDR1>2525 Garcia Ave
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>12345678
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>181565
+                    <PAYEE>
+                        <NAME>Ding
+                        <ADDR1>2525 Garcia Ave.
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>95135
+                        <COUNTRY>USA
+                        <PHONE>6509445653
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>Dale
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>283901
+                    <PAYEE>
+                        <NAME>Ding, Jialiang
+                        <ADDR1>2525 Garcia
+                        <ADDR2>#31108
+                        <CITY>Mtn. View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>abcd
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>201697
+                    <PAYEE>
+                        <NAME>Elizabeth Cookson
+                        <ADDR1>2525 Garcia Ave
+                        <CITY>Mountai View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>Quicken QA
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>184056
+                    <PAYEE>
+                        <NAME>Jeff R
+                        <ADDR1>2525 Garcia
+                        <CITY>Mtn View
+                        <STATE>CA
+                        <POSTALCODE>95051
+                        <COUNTRY>USA
+                        <PHONE>6509443508
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>Robbins
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>241350
+                    <PAYEE>
+                        <NAME>JIaliang Ding
+                        <ADDR1>2525 Garcia
+                        <CITY>Mtn. View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>1234
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>182847
+                    <PAYEE>
+                        <NAME>JL Ding
+                        <ADDR1>2525 Garcia
+                        <ADDR2>#31108
+                        <CITY>Mtn. View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>1234
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>241584
+                    <PAYEE>
+                        <NAME>Linda Schmid
+                        <ADDR1>2525 Garcia
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>94043
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>1234
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>241565
+                    <PAYEE>
+                        <NAME>Paul Hsu
+                        <ADDR1>2525 Garcia
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>95051
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>Num1Mgr
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>184108
+                    <PAYEE>
+                        <NAME>Quicken Credit Card
+                        <ADDR1>2525 Garcia
+                        <ADDR2>Intuit
+                        <CITY>Mtn View
+                        <STATE>CA
+                        <POSTALCODE>95051
+                        <COUNTRY>USA
+                        <PHONE>4089443509
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>2222
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>186185
+                    <PAYEE>
+                        <NAME>Test Online Payee
+                        <ADDR1>2525 Garcia
+                        <CITY>Mtn View
+                        <STATE>CA
+                        <POSTALCODE>95051
+                        <COUNTRY>USA
+                        <PHONE>4086655569
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>91058196
+                </PAYEERS>
+            </PAYEETRNRS>
+            <PAYEETRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PAYEERS>
+                    <PAYEELSTID>242415
+                    <PAYEE>
+                        <NAME>Todd Lafrentz
+                        <ADDR1>2525 Garcia
+                        <CITY>Mountain View
+                        <STATE>CA
+                        <POSTALCODE>94040
+                        <COUNTRY>USA
+                        <PHONE>6509446000
+                    </PAYEE>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PAYACCT>123456
+                </PAYEERS>
+            </PAYEETRNRS>
+        </PAYEESYNCRS>
+        <PMTSYNCRS>
+            <TOKEN>1
+            <BANKACCTFROM>
+                <BANKID>322281507
+                <ACCTID>91058196-09
+                <ACCTTYPE>CHECKING
+            </BANKACCTFROM>
+            <PMTTRNRS>
+                <TRNUID>0
+                <STATUS>
+                    <CODE>0
+                    <SEVERITY>INFO
+                    <MESSAGE>Success
+                </STATUS>
+                <PMTRS>
+                    <SRVRTID>3237540
+                    <PAYEELSTID>235063
+                    <CURDEF>USD
+                    <PMTINFO>
+                        <BANKACCTFROM>
+                            <BANKID>322281507
+                            <ACCTID>91058196-09
+                            <ACCTTYPE>CHECKING
+                        </BANKACCTFROM>
+                        <TRNAMT>1.99
+                        <PAYEE>
+                            <NAME>B John
+                            <ADDR1>2525 Garcia Ave
+                            <CITY>Mountain View
+                            <STATE>CA
+                            <POSTALCODE>94039
+                            <COUNTRY>USA
+                            <PHONE>6509445346
+                        </PAYEE>
+                        <PAYEELSTID>235063
+                        <PAYACCT>650-944-5346
+                        <DTDUE>20080314120000.000[0:GMT]
+                    </PMTINFO>
+                    <EXTDPAYEE>
+                        <DAYSTOPAY>6
+                        <INTU.DAYSWITH>6
+                    </EXTDPAYEE>
+                    <PMTPRCSTS>
+                        <PMTPRCCODE>WILLPROCESSON
+                        <DTPMTPRC>20080307120000.000[0:GMT]
+                    </PMTPRCSTS>
+                </PMTRS>
+            </PMTTRNRS>
+        </PMTSYNCRS>
+        <RECPMTSYNCRS>
+            <TOKEN>0
+            <BANKACCTFROM>
+                <BANKID>322281507
+                <ACCTID>91058196-09
+                <ACCTTYPE>CHECKING
+            </BANKACCTFROM>
+        </RECPMTSYNCRS>
+        <PMTMAILSYNCRS>
+            <TOKEN>450168
+        </PMTMAILSYNCRS>
+    </BILLPAYMSGSRSV1>
+    <EMAILMSGSRSV1>
+        <MAILSYNCRS>
+            <TOKEN>450168
+        </MAILSYNCRS>
+    </EMAILMSGSRSV1>
+</OFX> 

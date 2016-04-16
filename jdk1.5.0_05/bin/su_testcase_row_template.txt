@@ -1,0 +1,4 @@
+	  		<tr>
+    			<td class="nlink">&nbsp;<a href="details/{TestCaseName}.html" class="nlink">{TestCaseDescName}</a></td>
+    			<td class="{TestCaseResult}">&nbsp;{TestCaseResult}</td>
+    		</tr>

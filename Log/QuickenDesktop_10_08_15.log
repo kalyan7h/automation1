@@ -1,0 +1,38 @@
+############### STARTING THE TEST CASE  Test_SpendingTabSetUp ###############
+############### TEST CASE  Test_SpendingTabSetUp is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test1_VerifySpendingTab ###############
+############### TEST CASE  Test1_VerifySpendingTab is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test2_VerifyRegisterandGraphalwaysmatchesinSpendingTab ###############
+############### TEST CASE  Test2_VerifyRegisterandGraphalwaysmatchesinSpendingTab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test3_VerifyFiltersOnSpendingTab ###############
+############### TEST CASE  Test3_VerifyFiltersOnSpendingTab is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test5_VerifySavingsCashCreditCardAccountsonSpendingtab ###############
+############### TEST CASE  Test5_VerifySavingsCashCreditCardAccountsonSpendingtab is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test7_VerifyBrokerageBuyTxnInSpendingTab ###############
+############### TEST CASE  Test7_VerifyBrokerageBuyTxnInSpendingTab is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test8_VerifyBrokerageSellTxnInSpendingTab ###############
+############### TEST CASE  Test8_VerifyBrokerageSellTxnInSpendingTab is FAILED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test9_VerifyBankingTransferTxnInSpendingTab ###############
+############### STARTING THE TEST CASE  Test_SpendingTabSetUp ###############
+############### TEST CASE  Test_SpendingTabSetUp is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test1_VerifySpendingTab ###############
+############### TEST CASE  Test1_VerifySpendingTab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test2_VerifyRegisterandGraphalwaysmatchesinSpendingTab ###############
+############### TEST CASE  Test2_VerifyRegisterandGraphalwaysmatchesinSpendingTab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test3_VerifyFiltersOnSpendingTab ###############
+############### TEST CASE  Test3_VerifyFiltersOnSpendingTab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test5_VerifySavingsCashCreditCardAccountsonSpendingtab ###############
+############### TEST CASE  Test5_VerifySavingsCashCreditCardAccountsonSpendingtab is PASSED ###############
+---------------------------------------------------------------------
+############### STARTING THE TEST CASE  Test_SpendingTabSetUp ###############

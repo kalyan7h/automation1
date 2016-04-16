@@ -1,0 +1,865 @@
+﻿[ ] // *********************************************************
+[+] // FILE NAME:	<BATQuicken.t>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   <This script contains all BAT test cases>
+	[ ] //
+	[ ] // DEPENDENCIES:	<include.inc>
+	[ ] //
+	[ ] // DEVELOPED BY:	Chandan Abhyankar
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 14/Nov/10	Chandan Abhyankar	Created
+[ ] // *********************************************************
+[ ] 
+[ ] // ==========================================================
+[-] // INCLUDED FILES
+	[ ] use "..\..\FrameworkSpecific\FrameworkFiles\Includes.inc" 	
+	[ ] 
+[ ] // ==========================================================
+[ ] 
+[+] // Global variables used for BAT Test cases
+	[ ] public STRING sBATFileName = "BAT"
+	[ ] public STRING sBATFile = AUT_DATAFILE_PATH + "\" + sBATFileName + ".QDF"
+	[ ] public LIST OF ANYTYPE  lsAccountData,lsExcelData, lsExcelData1
+	[ ] public LIST OF STRING lsAddAccount, lsTransactionData, lsCategoryData
+	[ ] public STRING sBatData = "BatData"
+	[ ] public STRING sAccountSheet = "Account"
+	[ ] public STRING sTransactionSheet = "Transaction"
+	[ ] public STRING sCategorySheet = "Category"
+	[ ] public STRING sDateFormate="m/d/yyyy"
+	[ ] public STRING sDate = FormatDateTime (GetDateTime(), sDateFormate) 
+	[ ] 
+	[ ] 
+[ ] 
+[ ] 
+[+] //############# Bat BatSetUp ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 BatSetUp()
+		[ ] //
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will delete the BAT.QDF if it exists
+		[ ] //
+		[ ] // PARAMETERS:		None
+		[ ] //
+		[ ] // RETURNS:			Pass 		If no error occurs while deleting file							
+		[ ] //						Fail		If any error occurs
+		[ ] //
+		[ ] // REVISION HISTORY:
+		[ ] //	  Dec 6, 2010		Mamta Jain created	
+	[ ] //*********************************************************
+	[ ] 
+[+] testcase BatSetUp () appstate none
+	[ ] 
+	[ ] LoadOSDependency()
+	[ ] INTEGER iSetupAutoAPI
+	[ ] STRING sConf_FilePath
+	[ ] //commented by mukesh suggested by Udita - 10/08/2012
+	[ ] //sConf_FilePath = QUICKEN_CONFIG + "\Quicken.ini"
+	[ ] //sConf_FilePath = SYS_GetEnv("QuickenIniPath") 
+	[ ] handle hIni
+	[ ] 
+	[ ] 
+	[+] // update ini file
+		[+] //if (FileExists(sConf_FilePath))
+			[ ] // Open File
+			[ ] // hIni = SYS_IniFileOpen (sConf_FilePath)
+			[ ] // Set Values for keys
+			[ ] //SYS_IniFileSetValue (hIni, "autopatch" , "PatchFatalError", "1")
+			[ ] // Close File
+			[ ] //SYS_IniFileClose (hIni)
+		[ ] 
+	[ ] 
+	[ ] //########commented by mukesh suggested by Govind - 14/08/2012 #######To disable Qcards######################//
+	[ ] sConf_FilePath=NULL
+	[ ] sConf_FilePath=SYS_GetEnv("AllUserQuickenDirPath") + "\Inet\Common\Localweb\QCards\Overview_UserDefinedView_1\Deck1\Overview_UserDefinedView_1.ini"
+	[ ] 
+	[+] // update ini file
+		[+] if (FileExists(sConf_FilePath))
+			[ ] // Open File
+			[ ] hIni = SYS_IniFileOpen (sConf_FilePath)
+			[ ] // Set Values for keys
+			[ ] SYS_IniFileSetValue (hIni, "2013" , "NumFiles", "0")
+			[ ] // Close File
+			[ ] SYS_IniFileClose (hIni)
+			[ ] 
+	[ ] sConf_FilePath=NULL
+	[ ] sConf_FilePath=SYS_GetEnv("AllUserQuickenDirPath") + "\Inet\Common\Localweb\QCards\Quicken_AccountTransactions\Deck1\Quicken_AccountTransactions.ini"
+	[ ] 
+	[+] // update ini file
+		[+] if (FileExists(sConf_FilePath))
+			[ ] // Open File
+			[ ] hIni = SYS_IniFileOpen (sConf_FilePath)
+			[ ] // Set Values for keys
+			[ ] SYS_IniFileSetValue (hIni, "2013" , "NumFiles", "0")
+			[ ] // Close File
+			[ ] SYS_IniFileClose (hIni)
+			[ ] 
+		[ ] 
+	[ ] 
+	[ ] //########commented by mukesh suggested by Govind - 14/08/2012 #######To disable Qcards######################//
+	[ ] 
+	[ ] 
+	[ ] 
+	[-] if(QuickenWindow.Exists(5))
+		[ ] QuickenWindow.SetActive()
+		[ ] QuickenWindow.Close()
+		[ ] WaitForState(QuickenWindow,FALSE,5)
+		[ ] 
+		[ ] 
+		[-] if(QuickenWindow.QuickenBackup.Exists(5))
+			[ ] QuickenWindow.QuickenBackup.Exit.DoubleClick()
+	[ ] 
+	[ ] sleep(SHORT_SLEEP)
+	[+] if(FileExists(sTestCaseStatusFile))
+		[ ] DeleteFile(sTestCaseStatusFile)
+	[ ] 
+	[ ] DeleteFile(sBATFile)
+	[ ] 
+	[ ] iSetupAutoAPI = SetUp_AutoApi()
+	[ ] ReportStatus("AutoAPI Setup", iSetupAutoAPI, "AutoAPI Setup is completed") 
+	[ ] CleanupResults()
+[ ] 
+[+] //############# Uninstall Quicken ############# 
+	[ ] //********************************************************
+	[+] // TestCase Name:	 Test01_UnInstall()
+		[ ] // 
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will uninstall Quicken and will delete the unwanted files and directories.
+		[ ] // 
+		[ ] // PARAMETERS:	none
+		[ ] // 
+		[ ] // RETURNS:			Pass 		if no error occurs while uninstalling and deleting files/dir 							
+		[ ] // Fail		if any error occurs
+		[ ] // 
+		[ ] // REVISION HISTORY:
+		[ ] // Dec 6, 2010		Mamta Jain created	
+	[ ] // *********************************************************
+[+] testcase Test01_UnInstall () appstate none
+	[ ] 
+	[ ] //if quicken is installed by autolab exit this script
+	[+] if (IsQuickenInstalledByAutolab ())
+		[ ] return
+	[ ] 
+	[ ] 
+	[ ] LIST OF STRING lsDir,lsFile
+	[ ] HFILE hFile
+	[ ] BOOLEAN bAssert, bActual, bDeleteStatus
+	[ ] INTEGER iDeleteStatus
+	[ ] STRING sSource, sLatest, sLine, sProductId ="",sSKUPath="" 
+	[ ] sAllUserQuickenDirPath=SYS_GetEnv("AllUserQuickenDirPath")
+	[ ] sQuickenIniPath=SYS_GetEnv("QuickenIniPath")
+	[ ] sInstallerDirPath=SYS_GetEnv("InstallerDirPath")
+	[ ] sIntuitDirPath=SYS_GetEnv("IntuitDirPath")
+	[ ] print ("sAllUserQuickenDirPath = {sAllUserQuickenDirPath}")
+	[ ] print("sQuickenIniPath= {sQuickenIniPath} ")
+	[ ] print("sInstallerDirPath= {sInstallerDirPath} ")
+	[ ] print("sIntuitDirPath= {sIntuitDirPath} ")
+	[ ] 
+	[+] if (IsAutolabMode () )
+		[ ] sSKUPath = GetAutolabQuickenBuildPath () + "\{SKU_TOBE_TESTED}"
+	[+] else
+		[ ] // get latest Build from Source
+		[ ] sLatest = GetLatestBuild() 
+		[ ] sSKUPath = INSTALL_BUILD_PATH + "\" + sLatest + "\{SKU_TOBE_TESTED}"
+	[ ] 
+	[ ] sSource = sSKUPath + "\DISK1\Setup.ini"
+	[ ] 
+	[ ] // Check if Quicken is installed on Machine or Not
+	[ ] bActual = SYS_FileExists (sExe)
+	[+] if( bActual == FALSE)
+		[ ] Log.Warning("Uninstall Quicken","qw.exe is not available on machine. So no need to uninstall Quicken")
+	[+] else
+		[+] if (FileExists(sSetUpDestPath) == TRUE)
+			[ ] DeleteFile(sSetUpDestPath)
+		[ ] CopyFile(sSource, sSetUpDestPath) 						// copy Setup.ini from source dir to c:\
+		[ ] 
+		[ ] hFile = FileOpen (sSetUpDestPath, FM_READ) 
+		[ ] FileReadLine (hFile, sLine)
+		[ ] 
+		[+] while(FileReadLine (hFile, sLine))
+				[+] if (MatchStr ("*ProductCode*", sLine)) 
+					[ ] sProductId = SubStr(sLine,13) 										// only the code of the product is returned
+					[+] if (MatchStr ("*}*", sProductId) && (MatchStr ("*"{*", sProductId)) && (sProductId != "") )
+						[ ] SYS_Execute("msiexec.exe /X"+ sProductId+ " /Q")				// Command for uninstalling Quicken
+		[ ] FileClose (hFile)
+		[ ] 
+	[ ] 
+	[ ] // Load O/S specific Paths and Variables
+	[ ] LoadOSDependency()
+	[ ] 
+	[ ] bActual = SYS_FileExists (sExe)
+	[ ] bAssert = AssertFalse(bActual)							// Verify qw.exe File in Quicken Folder
+	[+] if(bAssert == TRUE)
+		[ ] ReportStatus("Uninstall Quicken", PASS, "Quicken is uninstalled successfully") 
+	[+] else
+		[ ] ReportStatus("Uninstall Quicken", FAIL, "Quicken is not uninstalled properly") 
+	[ ] 
+	[ ] bDeleteStatus = DeleteDir(sAllUserQuickenDirPath)
+	[+] if (bDeleteStatus == TRUE)
+		[ ] ReportStatus("Delete Quicken All User profile", PASS, "Quicken All User profile -  {sAllUserQuickenDirPath} is deleted") 
+	[+] else
+		[ ] ReportStatus("Delete Quicken All User profile", FAIL, "Quicken All User profile -  {sAllUserQuickenDirPath} is not deleted") 
+	[ ] 
+	[ ] bDeleteStatus = DeleteDir(sIntuitDirPath)
+	[+] if (bDeleteStatus == TRUE)
+		[ ] ReportStatus("Quicken User profile", PASS, "Quicken User profile - {sIntuitDirPath} is deleted") 
+	[+] else
+		[ ] ReportStatus("Quicken User profile", FAIL, "Quicken User profile - {sIntuitDirPath} is not deleted") 
+	[ ] 
+	[ ] bDeleteStatus = DeleteDir(QUICKEN_ROOT)		// Deleting folders related to Quicken				
+	[+] if (bDeleteStatus == TRUE)
+		[ ] ReportStatus("Delete Quicken Dir", PASS, "Quicken Dir - {QUICKEN_ROOT} is deleted") 
+	[+] else
+		[ ] ReportStatus("Delete Quicken Dir", FAIL, "Quicken Dir - {QUICKEN_ROOT} is not deleted") 
+	[ ] 
+	[ ] lsDir= GetDirTree(sSKUPath)
+	[ ] print(lsDir)
+	[ ] lsFile= GetDirectoryListing(sSKUPath)
+	[ ] print(lsFile)
+	[ ] ListDelete(lsDir, 1)
+	[ ] 
+	[ ] bAssert = AssertEquals(19, ListCount(lsDir))			// Comparing total directories in source folder
+	[+] if ( bAssert == TRUE)
+		[ ] ReportStatus("Validate Directory count from Installation Build", PASS, "Actual Directory count - {ListCount(lsDir)} is matching with Expected - 18") 
+	[+] else
+		[ ] ReportStatus("Validate Directory count from Installation Build", FAIL, "Actual Directory count - {ListCount(lsDir)} is not matching with Expected - 18") 
+	[ ] 
+	[ ] bAssert = AssertEquals(54, ListCount(lsFile))		// Comparing total files in source folder
+	[+] if ( bAssert == TRUE)
+		[ ] ReportStatus("Validate File count from Installation Build", PASS, "Actual File count - {ListCount(lsFile)} is matching with Expected - 52") 
+	[+] else
+		[ ] ReportStatus("Validate File count from Installation Build", FAIL, "Actual File count - {ListCount(lsFile)} is not matching with Expected - 52") 
+	[ ] 
+[ ] 
+[+] //############# Install Quicken ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 Test02_Install()
+		[ ] // 
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will Install Quicken and will check the Quicken folder for required files and directories.
+		[ ] // 
+		[ ] // PARAMETERS:	none
+		[ ] // 
+		[ ] // RETURNS:			Pass 		if no error occurs while Installing and verifying files/dir 							
+		[ ] // Fail		if any error occurs
+		[ ] // 
+		[ ] // REVISION HISTORY:
+		[ ] // Dec 6, 2010		Mamta Jain created	
+	[ ] // *********************************************************
+[+] testcase Test02_Install () appstate none
+	[ ] 
+	[ ] //if quicken is installed by autolab exit this script
+	[+] if (IsQuickenInstalledByAutolab ())
+		[ ] return
+	[ ] 
+	[ ] 
+	[ ] STRING sLatest, sSource,sSKUPath=""
+	[ ] BOOLEAN bExists, bActual
+	[ ] INTEGER iSetupAutoAPI
+	[ ] sAllUserQuickenDirPath=SYS_GetEnv("AllUserQuickenDirPath")
+	[ ] sQuickenIniPath=SYS_GetEnv("QuickenIniPath")
+	[ ] sInstallerDirPath=SYS_GetEnv("InstallerDirPath")
+	[ ] sIntuitDirPath=SYS_GetEnv("IntuitDirPath")
+	[ ] 
+	[+] if (IsAutolabMode () )
+		[ ] sSKUPath = GetAutolabQuickenBuildPath () + "\{SKU_TOBE_TESTED}"
+	[+] else
+		[ ] // get latest Build from Source
+		[ ] sLatest = GetLatestBuild() 
+		[ ] sSKUPath = INSTALL_BUILD_PATH + "\" + sLatest + "\{SKU_TOBE_TESTED}"
+	[ ] 
+	[ ] sSource = sSKUPath + "\DISK1\Setup.exe"
+	[ ] SYS_Execute(sSource + " /s")			// command for installing quicken
+	[ ] 
+	[ ] // Load O/S specific Paths and Variables
+	[ ] LoadOSDependency()
+	[ ] 
+	[ ] // ##### Verify Directories/Files in Quicken Folder
+	[ ] 
+	[ ] bActual = SYS_FileExists(sQuickenIniPath)
+	[ ] bExists =  AssertTrue(bActual)
+	[+] if (bExists == TRUE)
+		[ ] ReportStatus("Validate Quicken.ini", PASS, "Quicken.ini is found in {sQuickenIniPath}") 
+	[+] else
+		[ ] ReportStatus("Validate Quicken.ini", FAIL, "Quicken.ini is not found in {sQuickenIniPath}") 
+	[ ] 
+	[ ] bActual = SYS_DirExists(sInstallerDirPath)
+	[ ] bExists =  AssertTrue(bActual)
+	[+] if (bExists == TRUE)
+		[ ] ReportStatus("Validate Installer Directory", PASS, "Directory - {sInstallerDirPath} is found") 
+	[+] else
+		[ ] ReportStatus("Validate Installer Directory", FAIL, "Directory - {sInstallerDirPath} is not found") 
+	[ ] 
+	[ ] bActual = SYS_FileExists(sQwLogPath)
+	[ ] bExists =  AssertTrue(bActual)
+	[+] if (bExists == TRUE)
+		[ ] ReportStatus("Validate qw.log", PASS, "qw.log file is found at {sQwLogPath}") 
+	[+] else
+		[ ] ReportStatus("Validate qw.log", FAIL, "qw.log file is not found at {sQwLogPath}") 
+	[ ] 
+	[ ] bActual = SYS_FileExists(sExe)
+	[ ] bExists =  AssertTrue(bActual)
+	[+] if (bExists == TRUE)
+		[ ] ReportStatus("Validate qw.exe", PASS, "qw.exe is found at {sExe}") 
+	[+] else
+		[ ] ReportStatus("Validate qw.exe", FAIL, "qw.exe is not found at {sExe}") 
+	[ ] 
+	[ ] bActual = SYS_DirExists(sQsapiDirPath)
+	[ ] bExists =  AssertTrue(bActual)
+	[+] if (bExists == TRUE)
+		[ ] ReportStatus("Validate Qsapi folder", PASS, "Qsapi folder is found at {sQsapiDirPath}") 
+	[+] else
+		[ ] ReportStatus("Validate Qsapi folder", FAIL, "Qsapi folder is not found at {sQsapiDirPath}") 
+	[ ] 
+	[ ] bActual = SYS_FileExists(sSplashPngPath)
+	[ ] bExists =  AssertTrue(bActual)
+	[+] if (bExists == TRUE)
+		[ ] ReportStatus("Validate splash.png", PASS, "splash.png is found at {sSplashPngPath}") 
+	[+] else
+		[ ] ReportStatus("Validate splash.png", FAIL, "splash.png is found at {sSplashPngPath}") 
+	[ ] 
+	[ ] bActual = SYS_FileExists(sQwmainDllPath)
+	[ ] bExists =  AssertTrue(bActual)
+	[+] if (bExists == TRUE)
+		[ ] ReportStatus("Validate qwmain.dl", PASS, "qwmain.dl file is found at {sQwmainDllPath}") 
+	[+] else
+		[ ] ReportStatus("Validate qwmain.dl", FAIL, "qwmain.dl file is not found at {sQwmainDllPath}") 
+	[ ] 
+	[ ] iSetupAutoAPI = SetUp_AutoApi()
+	[ ] ReportStatus("AutoAPI Setup", iSetupAutoAPI, "AutoAPI Setup is completed") 
+	[ ] 
+[ ] 
+[ ] 
+[+] //############# Verify Quicken version ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 Test03_QuickenVersion()
+		[ ] //
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will compare the Quicken version in Release file to value specified in Current version.
+		[ ] //
+		[ ] // PARAMETERS:	none
+		[ ] //
+		[ ] // RETURNS:			Pass 		if version verification is true 							
+		[ ] //						Fail		if any error occurs
+		[ ] //
+		[ ] // REVISION HISTORY:
+		[ ] //	  Dec 6, 2010		Mamta Jain created	
+	[ ] //*********************************************************
+[+] // testcase Test03_QuickenVersion () appstate QuickenBaseState
+	[ ] // 
+	[ ] // BOOLEAN bEqual
+	[ ] // STRING  sActual, sLatestBuild 
+	[ ] // LIST OF STRING lsExpected={}
+	[+] // if (IsAutolabMode () )
+		[ ] // sLatestBuild = GetAutolabQuickenBuildPath ()
+	[+] // else
+		[ ] // // get latest Build from Source
+		[ ] // sLatestBuild = GetLatestBuild() 
+	[ ] // 
+	[ ] // SYS_Execute ("wmic datafile where name='c:\\program files\\quicken\\qw.exe' get version", lsExpected)
+	[+] // if(sLatestBuild == trim(lsExpected[2]))
+		[ ] // ReportStatus("Validate Quicken Version", PASS, "Version - {sLatestBuild} is available") 
+		[ ] // 
+	[+] // else
+		[ ] // ReportStatus("Validate Quicken Version", FAIL, "Actual Version - {lsExpected[2]} is not matching with Expected Version - {sLatestBuild}") 
+	[ ] // 
+	[+] // // if (QuickenMainWindow.Exists(5) == True)
+		[ ] // // QuickenMainWindow.VerifyEnabled(TRUE, 20)
+		[+] // // if (SKU_TOBE_TESTED == "DELUXE")
+			[ ] // // //QuickenMainWindow.Help.AboutQuicken.Pick()
+			[ ] // // QuickenMainWindow.TypeKeys("<Alt-h-a-a-Enter>")
+		[+] // // else
+			[ ] // // QuickenMainWindow.TypeKeys("<Alt-h-a>")
+			[ ] // // 
+		[+] // // if (AboutQuicken2012.Exists(SHORT_SLEEP))
+			[ ] // // AboutQuicken2012.SetActive()
+		[+] // // else
+			[ ] // // QuickenMainWindow.TypeKeys("<Alt-h-q>")
+			[ ] // // AboutQuicken2012.SetActive()
+		[ ] // // 
+		[ ] // // sActual= AboutQuicken2012.QuickenVersion.GetText()
+		[ ] // // sExpected = "{sExpectedAboutQuicken} Release R  3 ("+ sLatestBuild + ")"
+		[ ] // // 
+		[ ] // // AboutQuicken2012.Close()
+		[ ] // // 
+		[ ] // // bEqual= AssertEquals(sExpected, sActual)
+		[+] // // if( bEqual == TRUE)
+			[ ] // // ReportStatus("Validate Quicken Version", PASS, "Version - {sActual} is available") 
+		[+] // // else
+			[ ] // // ReportStatus("Validate Quicken Version", FAIL, "Actual Version - {sActual} is not matching with Expected Version - {sExpected}") 
+		[ ] // // 
+	[+] // // else
+		[ ] // // ReportStatus("Check Version", FAIL, "Quicken is not available") 
+	[ ] // 
+[+] // testcase Test03_QuickenVersion () appstate QuickenBaseState
+	[ ] // 
+	[+] // //Variable Declaration
+		[ ] // STRING sLineRead
+		[ ] // STRING sCurrentVersion
+		[ ] // STRING sInstallPath="\\ppud9121\QA_builds_from_Onsite\QW13"
+		[ ] // STRING sReleasePath=QUICKEN_ROOT+ "\Release.txt"
+		[ ] // 
+	[+] // //Verify if Quicken Version is the latest
+		[+] // //Get Current Version
+			[ ] // HFILE OutputFileHandle
+			[ ] // sys_execute("dir {sInstallPath} /b /o:-d > c:/LatestBuild.txt")
+			[ ] // OutputFileHandle = FileOpen ("c:/LatestBuild.txt", FM_READ)
+			[ ] // FileReadLine (OutputFileHandle, sCurrentVersion )
+			[ ] // FileClose(OutputFileHandle)
+		[ ] // 
+		[ ] // 
+		[+] // //Verify latest Build with Installed Build
+			[ ] // HFILE FileHandle = FileOpen (sReleasePath, FM_READ)   //Opens txt file
+			[ ] // FileReadLine(FileHandle,sLineRead)
+			[+] // if (sLineRead==sCurrentVersion)
+				[ ] // //If version in Release matches with latest build
+				[ ] // ReportStatus("Verify Quicken Release Version", PASS, "Installed version is latest  "+sLineRead )
+				[ ] // 
+			[+] // else 
+				[ ] // //If version in Release does not match with latest build
+				[ ] // ReportStatus("Verify Quicken Release Version", FAIL, "Installed version is NOT latest  " +sLineRead)
+				[ ] // Print("Latest Version is " +sCurrentVersion)
+	[ ] // 
+[ ] 
+[+] //############# Create New Data file ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 Test04_NewDataFileCreation()
+		[ ] // 
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will create new BAT data file.
+		[ ] // 
+		[ ] // PARAMETERS:	none
+		[ ] // 
+		[ ] // RETURNS:			Pass 		if data file is created without any errors						
+		[ ] // 						Fail		if any error occurs
+		[ ] // 
+		[ ] // REVISION HISTORY:
+		[ ] // Dec 6, 2010		Mamta Jain created	
+	[ ] // *********************************************************
+[+] testcase Test04_NewDataFileCreation () appstate QuickenBaseState
+	[ ] 
+	[+] //Variable Declaration
+		[ ] INTEGER iCreateDataFile
+	[ ] 
+	[ ] 
+	[ ] //-------Create data file------------
+	[ ] iCreateDataFile = DataFileCreate(sBATFileName)
+	[-] if(iCreateDataFile==PASS)
+		[ ] ReportStatus("Validate Data File ", PASS, "Data file -  {sBATFile} is created")
+		[ ] 
+		[ ] sleep(5)
+		[ ] //----Deselect Manual Backup Reminder option in Preferences to prevent Backup prompts----
+		[ ] 
+		[ ] QuickenWindow.SetActive()
+		[ ] QuickenWindow.Edit.Click()
+		[ ] QuickenWindow.Edit.Preferences.Select()
+		[+] if(Preferences.Exists(5))
+			[ ] Preferences.SelectPreferenceType1.ListBox1.Select(5)
+			[ ] Preferences.ManualBackupReminder.Uncheck()
+			[ ] Preferences.OK.Click()
+			[ ] WaitForState(Preferences,FALSE,5)
+		[+] else
+			[ ] ReportStatus("Verify Preferences window is present", FAIL, "Preferences window not found")
+		[ ] 
+		[ ] // //-------Close Product Registration dialog------
+		[-] // if(ProductRegistration.Exists(5))
+			[ ] // ProductRegistration.Close()
+		[ ] // 
+		[ ] 
+		[ ] 
+	[+] else
+		[ ] ReportStatus("Validate Data File ", FAIL, "Data file - Error during  {sBATFile} creation")
+		[ ] 
+	[ ] 
+	[ ] 
+	[ ] 
+	[ ] 
+	[ ] 
+[ ] 
+[+] //############# Create New Checking Account ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 Test05_AddCheckingAccount()
+		[ ] // 
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will add Checking Account - Checking01.
+		[ ] // 
+		[ ] // PARAMETERS:	none
+		[ ] // 
+		[ ] // RETURNS:			Pass 		if account is added without any errors						
+		[ ] // 						Fail		if any error occurs
+		[ ] // 
+		[ ] // REVISION HISTORY:
+		[ ] // Dec 6, 2010		Mamta Jain created	
+	[ ] // *********************************************************
+[+] testcase Test05_AddCheckingAccount () appstate QuickenBaseState
+	[ ] 
+	[+] //Variable Declaration
+		[ ] INTEGER iAddAccount
+	[ ] 
+	[+] //Variable Definition
+		[ ] 
+		[ ] // Read excel table and return 1st Row
+		[ ] lsExcelData = ReadExcelTable(sBatData, sAccountSheet)
+		[ ] lsAddAccount=lsExcelData[1]
+		[ ] 
+		[ ] //Replace date from excel with todays date
+		[ ] lsAddAccount[4]=sDate
+		[ ] 
+	[ ] 
+	[ ] 
+	[ ] //-------Verify Quicken Exists--------
+	[+] if (QuickenWindow.Exists(5) == True)
+		[ ] 
+		[ ] 
+		[ ] //-------Add a Checking Account to Quicken --------
+		[ ] iAddAccount = AddManualSpendingAccount(lsAddAccount[1], lsAddAccount[2], lsAddAccount[3], lsAddAccount[4])
+		[-] if(iAddAccount==PASS)
+			[ ] ReportStatus("Checking Account", PASS, "Checking Account -  {lsAddAccount[2]} is created")
+		[-] else
+			[ ] ReportStatus("Checking Account", FAIL, "Checking Account -  {lsAddAccount[2]} is NOT created")
+			[ ] 
+		[ ] 
+		[ ] 
+	[+] else
+		[ ] ReportStatus("Validate Quicken Window", FAIL, "Quicken is not available") 
+	[ ] 
+	[ ] 
+	[ ] 
+[ ] 
+[+] //############# Create New Transaction and validate Ending Balance ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 Test06_AddTransaction()
+		[ ] // 
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will add transaction to checking account and confirm Ending Balance.
+		[ ] // 
+		[ ] // PARAMETERS:	none
+		[ ] // 
+		[ ] // RETURNS:			Pass 		if no error occurs while adding transaction 							
+		[ ] // 						Fail		if any error occurs
+		[ ] // 
+		[ ] // REVISION HISTORY:
+		[ ] // Dec 6, 2010		Mamta Jain created	
+	[ ] // *********************************************************
+[+] testcase Test06_AddTransaction () appstate QuickenBaseState
+	[ ] 
+	[+] //Variable Declaration
+		[ ] BOOLEAN bBalanceCheck
+		[ ] INTEGER iAddTransaction, iValidate
+		[ ] STRING sActual
+		[ ] 
+	[ ] 
+	[ ] 
+	[-] //Variable Definition
+		[ ] // Read data from Transaction sheet and fetch 1st row
+		[ ] lsExcelData = ReadExcelTable(sBatData, sTransactionSheet)
+		[ ] lsTransactionData=lsExcelData[1]
+		[ ] lsTransactionData[1]="PopUp"
+		[ ] lsTransactionData[4]=sDate
+		[ ] 
+		[ ] // Read data from Account sheet and fetch 1st row
+		[ ] lsExcelData1 = ReadExcelTable(sBatData, sAccountSheet)
+		[ ] lsAccountData = lsExcelData1[1]
+	[ ] 
+	[ ] 
+	[-] if (QuickenMainWindow.Exists(5) == True)
+		[ ] 
+		[ ] //----------Turn Off Pop up Registers------------
+		[ ] iValidate=UsePopupRegister("OFF")
+		[-] if(iValidate==PASS)
+			[ ] ReportStatus("Turn Pop Up registers OFF",PASS,"Pop Up registers is turned OFF")
+			[ ] 
+			[ ] 
+			[ ] // ------Click first Banking account in AccountBar-------------
+			[ ] iValidate=AccountBarSelect("Banking", 1)	
+			[-] if(iValidate==PASS)
+				[ ] ReportStatus("Account select from account bar", PASS, "Account {lsAccountData[2]} selected") 
+				[ ] 
+				[ ] 
+				[ ] iAddTransaction= AddCheckingTransaction(lsTransactionData[1], lsTransactionData[2], lsTransactionData[3],lsTransactionData[4], lsTransactionData[5], lsTransactionData[6])
+				[-] if(iAddTransaction==PASS)
+					[ ] ReportStatus("Add Transaction", iAddTransaction, "{lsTransactionData[2]} Transaction of Amount {lsTransactionData[3]} is added") 
+					[ ] 
+					[ ] 
+					[ ] //---------- Verify Ending balance after transaction is added----------
+					[ ] //sActual = BankingMDI.StaticText1.Balance.GetText()
+					[ ] sActual=BankingPopUp.EndingBalance.OnlineBalance.GetText()
+					[ ] bBalanceCheck = AssertEquals(lsTransactionData[8], sActual)
+					[-] if (bBalanceCheck == TRUE)
+						[ ] ReportStatus("Validate Ending Balance", PASS, "Ending Balance -  {sActual} is correct") 
+						[ ] BankingPopUp.Close()
+						[ ] 
+						[ ] 
+					[+] else
+						[ ] ReportStatus("Validate Ending Balance", FAIL, "Actual -  {sActual} is not matching with Expected - {lsTransactionData[8]}") 
+					[ ] 
+					[ ] 
+					[ ] 
+					[ ] 
+				[-] else
+					[ ] ReportStatus("Add Transaction", iAddTransaction, "{lsTransactionData[2]} Transaction of Amount {lsTransactionData[3]} is added") 
+					[ ] 
+				[ ] 
+				[ ] 
+				[ ] 
+				[ ] 
+			[+] else
+				[ ] ReportStatus("Account select from account bar", FAIL, "Account {lsAccountData[2]} not selected") 
+			[ ] 
+			[ ] 
+			[ ] 
+			[ ] 
+		[+] else
+			[ ] ReportStatus("Turn Pop Up registers OFF",FAIL,"Pop Up registers is not turned OFF")
+		[ ] 
+		[ ] 
+		[ ] 
+		[ ] // 
+		[-] // if (BankingMDI.Exists(5))
+			[ ] // UsePopupRegister("OFF")
+			[ ] // iSelect =SelectAccountFromAccountBar(lsAccountData[2],ACCOUNT_BANKING)
+			[ ] // 
+			[ ] // 
+			[ ] // iAddTransaction= AddCheckingTransaction(lsTransactionData[1], lsTransactionData[2], lsTransactionData[3],lsTransactionData[4], lsTransactionData[5], lsTransactionData[6])
+			[ ] // 
+			[ ] // ReportStatus("Add Transaction", iAddTransaction, "{lsTransactionData[2]} Transaction of Amount {lsTransactionData[3]} is added") 
+			[ ] // 
+			[ ] // 
+			[ ] // Verify Ending balance after transaction is added
+			[ ] // sActual = BankingMDI.StaticText1.Balance.GetText()
+			[ ] // bBalanceCheck = AssertEquals(lsTransactionData[8], sActual)
+			[-] // if (bBalanceCheck == TRUE)
+				[ ] // ReportStatus("Validate Ending Balance", PASS, "Ending Balance -  {sActual} is correct") 
+				[ ] // 
+			[+] // else
+				[ ] // ReportStatus("Validate Ending Balance", FAIL, "Actual -  {sActual} is not matching with Expected - {lsTransactionData[8]}") 
+				[ ] // 
+			[ ] // 
+		[+] // else
+			[ ] // ReportStatus("Account Page open", FAIL, "{lsAccountData[2]} Account is not opened") 
+		[ ] 
+		[ ] 
+		[ ] 
+		[ ] 
+		[ ] 
+		[ ] 
+		[ ] // QuickenMainWindow.Close()
+		[ ] // sleep(3)
+		[ ] // 
+		[ ] 
+		[ ] 
+	[+] else
+		[ ] ReportStatus("Add New Transaction", FAIL, "Quicken is not available") 
+	[ ] 
+	[ ] 
+[ ] 
+[+] //############# Create New Category and validate Category Count ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 Test07_AddCategory()
+		[ ] // 
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will add new category to the category list and check its existence.
+		[ ] // 
+		[ ] // PARAMETERS:	none
+		[ ] // 
+		[ ] // RETURNS:			Pass 		if no error occurs while adding category							
+		[ ] // 						Fail		if any error occurs
+		[ ] // 
+		[ ] // REVISION HISTORY:
+		[ ] // Dec 6, 2010		Mamta Jain created	
+	[ ] // *********************************************************
+[+] testcase Test07_AddCategory () appstate QuickenBaseState
+	[ ] 
+	[+] //Variable Declaration
+		[ ] INTEGER iAddCategory
+	[ ] 
+	[+] //Variable Definition
+		[ ] // Read data from Transaction sheet and fetch 1st row
+		[ ] lsExcelData = ReadExcelTable(sBatData, sCategorySheet)
+		[ ] lsCategoryData = lsExcelData[1]
+		[ ] 
+	[ ] 
+	[-] if(QuickenWindow.Exists(5))
+		[ ] 
+		[ ] iAddCategory = AddCategory(lsCategoryData[1], lsCategoryData[2], lsCategoryData[3])
+		[ ] 
+		[-] if(iAddCategory==PASS)
+			[ ] ReportStatus("Create Category", PASS, " New {lsCategoryData[2]} Category {lsCategoryData[1]} is added")
+		[-] else
+			[ ] ReportStatus("Create Category", FAIL, " New {lsCategoryData[2]} Category {lsCategoryData[1]} is added")
+		[ ] 
+	[-] else
+		[ ] ReportStatus("Add New Category", FAIL, "Quicken is not available") 
+	[ ] 
+[ ] 
+[+] //############# Open Report and Check Transactions ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 Test08_VerifyReportTransaction()
+		[ ] // 
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will check the Transaction report and its contents.
+		[ ] // If any transactions are added then it should be displayed in report.
+		[ ] // 
+		[ ] // PARAMETERS:	none
+		[ ] // 
+		[ ] // RETURNS:			Pass 		if no error occurs while verifying the report contents							
+		[ ] // 						Fail		if any error occurs
+		[ ] // 
+		[ ] // REVISION HISTORY:
+		[ ] // Dec 6, 2010		Mamta Jain created	
+	[ ] // *********************************************************
+[+] testcase Test08_VerifyReportTransaction() appstate QuickenBaseState
+	[ ] 
+	[-] //Variable Declaration
+		[ ] STRING  hWnd,sExpected, sActual,sExpectedCaption,sActualCaption
+		[ ] BOOLEAN bAssert, bEnabled
+	[ ] 
+	[-] //Variable Definition
+		[ ] sExpectedCaption="Transaction"
+		[ ] 
+		[ ] // ----------Read data from Transaction sheet and Fetch 1st row--------
+		[ ] lsExcelData = ReadExcelTable(sBatData, sTransactionSheet)
+		[ ] lsTransactionData=lsExcelData[1]
+		[ ] 
+		[ ] //---------- Read data from Account sheet and Fetch 1st row----------
+		[ ] lsExcelData1 = ReadExcelTable(sBatData, sAccountSheet)
+		[ ] lsAccountData = lsExcelData1[1]
+		[ ] 
+		[ ] //------Use function for dll to use Qwauto-------
+		[ ] SetUp_AutoApi()
+		[ ] LoadSKUDependency()
+	[ ] 
+	[ ] 
+	[ ] 
+	[-] if (QuickenWindow.Exists(5) == True)
+		[ ] 
+		[ ] //Deselect Save Report Notification option in Preferences to prevent pop ups during reports
+		[ ] QuickenWindow.Edit.Click()
+		[ ] QuickenWindow.Edit.Preferences.Select()
+		[-] if(Preferences.Exists(5))
+			[+] if(SKU_TOBE_TESTED=="PREMIER")
+				[ ] Preferences.SelectPreferenceType1.ListBox1.Select(18)
+			[+] else if(SKU_TOBE_TESTED=="QNUE")
+				[ ] Preferences.SelectPreferenceType1.ListBox1.Select(15)
+				[ ] 
+			[+] else
+				[ ] Preferences.SelectPreferenceType1.ListBox1.Select(16)
+			[-] if(Preferences.RemindMeToSaveReports.Exists(3))
+				[ ] Preferences.RemindMeToSaveReports.Uncheck()
+			[ ] 
+			[ ] //Preferences.O
+			[ ] Preferences.OK.Click()
+			[ ] WaitForState(Preferences,FALSE,5)
+		[ ] 
+		[ ] sleep(5)
+		[ ] QuickenWindow.SetActive()
+		[ ] sleep(2)
+		[ ] QuickenWindow.Reports.Click()
+		[ ] QuickenWindow.Reports.Banking.Click()
+		[ ] QuickenWindow.Reports.Banking.Transaction.Click()
+		[ ] sleep(SHORT_SLEEP)
+		[-] if(TransactionReports.Exists(4))
+			[ ] 
+			[ ] sActualCaption=TransactionReports.GetCaption()
+			[-] if(sActualCaption==sExpectedCaption)
+				[ ] 
+				[ ] TransactionReports.SetActive ()
+				[ ] //TransactionReports.QWCustomizeBar1.DateRange.Select("Include all dates")
+				[ ] TransactionReports.QWCustomizeBar1.DateRange.Select("#1")
+				[ ] 
+				[ ] 
+				[ ] //TransactionReports.QWCustomizeBar1.DateRange.Select(
+				[ ] 
+				[ ] bEnabled = DoVerifyEnabled(TransactionReports, True)
+				[-] if (bEnabled == True)
+					[ ] TransactionReports.SetActive ()
+					[ ] 
+					[ ] ReportStatus("Open Transaction report", PASS, "Transaction report opened Successfully") 
+					[ ] 
+					[ ] 
+					[ ] //############## Check earlier entered Transaction [@Checking 01@@@@@@@-123.45@@@] ############
+					[ ] hWnd = Str(TransactionReports.QWListViewer1.ListBox.GetHandle())
+					[ ] sActual= QwAutoExecuteCommand("LISTBOX_GETFULLROW", hWnd,  "3")
+					[ ] sExpected= "@" + lsAccountData[2]+"@@{lsTransactionData[6]}"+ "@@@*-" + Str(Val(lsTransactionData[3]), NULL, 2) + "@@@"
+					[ ] bAssert = MatchStr("*{sExpected}*",sActual)
+					[-] if ( bAssert == TRUE)
+						[ ] ReportStatus("Validate Transaction in Report", PASS, "Transaction with Amount {Str(Val(lsTransactionData[3]), NULL, 2)} is found") 
+					[-] else
+						[ ] ReportStatus("Validate Transaction in Report", FAIL, "Expected -  {sExpected} is not matching with Actual -  {sActual}") 
+					[ ] 
+					[ ] //################  Check TOTAL INFLOWS [@@TOTAL INFLOWS@3,435.54@@@] ###############
+					[ ] sActual= QwAutoExecuteCommand("LISTBOX_GETFULLROW", hWnd, "8")
+					[ ] sExpected= "@@TOTAL INFLOWS@" + lsAccountData[3] +  "@@@"
+					[ ] bAssert = MatchStr(sExpected,sActual)
+					[+] if ( bAssert == TRUE)
+						[ ] ReportStatus("Validate TOTAL INFLOWS", PASS, "TOTAL INFLOWS -  {lsAccountData[3]} is found in report")  
+					[+] else
+						[ ] ReportStatus("Validate TOTAL INFLOWS", FAIL,"TOTAL INFLOWS : Expected - {sExpected} is not matching with Actual - {sActual}")  
+					[ ] 
+					[ ] //################  Check TOTAL OUTFLOWS [@@TOTAL OUTFLOWS@-123.45@@@] ###############
+					[ ] sActual= QwAutoExecuteCommand("LISTBOX_GETFULLROW", hWnd, "10")
+					[ ] sExpected= "@@TOTAL OUTFLOWS@-" + Str(Val(lsTransactionData[3]), NULL, 2) +  "@@@"
+					[ ] bAssert = MatchStr(sExpected,sActual)
+					[-] if ( bAssert == TRUE)
+						[ ] ReportStatus("Validate TOTAL OUTFLOWS", PASS, "TOTAL OUTFLOWS - {Str(Val(lsTransactionData[3]), NULL, 2)} is found in report")  
+					[+] else
+						[ ] ReportStatus("Validate TOTAL OUTFLOWS", FAIL, "TOTAL OUTFLOWS : Expected - {sExpected} is not matching with Actual - {sActual}")  
+					[ ] 
+					[ ] TransactionReports.Close()
+					[+] // if(SaveReportAs.Exists(SHORT_SLEEP))
+						[ ] // SaveReportAs.SetActive()
+						[ ] // SaveReportAs.DonTShowMeThisAgain.Check()
+						[ ] // SaveReportAs.DonTSave.Click()
+				[+] else
+					[ ] ReportStatus("Open Transaction report", FAIL, "Transaction report is not opened") 
+			[+] else
+				[ ] ReportStatus("Verify caption of Transaction report", FAIL, "Transaction report caption {sActualCaption} does not match with {sExpectedCaption}") 
+			[ ] 
+			[ ] 
+		[-] else
+			[ ] ReportStatus("Verify Transaction report", FAIL, "Transaction report not found") 
+		[ ] 
+		[ ] 
+		[ ] 
+		[ ] 
+	[-] else
+		[ ] ReportStatus("Check Added Transaction", FAIL, "Quicken is not available") 
+		[ ] 
+	[ ] 
+[ ] 
+[ ] 
+[+] //############# Bat Clean ############# 
+	[ ] // ********************************************************
+	[+] // TestCase Name:	 BatClean()
+		[ ] //
+		[ ] // DESCRIPTION:
+		[ ] // This testcase will close Quicken, QwAuto window if open.
+		[ ] // It will delete the setup.ini file from c drive
+		[ ] //
+		[ ] // PARAMETERS:	none
+		[ ] //
+		[ ] // RETURNS:			Pass 		if no error occurs while closing the window							
+		[ ] //						Fail		if any error occurs
+		[ ] //
+		[ ] // REVISION HISTORY:
+		[ ] //	  Dec 10, 2010		Mamta Jain created	
+	[ ] //*********************************************************
+[+] testcase BatClean() appstate QuickenBaseState
+	[ ] 
+	[-] if(QuickenAutomationInterface.Exists(5))
+		[ ] QuickenAutomationInterface.Close()
+	[ ] 
+	[-] if(QuickenWindow.Exists(5))
+		[ ] //QuickenWindow.Close()
+		[ ] QuickenWindow.Kill()
+		[ ] WaitForState(QuickenWindow,FALSE,5)
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 
+[ ] 

@@ -1,0 +1,39 @@
+﻿[ ] 
+[ ] 
+[ ] //========================================================================
+[ ] //===========This Plan contains all test cases for Currency List Automation==============
+[ ] //========================================================================
+[ ] 
+[ ] 
+[ ] Script:  ..\Currency List\CurrencyList.t
+[ ] 
+[ ] 
+[-] Currency List Setup
+	[ ] testcase: Test1_CurrencyListSetUp() 
+[-] Open and Close Currency List Window
+	[ ] testcase: Test2_CurrencyListOpenAndClose
+[-] Verify Default Home currency is US
+	[ ] testcase: Test3_DefaultHomeCurrency
+[-] Set a new Home currency
+	[ ] testcase: Test4_HighlightCurrency
+[-] Select Only one home currency
+	[ ] testcase: Test5_SelectOnlyOneHomeCurrency
+[-] Create a new currency and delete
+	[ ] testcase: Test6_CreateNewCurrency
+[-] Delete Home currency
+	[ ] testcase: Test7_DeleteHomeCurrency
+[-] Edit Currency
+	[ ] testcase: Test8_EditExistingCurrency
+[-] Update currency exchange rates
+	[ ] testcase: Test10_UpdateCurrencyExchangeRates
+[-] Uncheck multi currency 
+	[ ] testcase: Test13_MultiCurrencySupportUncheck
+[-] User a currency in a transaction
+	[ ] testcase: Test11_UseCurrency
+[-] Currency drop down on account creation page
+	[ ] testcase: Test14_CurrencyDropDownAccountCreation
+[-]  Cancel and Help buttons
+	[ ] testcase: Test12_CancelAndHelpHomeCurrency
+[-] Verify right click menus of currency list
+	[ ] testcase: Test15_CurrencyRightClickMenus
+[ ] 

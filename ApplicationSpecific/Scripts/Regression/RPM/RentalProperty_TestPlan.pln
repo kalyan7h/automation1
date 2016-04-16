@@ -1,0 +1,153 @@
+﻿[ ] //#######################################################
+[ ] //########  This Plan contains test cases for Rental Property Test ###########
+[ ] //#######################################################
+[ ] 
+[ ] Script: RentalProperty.t
+[ ] 
+[+] Test1_RentalPropertySetUp
+	[ ] testcase: Test1_RentalPropertySetUp
+[+] Test2_RentalPropertyTabandButtonsVerification
+	[ ] testcase: Test2_RentalPropertyTabandButtonsVerification
+	[ ] 
+[+] Test3_VerifyRentCenterButtonsWhenNoPropertyAdded
+	[ ] testcase: Test3_VerifyRentCenterButtonsWhenNoPropertyAdded
+	[ ] 
+[+] Test4_VerifyEditProperty
+	[ ] testcase: Test4_VerifyEditProperty
+	[ ] 
+[+] Test5_VerifyAddProperty
+	[ ] testcase: Test5_VerifyAddProperty
+	[ ] 
+[+] Test6_VerifyHideProperty
+	[ ] testcase: Test6_VerifyHideProperty
+	[ ] 
+[+] Test7_VerifyRentCenterWithAndWithoutProperty
+	[ ] testcase: Test7_VerifyRentCenterWithAndWithoutProperty
+	[ ] 
+[+] Test8_VerifyAddTenantRentDetailsUI
+	[ ] testcase: Test8_VerifyAddTenantRentDetailsUI
+	[ ] 
+[+] Test9_VerifyTermsAndAgreementUI
+	[ ] testcase: Test9_VerifyTermsAndAgreementUI
+	[ ] 
+[+] Test10_VerifyAddTenantTermsAndAgreementValiadation
+	[ ] testcase: Test10_VerifyAddTenantTermsAndAgreementValiadation
+	[ ] 
+[+] Test11_VerifyAddTenant
+	[ ] testcase: Test11_VerifyAddTenant
+	[ ] 
+[+] Test12_VerifyAddedTenantHistoryTab
+	[ ] testcase: Test12_VerifyAddedTenantHistoryTab
+	[ ] 
+[+] Test13_VerifyEditedTenantHistoryTab
+	[ ] testcase: Test13_VerifyEditedTenantHistoryTab
+	[ ] 
+[+] Test14_VerifyTenantHidden
+	[ ] testcase: Test14_VerifyTenantHidden
+	[ ] 
+[+] Test15_VerifyDuplicateTenantFeature
+	[ ] testcase: Test15_VerifyDuplicateTenantFeature
+	[ ] 
+[+] Test16_VerifyTenantListShortcutKeys
+	[ ] testcase: Test16_VerifyTenantListShortcutKeys
+[+] Test17_VerifySecurityDepositCollected
+	[ ] testcase: Test17_VerifySecurityDepositCollected
+	[ ] 
+[+] Test18_VerifySecurityDepositReturned
+	[ ] testcase: Test18_VerifySecurityDepositReturned
+	[ ] 
+[+] Test19_VerifyTenantDueDateInRentCenter
+	[ ] testcase: Test19_VerifyTenantDueDateInRentCenter
+	[ ] 
+[+] Test20_VerifyRentCenterAddTransactionsOptions
+	[ ] testcase: Test20_VerifyRentCenterAddTransactionsOptions
+	[ ] 
+[+] Test21_VerifyAddRentOnProfitLoss
+	[ ] testcase: Test21_VerifyAddRentOnProfitLoss
+[+] Test22_VerifyUpcomingIncomeOnProfitLoss
+	[ ] testcase: Test22_VerifyUpcomingIncomeOnProfitLoss
+[+] Test23_VerifyAddExpenseOnProfitLoss
+	[ ] testcase: Test23_VerifyAddExpenseOnProfitLoss
+	[ ] 
+[+] Test24_VerifyUpcomingBillOnProfitLoss
+	[ ] testcase: Test24_VerifyUpcomingBillOnProfitLoss
+[+] Test25_VerifyExpenseInTaxDeductibleAndPossiblyDeductibleLink
+	[ ] testcase: Test25_VerifyExpenseInTaxDeductibleAndPossiblyDeductibleLink
+	[ ] 
+[+] Test26_VerifyProfitLossDetailsLink
+	[ ] testcase: Test26_VerifyProfitLossDetailsLink
+	[ ] 
+[+] Test27_VerifyProfitLossDetailsUsingButton
+	[ ] testcase: Test27_VerifyProfitLossDetailsUsingButton
+[+] Test28_VerifyProfitLossReminders
+	[ ] testcase: Test28_VerifyProfitLossReminders
+	[ ] 
+[+] Test29_VerifyProfitLossManageRemindersCalendarGraph
+	[ ] testcase: Test29_VerifyProfitLossManageRemindersCalendarGraph
+[+] Test30_VerifySpendingByPayeeCategoryTransactionsInProfitLossTab
+	[ ] testcase: Test30_VerifySpendingByPayeeCategoryTransactionsInProfitLossTab
+[+] Test31_Verify_HiddenPropertyTransactionsOnProfitLoss
+	[ ] testcase: Test31_Verify_HiddenPropertyTransactionsOnProfitLoss
+[+] Test32_AddTransactionwithRentalTagAndCategory
+	[ ] testcase: Test32_AddTransactionwithRentalTagAndCategory
+[+] Test33_AddTransactionwithRentalTagWithoutCategory
+	[ ] testcase: Test33_AddTransactionwithRentalTagWithoutCategory
+[+] Test34_AddTransactionwithRentalAndBusinessTagWithoutCategory
+	[ ] testcase: Test34_AddTransactionwithRentalAndBusinessTagWithoutCategory
+[+] Test35_AddTransactionwithRentalCategoryOnly
+	[ ] testcase: Test35_AddTransactionwithRentalCategoryOnly
+[+] Test36_AddTransactionwithBusinessCategoryOnly
+	[ ] testcase: Test36_AddTransactionwithBusinessCategoryOnly
+[+] Test37_AddTransactionwithExpenseBusinessCategoryOnly
+	[ ] testcase: Test37_AddTransactionwithExpenseBusinessCategoryOnly
+[+] Test38_AddIncomeTransactionwithRentalTagOnly
+	[ ] testcase: Test38_AddIncomeTransactionwithRentalTagOnly
+	[ ] 
+[+] Test39_AddSplitTransactionwithRentalCategoryAndTag
+	[ ] testcase: Test39_AddSplitTransactionwithRentalCategoryAndTag
+	[ ] 
+[+] Test40_AddExpenseTransactionwithRentalTagOnly
+	[ ] testcase: Test40_AddExpenseTransactionwithRentalTagOnly
+	[ ] 
+[+] Test41_VehicleMileageDetails
+	[ ] testcase: Test41_VehicleMileageDetails
+	[ ] 
+[+] Test42_AddVehicleMileageTransaction
+	[ ] testcase: Test42_AddVehicleMileageTransaction
+[+] Test43_VehicleMileageEpenseTransaction
+	[ ] testcase: Test43_VehicleMileageEpenseTransaction
+[+] Test44_VerifyNotSureRentalExpenseCategory
+	[ ] testcase: Test44_VerifyNotSureRentalExpenseCategory
+[+] Test45_VerifyRentalTransactionsonTaxScheduleReport
+	[ ] testcase: Test45_VerifyRentalTransactionsonTaxScheduleReport
+[+] Test46_PersonalExpenseTransactionOnScheduleEReport
+	[ ] testcase: Test46_PersonalExpenseTransactionOnScheduleEReport
+[+] Test47_VerifyLastMonthIncomeTransactionOnScheduleEReport
+	[ ] testcase: Test47_VerifyLastMonthIncomeTransactionOnScheduleEReport
+[+] Test48_VerifyLastMonthExpenseTransactionOnScheduleEReport
+	[ ] testcase: Test48_VerifyLastMonthExpenseTransactionOnScheduleEReport
+[+] Test49_VerifyLastQuarterIncomeTransactionOnScheduleEReport
+	[ ] testcase: Test49_VerifyLastQuarterIncomeTransactionOnScheduleEReport
+[+] Test50_VerifyLastQuarterExpenseTransactionOnScheduleEReport
+	[ ] testcase: Test50_VerifyLastQuarterExpenseTransactionOnScheduleEReport
+[+] Test51_VerifyLastYearIncomeTransactionOnScheduleEReport
+	[ ] testcase: Test51_VerifyLastYearIncomeTransactionOnScheduleEReport
+[+] Test53_AddBussinessAccountTransactionwithRentalTagOnly
+	[ ] testcase: Test53_AddBussinessAccountTransactionwithRentalTagOnly
+[+] Test54_ModifyTransactionwithRentalTagAndCategory
+	[ ] testcase: Test54_ModifyTransactionwithRentalTagAndCategory
+	[ ] 
+[+] Test55_AddUnspecifiedExpenseTransactionwithRentalCategoryOnly
+	[ ] testcase: Test55_AddUnspecifiedExpenseTransactionwithRentalCategoryOnly
+[+] Test52_VerifyCustomDateRangeTransactionsOnScheduleEReport
+	[ ] testcase: Test52_VerifyCustomDateRangeTransactionsOnScheduleEReport
+[+] Test56_VerifyScheduleEReportExpandAllOption
+	[ ] testcase: Test56_VerifyScheduleEReportExpandAllOption
+[+] Test57_VerifyScheduleEReportOptions
+	[ ] testcase: Test57_VerifyScheduleEReportOptions
+	[ ] 
+[+] Test58_VerifyRentalPropertyAccountOverview
+	[ ] testcase: Test58_VerifyRentalPropertyAccountOverview
+	[ ] 
+[ ] 
+[ ] 

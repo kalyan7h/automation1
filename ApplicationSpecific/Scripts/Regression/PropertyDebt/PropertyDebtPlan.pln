@@ -1,0 +1,114 @@
+﻿[ ] 
+[ ] // *********************************************************
+[+] // FILE NAME:	<PropertyDebt.t>
+	[ ] //
+	[ ] // DESCRIPTION:
+	[ ] //   This script contains all Property Debt module test cases
+	[ ] //
+	[ ] // DEPENDENCIES:	<include.inc>
+	[ ] //
+	[ ] // DEVELOPED BY:	Anagha 
+	[ ] //			
+	[ ] // REVISION HISTORY:
+	[ ] //	 20-March-2014 	Anagha	Created
+[ ] // *********************************************************
+[ ] 
+[ ] Script:PropertyDebt.t
+[ ] 
+[-] Property & Debt tab ZeroDataState
+	[ ] testcase:PropertyDebt_ZeroDataState
+[-] Property & Debt tab SetUp
+	[ ] testcase:PropertyDebt_SetUp
+[-] Verify Three views exist in Property & Debt tab
+	[ ] testcase:Test01_ThreeViewsExistPropertyDebt 
+[-] // Verify Sub-menus present under Property & Debt menu
+	[ ] // testcase:Test02_SubMenusForPropertyandDebt
+[-] Verify New Transaction in Register reflect in all snapshots
+	[ ] testcase:Test03_NewTransactionInRegisterReflectAllSnapshots
+[-] Verify Edited Transaction in Register reflect in all snapshots
+	[ ] testcase:Test04_EditedTransactionInRegisterReflectAllSnapshots
+[-] Verify Delete Transaction in Register reflect in all snapshots
+	[ ] testcase:Test05_DeleteTransactionInRegisterReflectAllSnapshots
+[-] Verify Show Hidden Accounts Option not by default selected on Customize Window  
+	[ ] testcase:Test06_ShowHiddenAccountsOptionNotCheckedByDefault
+[-] Verify Show Hidden Accounts Option not by default selected on Customize Window
+	[ ] testcase:Test07_ShowHiddenAccountsOptionWorksInCustomAccount
+[-] Verify Select All Button in Custom Account Window
+	[ ] testcase:Test08_SelectAllButtonInCustomAccountWindow
+[-] Verify Clear All Button in Custom Account Window
+	[ ] testcase:Test09_ClearAllButtonInCustomAccountWindow
+[-] Verify OK Button in Custom Account Window
+	[ ] testcase:Test10_OKButtonInCustomAccountWindow
+[-] Verify Cancel Button in Custom Account Window
+	[ ] testcase:Test11_CancelButtonInCustomAccountWindow
+[-] Verify "Show Hidden Account" checkbox should not appear in Custom Account window
+	[ ] testcase:Test12_ShowHiddenAccountsOptionNotPresentinCustomWindow
+[-] Verify functionality of Help icon in Custom Account window
+	[ ] testcase:Test13_HelpButtoninCustomWindow
+[-] Verify Custom Account Selection dialog dismissal using [x] and <ESC> key
+	[ ] testcase:Test14_DismissalUsingESCinCustomWindow
+[-] Verify UI of View Bar in case of Standard menus
+	[ ] testcase:Test15_StandardMenuViewBar
+[-] Verify UI of View Bar in case of Classic menus
+	[ ] testcase:Test16_ClassicMenuViewBar
+	[ ] 
+	[ ] ///////////////////////////////////////////NetWorth View////////////////////////////////////////////////////////
+[-] Verify contents of Filter Bar for Net Worth view
+	[ ] testcase:Test01_FilterBarNetWorthView
+[-] Verify that filter bar selection reflects in the two snapshots in the view
+	[ ] testcase:Test03_FilterBarSelectionTwoSnapshots
+[-] Verify that filter bar selection reflects in the two snapshots in the view
+	[ ] testcase:Test04_TwoSnapshotsPresentNetWorthView
+[-] Verify Contents of Filter Bar control
+	[ ] testcase:Test05_FilterBarControl
+[-] Verify launch of Asset Vs Liabilities dialog
+	[ ] testcase:Test06_LaunchOfAssetLiabilitiesDialog
+[-] Verify UI of Asset Vs Liabilities dialog 
+	[ ] testcase:Test07_UIOfAssetLiabilitiesDialog
+[-] Verify Data for Asset and Liabilities if no asset accounts added
+	[ ] testcase:Test08_NoAssetAccountAddedAssetLiabilitiesDialog
+[-] Verify Data for Asset and Liabilities if no Loan  accounts added
+	[ ] testcase:Test09_NoLoanAccountAddedAssetLiabilitiesDialog
+[-] Verify Data for Asset and Liabilities if Checking and Cash accounts are added
+	[ ] testcase:Test10_CheckingAccountAddedAssetLiabilitiesDialog
+[-] Verify Data for Asset and Liabilities if Saving accounts are added
+	[ ] testcase:Test11_SavingsAccountAddedAssetLiabilitiesDialog
+[-] Verify Details of Filter Indicator
+	[ ] testcase:Test14_DetailsOfFilterIndicator
+[-] Verify grouping of accounts for net value in Asset vs Liability snapshot 
+	[ ] testcase:Test15_GroupingOfAccountsForNetValue
+[-] Verify UI of Asset Vs Liabilities dialog launch from Account Type snapshot
+	[ ] testcase:Test16_UIOfAssetLiabilitiesNetworthAccountType
+[-] Verify Report buttons present on Net Worth view 
+	[ ] testcase:Test17_ReportButtonPresentforNetWorthView
+[-] Verify Report buttons on Net Worth view launch corresponding report
+	[ ] testcase:Test18_ReportButtonlaunchCorrespondingReport
+[-] Verify Default View in Property & Debt tab  
+	[ ] testcase:Test21_DefaultViewInPropertyDebt
+[-] Verify Asset Vs Liabilities snapshot should include accounts selected in custom accounts selector
+	[ ] testcase:Test22_AssetLiabilitesCustomAccountsSelector
+[-] Verify Account Type snapshot should include accounts selected in custom accounts selector
+	[ ] testcase:Test23_AccountTypeCustomAccountsSelector
+[-] Verify default interval selection in Net Worth view depending on Date Range selection 
+	[ ] testcase:Test24_DefaultIntervalDateRangeSelection
+[-] Verify functionality of Date Range selection filter 
+	[ ] testcase:Test25_DateRangeSelectionFilter
+[-] Verify graph is plotted when Account Selector'Business Accounts Only'
+	[ ] testcase:Test27_AccountSelectorBusinessAccounts
+[-] Verify graph is plotted when Account Selector 'Rental Accounts Only'
+	[ ] testcase:Test28_AccountSelectorRentalAccounts
+[-] Verify functionality of Done button on Asset vs. liability snapshot
+	[ ] testcase:Test29_DoneButtonAssetLiabilitySnapshot
+[-] Verify Pie chart displayed in Asset vs. liabilities snapshot
+	[ ] testcase:Test30_PieChartAssetLiabilities
+[-] Verify filter option in Account Selection filter depending on sku
+	[ ] testcase:Test34_AccountSelectionFilterdependingonSKU
+[-] Verify graph/bars plotted in Net Worth by Asset And liabilities snapshot for -ve amounts
+	[ ] testcase:Test35_GraphWithNegativeAmounts
+[-] Verify Net worth view data after conversion data file having property and Debt data
+	[ ] testcase:Test36_NetWorthViewAfterDataConversion
+[-] Verify Net worth report after successful data migration
+	[ ] testcase:Test37_NetWorthReportAfterDataConversion
+[-] Verify Net worth report from Report menu
+	[ ] testcase:Test39_NetWorthReportAfterDataConversion
+	[ ] 

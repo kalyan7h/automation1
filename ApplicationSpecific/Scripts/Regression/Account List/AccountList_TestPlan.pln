@@ -1,0 +1,77 @@
+﻿[ ] //========================================================================
+[ ] //===========This Plan contains all test cases for Account List Automation==============
+[ ] //========================================================================
+[ ] 
+[ ] Script:  ..\Account List\AccountList.t
+[ ] 
+[+] Account List Pre Requisites
+	[ ] testcase: AccountListSetup
+	[ ] 
+[ ] 
+[+] Open Account List from different navigation
+	[ ] testcase: Test01_OpenAccountList
+[ ] 
+[+] Account List UI
+	[ ] testcase: Test02_AccountListUI
+[ ] 
+[+] Single Purpose Account List
+	[ ] testcase: Test03_SinglePurposeAccountListUI
+[ ] 
+[+] Account List Tabs
+	[ ] testcase:Test04_AccountListTabName
+[ ] 
+[+] Account List Help
+	[ ] testcase:Test05_AccountList_Help
+[ ] 
+[+] Single Account Tab
+	[ ] testcase:Test06_SingleAccountTab
+[ ] 
+[+] Multiple Account Tabs
+	[ ] testcase:Test07_MultipleAccountTypes
+[ ] 
+[+] Delete Account Tab
+	[ ] testcase:Test08_DeleteAccountTab
+[ ] 
+[+] Open Register
+	[ ] testcase:Test09_OpenRegister
+[ ] 
+[+] EditAccountDetails
+	[ ] testcase:Test11_EditAccountDetails
+[ ]  
+[+] Account Intent
+	[ ] testcase:Test12_AccountIntent
+[ ] 
+[+] FINoConnection
+	[ ] testcase:Test13_FINoConnection
+[ ] 
+[ ] //========================================================================
+[ ] //=========== Commenting the below Testcase to fix it
+[ ] //========================================================================
+[ ] 
+[+] //FIWeb_DirectConnect
+	[ ] //testcase:Test14_FIWeb_DirectConnect
+[ ] 
+[+] FIExpressWebConnect
+	[ ] testcase:Test15_FIExpressWebConnect
+[ ] 
+[+] FIDirectConnect
+	[ ] testcase:Test16_FIDirectConnect
+[ ] 
+[+] FI_EWC_DirectConnect
+	[ ] testcase:Test17_FI_EWC_DirectConnect
+[ ] 
+[+] Verify Account List behaviour in case of hide an account
+	[ ] testcase: Test18_HiddenAccountInAccountList
+[ ] 
+[+] Verify Account List behaviour in case of unhide of an account. 
+	[ ] testcase: Test19_UnHideAccountInAccountList
+[ ] 
+[+] Verify Account List behaviour in case of account is separated
+	[ ] testcase: Test20_SeparateAccountInAccountList
+[ ] 
+[+] Verify hidden account feature on Single Purpose Account List
+	[ ] testcase: Test21_HiddenAccountInBusinessCashFlow
+[ ] 
+[+] Account List Cleanup
+	[ ] testcase:AccountListClean
+[ ] 

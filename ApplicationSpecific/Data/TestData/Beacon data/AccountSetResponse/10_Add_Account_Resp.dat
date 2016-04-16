@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><cc:CCWSResponse xmlns:cc="http://www.intuit.com/CustomerCentral"> 
+  <status> 
+    <code>ok</code> 
+    <string>call successful</string> 
+  </status> 
+  <body> 
+    <ccresp:CCAddAccountsResponse xmlns:ccresp="http://www.intuit.com/CustomerCentral/Responses"> 
+      <account> 
+        <tp_account_id>1000000245</tp_account_id> 
+        <keys> 
+          <tp_account_key_id>31001</tp_account_key_id> 
+          <tp_account_key_id>31002</tp_account_key_id> 
+        </keys> 
+      </account> 
+    </ccresp:CCAddAccountsResponse> 
+  </body> 
+</cc:CCWSResponse>

@@ -1,0 +1,25 @@
+Account List 
+All Accounts 
+19-10-2012 - AccountListFI Page 1 
+Account Name Transaction Download Financial Institution Current Balance 
+Personal Spending 
+BUSINESSSELECT CHKG 6236 Yes (Improve Connection) Chase 880.31 
+DC 02 Yes (Direct Connect) Bank of America-All Other States 229.06 
+EWC 03 Yes (Express Web Connect) PNC Bank - Web Connect 0.00 
+EWC to DC 04 Yes (Improve Connection) Wells Fargo Bank 278.10 
+Free Business Checking XXXXXX5184 Yes (Express Web Connect) PNC Bank - Web Connect 0.00 
+WC to DC 01 Yes (Improve Connection) Mission Federal Credit Union 37.92 
+Cash Account 3,813.10 
+Personal Savings 
+Savings Not Available 15,431.00 
+Personal Credit 
+Credit Card Not Available -3,650.00 
+Business Spending 
+BUSINESSSELECT CHKG 0508 Yes (Improve Connection) Chase 299.27 
+NO Connection Not Available 200.00 
+Personal Investment 
+Brokerage Not Available 1,600.00 
+Personal Liability 
+Test Loan 112.74 
+
+
